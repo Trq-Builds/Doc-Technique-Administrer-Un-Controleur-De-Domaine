@@ -9,10 +9,6 @@ Ce repo GitHub présente un guide complet pour réaliser le TP **Active Director
 
 ---
 
-> Ce guide a été élaboré pour le TP. Si tu rencontres une partie difficile à comprendre ou si tu as une suggestion, n'hésite pas à m'envoyer un mail. Pour toute aide, tu peux aussi rejoindre notre serveur [Discord](https://dsc.gg/optimize-alot).
-
----
-
 ## `📑`︲Sommaire
 
 1. [`📘`︲Introduction](#introduction)
