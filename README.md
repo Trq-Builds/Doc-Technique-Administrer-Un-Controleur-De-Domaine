@@ -104,12 +104,15 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
 
 <details>
   <summary>📸︲Capture d’écran</summary>
-**Configuration de Windows 11**  
-Sélection du clavier :  
-- Méthode d’entrée : Français (Traditionnel, AZERTY)  
-Bouton *Suivant* activé pour continuer l’installation.
-  <!-- Insérer capture écran 2 -->
+
+  <img width="1022" height="769" alt="Screenshot_2" src="https://github.com/user-attachments/assets/4013d7fe-1cf0-4e5c-8d7d-b4cf663a85e1" />
+
+  **Configuration de Windows 11**  
+  Choix du clavier :  
+  - Méthode d’entrée : Français (Traditionnel, AZERTY)  
+  Bouton *Suivant* activé pour continuer l’installation.
 </details>
+
 
 ---
 
