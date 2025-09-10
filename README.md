@@ -86,11 +86,17 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
    - CPU : **1 cœur**
 
 **📸︲Capture d’écran :**  
-<!-- Insérer capture écran 1 -->
+<img width="1021" height="766" alt="Screenshot_1" src="https://github.com/user-attachments/assets/0144a987-92ae-4a69-8304-06b95895b4d7" />  
 
-2️⃣・Installe Windows 11 à partir de l’ISO, en sélectionnant **langue, clavier et région**.  
-**📸︲Capture d’écran :**  
+*# Configuration de Windows 11*  
+Sélection de la langue et du format régional :  
+- Langue : Français (France)  
+- Format heure/devise : Français (France)  
+Bouton *Suivant* activé pour poursuivre l’installation.
+
 <!-- Insérer capture écran 2 -->
+
+
 
 3️⃣・Accepte les **conditions de licence** et choisis **Installation personnalisée (Custom Install)**.  
 **📸︲Capture d’écran :**  
