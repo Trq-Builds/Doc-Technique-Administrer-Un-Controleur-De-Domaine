@@ -75,18 +75,26 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
 
 ---
 
+---
+
 <a id="installation-de-windows"></a>
 ### `💿`︲Installation de Windows 11 (client)
-
----
 
 1️⃣・**Configuration de la VM**  
    - Disque : **80 Go**  
    - RAM : **4 Go**  
    - CPU : **1 cœur**
-     
+
 <details>
-  <summary>📸︲Configuration de Windows 11</summary>
+  <summary>📸︲Configuration initiale</summary>
+
+  ---
+  <img width="1022" height="769" alt="Screenshot_2" src="https://github.com/user-attachments/assets/e3686b5a-2faf-4877-8f88-68ce860288f8" />
+
+  Sur cette capture, on peut voir la **sélection de la langue et du format régional** pour Windows 11.  
+  Il faut s’assurer que la langue et le format sont bien **Français (France)** avant de cliquer sur *Suivant* pour continuer.
+
+</details>
 
 ---
 
@@ -94,13 +102,19 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
    - Sélectionner langue, clavier et région  
 
 <details>
-  <summary>📸︲Captures d’écrans</summary>
+  <summary>📸︲Sélection clavier et disque</summary>
 
   ---
   <img width="1022" height="769" alt="Screenshot_2" src="https://github.com/user-attachments/assets/4013d7fe-1cf0-4e5c-8d7d-b4cf663a85e1" />
 
-  Sur cette capture, on peut voir la **sélection du clavier** pour Windows 11.  
-  Il faut s'assurer que la méthode d’entrée est **Français (Traditionnel, AZERTY)** avant de cliquer sur *Suivant* pour continuer l’installation.
+  Sur cette capture, on peut voir la **sélection du clavier**.  
+  Il faut s’assurer que la méthode d’entrée est **Français (Traditionnel, AZERTY)** avant de cliquer sur *Suivant*.
+
+  ---
+  <img width="1026" height="771" alt="Screenshot_3" src="https://github.com/user-attachments/assets/4b8cf19c-df8b-443c-9127-bc6d3805b8a7" />
+
+  Sur cette capture, on peut voir le **type d’installation**.  
+  Il faut choisir *Installer Windows 11* et cocher la suppression de tous les fichiers, applications et paramètres avant de cliquer sur *Suivant*.
 
   ---
   <img width="1023" height="770" alt="Screenshot_5" src="https://github.com/user-attachments/assets/a164ea6f-4915-429d-a664-0cbd76103a77" />
@@ -110,32 +124,36 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
 
 </details>
 
-
 ---
 
 3️⃣・**Accepter les conditions de licence**  
    - Choisir **Installation personnalisée (Custom Install)**  
 
 <details>
-  <summary>📸︲Capture d’écran</summary>
-  <!-- Insérer capture écran 3 -->
+  <summary>📸︲Conditions de licence</summary>
+
+  <!-- Ici tu peux insérer la capture si dispo -->
+  Sur cette capture, on vérifie et accepte les conditions de licence.  
+  Il faut cliquer sur *Suivant* pour continuer.
+
 </details>
 
-4️⃣・**Sélection du disque**  
+---
+
+4️⃣・**Sélection du disque final**  
    - Disque : **80 Go**  
 
 <details>
-  <summary>📸︲Capture d’écran</summary>
+  <summary>📸︲Sélection finale du disque</summary>
 
   <img width="1023" height="770" alt="Screenshot_5" src="https://github.com/user-attachments/assets/2711928a-a7ba-45fd-8c45-51dbb51058e3" />
 
-  **Sélection de l’emplacement d’installation – Windows 11**  
-  L’utilisateur choisit un disque pour installer le système :  
-  - Espace disque 0 non alloué : 800,0 Go disponibles  
-  - Actions possibles : Créer, formater, supprimer ou étendre une partition  
-  Bouton *Suivant* cliqué pour lancer l’installation sur l’espace sélectionné.
+  Sur cette capture, on peut voir l’**emplacement exact pour l’installation**.  
+  Il faut sélectionner l’espace disque non alloué de 80 Go et cliquer sur *Suivant* pour lancer l’installation.
+
 </details>
 
+---
 
 5️⃣・**Configuration réseau**  
    - IP : `172.16.0.x`  
@@ -143,8 +161,12 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
    - DNS : `172.16.0.1`  
 
 <details>
-  <summary>📸︲Capture d’écran</summary>
-  <!-- Insérer capture écran 5 -->
+  <summary>📸︲Paramètres réseau</summary>
+
+  <!-- Insérer capture réseau -->
+  Sur cette capture, on configure les paramètres réseau pour la VM.  
+  Il faut entrer l’IP, le masque et le DNS comme indiqué.
+
 </details>
 
 ---
@@ -154,8 +176,12 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
    - Mot de passe : `btssio`  
 
 <details>
-  <summary>📸︲Capture d’écran</summary>
-  <!-- Insérer capture écran 6 -->
+  <summary>📸︲Création de l’utilisateur</summary>
+
+  <!-- Insérer capture utilisateur -->
+  Sur cette capture, on peut voir la **création du compte utilisateur**.  
+  Il faut remplir le nom et le mot de passe et valider.
+
 </details>
 
 ---
@@ -164,14 +190,17 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
    - Redémarrer et se connecter avec l’utilisateur  
 
 <details>
-  <summary>📸︲Capture d’écran</summary>
-  <!-- Insérer capture écran 7 -->
+  <summary>📸︲Vérification finale</summary>
+
+  <!-- Insérer capture vérification -->
+  Sur cette capture, on peut voir que l’installation est terminée et que l’utilisateur peut se connecter.  
+
 </details>
 
 <details>
   <summary><strong>💡︲Conseils pour Windows 11</strong></summary>
-  - Assure-toi que la machine virtuelle a accès à Internet pour les mises à jour.  
-  - Prends des captures d’écran de chaque étape importante pour la documentation.
+  - Assurez-vous que la machine virtuelle a accès à Internet pour les mises à jour.  
+  - Prenez des captures d’écran de chaque étape importante pour la documentation.
 </details>
 
 ---
@@ -179,16 +208,18 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
 <a id="installation-de-windows-server"></a>
 ### `💿`︲Installation de Windows Server 2025 (serveur)
 
----
-
 1️⃣・**Configuration de la VM**  
    - Disque : **80 Go**  
    - RAM : **2 Go**  
-   - CPU : **1 cœur**  
+   - CPU : **1 cœur**
 
 <details>
-  <summary>📸︲Capture d’écran</summary>
-  <!-- Insérer capture écran 1 -->
+  <summary>📸︲Configuration initiale serveur</summary>
+
+  <!-- Insérer capture serveur 1 -->
+  Sur cette capture, on vérifie la configuration initiale de la VM.  
+  Il faut s’assurer que disque, RAM et CPU sont corrects avant d’installer.
+
 </details>
 
 ---
@@ -198,8 +229,12 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
    - 40 Go pour DATA  
 
 <details>
-  <summary>📸︲Capture d’écran</summary>
-  <!-- Insérer capture écran 2 -->
+  <summary>📸︲Partitionnement</summary>
+
+  <!-- Insérer capture partition -->
+  Sur cette capture, on peut voir la **répartition du disque**.  
+  Il faut créer deux partitions : 40 Go pour l’OS et 40 Go pour les données.
+
 </details>
 
 ---
@@ -208,8 +243,11 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
    - Sélectionner langue, clavier et région  
 
 <details>
-  <summary>📸︲Capture d’écran</summary>
-  <!-- Insérer capture écran 3 -->
+  <summary>📸︲Sélection ISO serveur</summary>
+
+  <!-- Insérer capture ISO -->
+  Sur cette capture, on choisit la langue et le clavier pour le serveur.  
+
 </details>
 
 ---
@@ -218,8 +256,11 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
    - Choisir **Installation personnalisée (Custom Install)**  
 
 <details>
-  <summary>📸︲Capture d’écran</summary>
-  <!-- Insérer capture écran 4 -->
+  <summary>📸︲Conditions de licence serveur</summary>
+
+  <!-- Insérer capture licence serveur -->
+  Sur cette capture, on accepte les conditions de licence.
+
 </details>
 
 ---
@@ -228,8 +269,11 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
    - Partition : 40 Go  
 
 <details>
-  <summary>📸︲Capture d’écran</summary>
-  <!-- Insérer capture écran 5 -->
+  <summary>📸︲Partition OS</summary>
+
+  <!-- Insérer capture partition OS -->
+  Sur cette capture, on sélectionne la partition de 40 Go pour l’OS et on clique sur *Suivant*.
+
 </details>
 
 ---
@@ -239,8 +283,11 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
    - Masque : `255.255.255.0`  
 
 <details>
-  <summary>📸︲Capture d’écran</summary>
-  <!-- Insérer capture écran 6 -->
+  <summary>📸︲Paramètres réseau serveur</summary>
+
+  <!-- Insérer capture réseau serveur -->
+  Sur cette capture, on configure l’IP et le masque pour le serveur.
+
 </details>
 
 ---
@@ -250,8 +297,11 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
    - Mot de passe : `btssio-lmc25`  
 
 <details>
-  <summary>📸︲Capture d’écran</summary>
-  <!-- Insérer capture écran 7 -->
+  <summary>📸︲Création administrateur</summary>
+
+  <!-- Insérer capture admin -->
+  Sur cette capture, on crée le compte administrateur.
+
 </details>
 
 ---
@@ -260,15 +310,19 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
    - Redémarrer et se connecter avec le compte administrateur  
 
 <details>
-  <summary>📸︲Capture d’écran</summary>
-  <!-- Insérer capture écran 8 -->
+  <summary>📸︲Vérification finale serveur</summary>
+
+  <!-- Insérer capture vérification serveur -->
+  Sur cette capture, on peut voir que le serveur est prêt et que l’administrateur peut se connecter.
+
 </details>
 
 <details>
   <summary><strong>💡︲Conseils pour Windows Server</strong></summary>
-  - Vérifie que la partition DATA est correctement détectée après l’installation.  
-  - Prends des captures d’écran pour documenter chaque étape.
+  - Vérifiez que la partition DATA est correctement détectée après l’installation.  
+  - Prenez des captures d’écran pour documenter chaque étape.
 </details>
 
 ---
+
 
