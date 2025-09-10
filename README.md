@@ -103,22 +103,22 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
    - Sélectionner langue, clavier et région  
 
 <details>
-  <summary>📸︲Capture d’écran</summary>
+  <summary>📸︲Captures d’écrans</summary>
 
+  ---
   <img width="1022" height="769" alt="Screenshot_2" src="https://github.com/user-attachments/assets/4013d7fe-1cf0-4e5c-8d7d-b4cf663a85e1" />
 
-  **Configuration de Windows 11**  
-  Choix du clavier :  
-  - Méthode d’entrée : Français (Traditionnel, AZERTY)  
-  Bouton *Suivant* activé pour continuer l’installation.
+  Sur cette capture, on peut voir la **sélection du clavier** pour Windows 11.  
+  Il faut s'assurer que la méthode d’entrée est **Français (Traditionnel, AZERTY)** avant de cliquer sur *Suivant* pour continuer l’installation.
 
+  ---
   <img width="1023" height="770" alt="Screenshot_5" src="https://github.com/user-attachments/assets/a164ea6f-4915-429d-a664-0cbd76103a77" />
 
-  **Sélection du disque d’installation – Windows 11**  
-  L’utilisateur choisit un disque pour installer le système :  
-  - Espace disque 0 non alloué : 800,0 Go disponibles  
-  Bouton *Suivant* cliqué pour lancer l’installation sur l’espace sélectionné.
+  Sur cette capture, on peut voir la **sélection du disque d’installation**.  
+  Il faut choisir l’espace non alloué de 80 Go et cliquer sur *Suivant* pour lancer l’installation sur ce disque.
+
 </details>
+
 
 ---
 
