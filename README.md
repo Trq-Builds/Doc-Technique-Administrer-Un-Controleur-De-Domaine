@@ -83,19 +83,18 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
 1️⃣・**Configuration de la VM**  
    - Disque : **80 Go**  
    - RAM : **4 Go**  
-   - CPU : **1 cœur**  
-
+   - CPU : **1 cœur**
+     
 <details>
-  <summary>📸︲Capture d’écran : Configuration de Windows 11</summary>
+  <summary>📸︲Configuration de Windows 11</summary>
 
-  <img width="1021" height="766" alt="Screenshot_1" src="https://github.com/user-attachments/assets/0144a987-92ae-4a69-8304-06b95895b4d7" />
+  <img width="1022" height="769" alt="Screenshot_2" src="https://github.com/user-attachments/assets/e3686b5a-2faf-4877-8f88-68ce860288f8" />
 
   **Explications :**  
   Sélection de la langue et du format régional :  
   - Langue : Français (France)  
   - Format heure/devise : Français (France)  
   Bouton *Suivant* activé pour poursuivre l’installation.
-
 </details>
 
 ---
@@ -105,6 +104,10 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
 
 <details>
   <summary>📸︲Capture d’écran</summary>
+**Configuration de Windows 11**  
+Sélection du clavier :  
+- Méthode d’entrée : Français (Traditionnel, AZERTY)  
+Bouton *Suivant* activé pour continuer l’installation.
   <!-- Insérer capture écran 2 -->
 </details>
 
