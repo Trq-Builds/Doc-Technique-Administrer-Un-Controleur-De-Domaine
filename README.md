@@ -88,15 +88,6 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
 <details>
   <summary>📸︲Configuration de Windows 11</summary>
 
-  <img width="1022" height="769" alt="Screenshot_2" src="https://github.com/user-attachments/assets/e3686b5a-2faf-4877-8f88-68ce860288f8" />
-
-  **Explications :**  
-  Sélection de la langue et du format régional :  
-  - Langue : Français (France)  
-  - Format heure/devise : Français (France)  
-  Bouton *Suivant* activé pour poursuivre l’installation.
-</details>
-
 ---
 
 2️⃣・**Installation depuis l’ISO**  
