@@ -78,12 +78,12 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
 <a id="installation-de-windows"></a>
 ### `💿`︲Installation de Windows 11 (client)
 
-**Étapes :**
+---
 
-1️⃣・Configure la machine virtuelle avec :  
+1️⃣・**Configuration de la VM**  
    - Disque : **80 Go**  
    - RAM : **4 Go**  
-   - CPU : **1 cœur**
+   - CPU : **1 cœur**  
 
 <details>
   <summary>📸︲Capture d’écran : Configuration de Windows 11</summary>
@@ -98,35 +98,68 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
 
 </details>
 
-<!-- Insérer capture écran 2 -->
+---
 
+2️⃣・**Installation depuis l’ISO**  
+   - Sélectionner langue, clavier et région  
 
+<details>
+  <summary>📸︲Capture d’écran</summary>
+  <!-- Insérer capture écran 2 -->
+</details>
 
-3️⃣・Accepte les **conditions de licence** et choisis **Installation personnalisée (Custom Install)**.  
-**📸︲Capture d’écran :**  
-<!-- Insérer capture écran 3 -->
+---
 
-4️⃣・Sélectionne le disque de **80 Go** comme destination de l'installation.  
-**📸︲Capture d’écran :**  
-<!-- Insérer capture écran 4 -->
+3️⃣・**Accepter les conditions de licence**  
+   - Choisir **Installation personnalisée (Custom Install)**  
 
-5️⃣・Configure le réseau avec :  
+<details>
+  <summary>📸︲Capture d’écran</summary>
+  <!-- Insérer capture écran 3 -->
+</details>
+
+---
+
+4️⃣・**Sélection du disque**  
+   - Disque : **80 Go**  
+
+<details>
+  <summary>📸︲Capture d’écran</summary>
+  <!-- Insérer capture écran 4 -->
+</details>
+
+---
+
+5️⃣・**Configuration réseau**  
    - IP : `172.16.0.x`  
-   - Masque de sous-réseau : `255.255.255.0`  
+   - Masque : `255.255.255.0`  
    - DNS : `172.16.0.1`  
-**📸︲Capture d’écran :**  
-<!-- Insérer capture écran 5 -->
 
-6️⃣・Crée l’utilisateur :  
+<details>
+  <summary>📸︲Capture d’écran</summary>
+  <!-- Insérer capture écran 5 -->
+</details>
+
+---
+
+6️⃣・**Création de l’utilisateur**  
    - Nom : `btssio`  
    - Mot de passe : `btssio`  
-   > Note ces identifiants dans la description de la VM.  
-**📸︲Capture d’écran :**  
-<!-- Insérer capture écran 6 -->
 
-7️⃣・Vérifie l’installation en redémarrant et en te connectant avec l’utilisateur créé.  
-**📸︲Capture d’écran :**  
-<!-- Insérer capture écran 7 -->
+<details>
+  <summary>📸︲Capture d’écran</summary>
+  <!-- Insérer capture écran 6 -->
+</details>
+
+---
+
+7️⃣・**Vérification de l’installation**  
+   - Redémarrer et se connecter avec l’utilisateur  
+
+<details>
+  <summary>📸︲Capture d’écran</summary>
+  <!-- Insérer capture écran 7 -->
+</details>
 
 <details>
   <summary><strong>💡︲Conseils pour Windows 11</strong></summary>
@@ -139,49 +172,90 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
 <a id="installation-de-windows-server"></a>
 ### `💿`︲Installation de Windows Server 2025 (serveur)
 
-**Étapes :**
+---
 
-1️⃣・Configure la machine virtuelle avec :  
+1️⃣・**Configuration de la VM**  
    - Disque : **80 Go**  
    - RAM : **2 Go**  
    - CPU : **1 cœur**  
-**📸︲Capture d’écran :**  
-<!-- Insérer capture écran 1 -->
 
-2️⃣・Partitionne le disque en :  
-   - **40 Go pour l’OS**  
-   - **40 Go pour DATA** pendant l’installation  
-**📸︲Capture d’écran :**  
-<!-- Insérer capture écran 2 -->
+<details>
+  <summary>📸︲Capture d’écran</summary>
+  <!-- Insérer capture écran 1 -->
+</details>
 
-3️⃣・Installe Windows Server 2025 à partir de l’ISO, en sélectionnant **langue, clavier et région**.  
-**📸︲Capture d’écran :**  
-<!-- Insérer capture écran 3 -->
+---
 
-4️⃣・Accepte les **conditions de licence** et choisis **Installation personnalisée (Custom Install)**.  
-**📸︲Capture d’écran :**  
-<!-- Insérer capture écran 4 -->
+2️⃣・**Partitionnement du disque**  
+   - 40 Go pour l’OS  
+   - 40 Go pour DATA  
 
-5️⃣・Sélectionne la partition de **40 Go** pour l’installation de l’OS.  
-**📸︲Capture d’écran :**  
-<!-- Insérer capture écran 5 -->
+<details>
+  <summary>📸︲Capture d’écran</summary>
+  <!-- Insérer capture écran 2 -->
+</details>
 
-6️⃣・Configure le réseau avec :  
-   - IP statique : `172.16.0.1`  
-   - Masque de sous-réseau : `255.255.255.0`  
-**📸︲Capture d’écran :**  
-<!-- Insérer capture écran 6 -->
+---
 
-7️⃣・Crée le compte administrateur :  
+3️⃣・**Installation depuis l’ISO**  
+   - Sélectionner langue, clavier et région  
+
+<details>
+  <summary>📸︲Capture d’écran</summary>
+  <!-- Insérer capture écran 3 -->
+</details>
+
+---
+
+4️⃣・**Accepter les conditions de licence**  
+   - Choisir **Installation personnalisée (Custom Install)**  
+
+<details>
+  <summary>📸︲Capture d’écran</summary>
+  <!-- Insérer capture écran 4 -->
+</details>
+
+---
+
+5️⃣・**Sélection de la partition OS**  
+   - Partition : 40 Go  
+
+<details>
+  <summary>📸︲Capture d’écran</summary>
+  <!-- Insérer capture écran 5 -->
+</details>
+
+---
+
+6️⃣・**Configuration réseau**  
+   - IP : `172.16.0.1`  
+   - Masque : `255.255.255.0`  
+
+<details>
+  <summary>📸︲Capture d’écran</summary>
+  <!-- Insérer capture écran 6 -->
+</details>
+
+---
+
+7️⃣・**Création du compte administrateur**  
    - Nom : `Administrator`  
    - Mot de passe : `btssio-lmc25`  
-   > Note ces identifiants dans la description de la VM.  
-**📸︲Capture d’écran :**  
-<!-- Insérer capture écran 7 -->
 
-8️⃣・Vérifie l’installation en redémarrant et en te connectant avec le compte administrateur.  
-**📸︲Capture d’écran :**  
-<!-- Insérer capture écran 8 -->
+<details>
+  <summary>📸︲Capture d’écran</summary>
+  <!-- Insérer capture écran 7 -->
+</details>
+
+---
+
+8️⃣・**Vérification de l’installation**  
+   - Redémarrer et se connecter avec le compte administrateur  
+
+<details>
+  <summary>📸︲Capture d’écran</summary>
+  <!-- Insérer capture écran 8 -->
+</details>
 
 <details>
   <summary><strong>💡︲Conseils pour Windows Server</strong></summary>
@@ -191,131 +265,3 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
 
 ---
 
-<a id="installation-et-configuration-du-controleur-de-domaine"></a>
-## `🏛️`︲Installation et configuration du contrôleur de domaine
-
-<a id="installation-roles-ad-ds-et-dns"></a>
-### `🔧`︲Installation des rôles AD DS et DNS
-- Ajouter les rôles **Active Directory Domain Services** et **DNS** via le gestionnaire de serveur  
-**📸︲Capture d’écran :**  
-<!-- Insérer capture écran ici -->
-
-<a id="promotion-du-serveur-et-creation-du-domaine"></a>
-### `🌐`︲Promotion du serveur en contrôleur de domaine et création du domaine `descartesbleu.org`
-- Promouvoir le serveur  
-- Créer le domaine et définir les options nécessaires  
-**📸︲Capture d’écran :**  
-<!-- Insérer capture écran ici -->
-
----
-
-<a id="administration-de-lannuaire-active-directory"></a>
-## `🗂️`︲Administration de l'annuaire Active Directory
-
-<a id="simplification-strategie-mots-de-passe"></a>
-### `🔑`︲Simplification de la stratégie de mots de passe
-- Modifier les paramètres de politique de mot de passe pour les rendre plus simples  
-**📸︲Capture d’écran :**  
-<!-- Insérer capture écran ici -->
-
-<a id="creation-ou-groupes-utilisateurs"></a>
-### `👥`︲Création des OU, groupes et utilisateurs
-- Créer des Unités d’Organisation (OU)  
-- Ajouter des groupes et utilisateurs selon le TP  
-**📸︲Capture d’écran :**  
-<!-- Insérer capture écran ici -->
-
----
-
-<a id="integration-dun-client-au-domaine"></a>
-## `💻`︲Intégration d'un client au domaine
-
-<a id="configuration-reseau-dns"></a>
-### `🌐`︲Configuration réseau et paramètres DNS
-- Configurer l’adresse IP du client  
-- Définir le serveur DNS principal comme le serveur AD  
-**📸︲Capture d’écran :**  
-<!-- Insérer capture écran ici -->
-
-<a id="joindre-domaine"></a>
-### `🔗`︲Joindre le domaine `descartesbleu.org`
-- Depuis le client, joindre le domaine via les propriétés système  
-**📸︲Capture d’écran :**  
-<!-- Insérer capture écran ici -->
-
----
-
-<a id="gestion-des-partages-de-fichiers"></a>
-## `📁`︲Gestion des partages de fichiers
-
-<a id="creation-dossiers-partages"></a>
-### `📂`︲Création des dossiers partagés et permissions
-- Créer les dossiers  
-- Appliquer les permissions adéquates pour chaque groupe  
-**📸︲Capture d’écran :**  
-<!-- Insérer capture écran ici -->
-
-<a id="redirection-dossiers-mode-hors-ligne"></a>
-### `💾`︲Redirection de dossiers utilisateur et mode hors connexion
-- Configurer la redirection des dossiers Documents  
-- Activer le mode hors connexion si nécessaire  
-**📸︲Capture d’écran :**  
-<!-- Insérer capture écran ici -->
-
----
-
-<a id="automatisation-via-powershell"></a>
-## `📜`︲Automatisation via PowerShell
-
-<a id="script-ou-groupes-utilisateurs"></a>
-### `⚡`︲Script pour créer des OU, groupes et utilisateurs à partir d'un fichier CSV
-- Exemple : `.\CreateUsers.ps1 -CSV users.csv`  
-**📸︲Capture d’écran :**  
-<!-- Insérer capture écran ici -->
-
-<details>
-  <summary><strong>💡︲Conseil</strong></summary>
-  Vérifie bien la structure du CSV pour éviter les erreurs lors de l’exécution du script.
-</details>
-
----
-
-<a id="deploiement-de-strategies-de-groupe"></a>
-## `🖱️`︲Déploiement de stratégies de groupe (GPO)
-
-<a id="redirection-documents-mappage-firefox"></a>
-### `📂`︲Redirection du dossier Documents, mappage lecteurs réseau et déploiement Firefox
-- Créer et lier une GPO pour redirection Documents  
-- Mappage des lecteurs réseau  
-- Déploiement de Firefox via GPO  
-**📸︲Capture d’écran :**  
-<!-- Insérer capture écran ici -->
-
----
-
-<a id="restrictions-fonctionnalites-avancees"></a>
-## `🔒`︲Restrictions d'accès et fonctionnalités avancées
-
-<a id="limitation-horaires-bureau-bginfo"></a>
-### `⏱️`︲Limitation des horaires de connexion, activation du bureau à distance et configuration BgInfo
-- Définir les plages horaires pour les utilisateurs  
-- Activer le bureau à distance  
-- Installer et configurer BgInfo  
-**📸︲Capture d’écran :**  
-<!-- Insérer capture écran ici -->
-
----
-
-<a id="conclusion"></a>
-## `✅`︲Conclusion
-
-<a id="resume-taches-resultats"></a>
-### `📝`︲Résumé des tâches et résultats obtenus
-- Installation et configuration du serveur et client  
-- Création du domaine, utilisateurs et OU  
-- Gestion des partages et GPO  
-
-<a id="impact-configurations"></a>
-### `🌟`︲Impact des configurations sur la collaboration et l'organisation
-- Facilite la gestion centralisée des utilisateurs  
-- Optimise le travail collaboratif et la sécurité du réseau
