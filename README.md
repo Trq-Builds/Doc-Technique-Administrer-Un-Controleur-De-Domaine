@@ -85,14 +85,18 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
    - RAM : **4 Go**  
    - CPU : **1 cœur**
 
-**📸︲Capture d’écran :**  
-<img width="1021" height="766" alt="Screenshot_1" src="https://github.com/user-attachments/assets/0144a987-92ae-4a69-8304-06b95895b4d7" />  
+<details>
+  <summary>📸︲Capture d’écran : Configuration de Windows 11</summary>
 
-*# Configuration de Windows 11*  
-Sélection de la langue et du format régional :  
-- Langue : Français (France)  
-- Format heure/devise : Français (France)  
-Bouton *Suivant* activé pour poursuivre l’installation.
+  <img width="1021" height="766" alt="Screenshot_1" src="https://github.com/user-attachments/assets/0144a987-92ae-4a69-8304-06b95895b4d7" />
+
+  **Explications :**  
+  Sélection de la langue et du format régional :  
+  - Langue : Français (France)  
+  - Format heure/devise : Français (France)  
+  Bouton *Suivant* activé pour poursuivre l’installation.
+
+</details>
 
 <!-- Insérer capture écran 2 -->
 
