@@ -111,8 +111,14 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
   Choix du clavier :  
   - Méthode d’entrée : Français (Traditionnel, AZERTY)  
   Bouton *Suivant* activé pour continuer l’installation.
-</details>
 
+  <img width="1023" height="770" alt="Screenshot_5" src="https://github.com/user-attachments/assets/a164ea6f-4915-429d-a664-0cbd76103a77" />
+
+  **Sélection du disque d’installation – Windows 11**  
+  L’utilisateur choisit un disque pour installer le système :  
+  - Espace disque 0 non alloué : 800,0 Go disponibles  
+  Bouton *Suivant* cliqué pour lancer l’installation sur l’espace sélectionné.
+</details>
 
 ---
 
