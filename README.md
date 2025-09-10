@@ -121,17 +121,21 @@ Bouton *Suivant* activé pour continuer l’installation.
   <!-- Insérer capture écran 3 -->
 </details>
 
----
-
 4️⃣・**Sélection du disque**  
    - Disque : **80 Go**  
 
 <details>
   <summary>📸︲Capture d’écran</summary>
-  <!-- Insérer capture écran 4 -->
+
+  <img width="1023" height="770" alt="Screenshot_5" src="https://github.com/user-attachments/assets/2711928a-a7ba-45fd-8c45-51dbb51058e3" />
+
+  **Sélection de l’emplacement d’installation – Windows 11**  
+  L’utilisateur choisit un disque pour installer le système :  
+  - Espace disque 0 non alloué : 800,0 Go disponibles  
+  - Actions possibles : Créer, formater, supprimer ou étendre une partition  
+  Bouton *Suivant* cliqué pour lancer l’installation sur l’espace sélectionné.
 </details>
 
----
 
 5️⃣・**Configuration réseau**  
    - IP : `172.16.0.x`  
