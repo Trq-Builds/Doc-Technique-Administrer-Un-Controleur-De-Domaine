@@ -86,13 +86,7 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
    - CPU : **1 cœur**
 
 <details>
-  <summary>📸︲Configuration initiale</summary>
-
-  ---
-  <img width="1022" height="769" alt="Screenshot_2" src="https://github.com/user-attachments/assets/e3686b5a-2faf-4877-8f88-68ce860288f8" />
-
-  Sur cette capture, on peut voir la **sélection de la langue et du format régional** pour Windows 11.  
-  Il faut s’assurer que la langue et le format sont bien **Français (France)** avant de cliquer sur *Suivant* pour continuer.
+  <summary>📸︲Configuration initiale (VMWARE) </summary>
 
 </details>
 
