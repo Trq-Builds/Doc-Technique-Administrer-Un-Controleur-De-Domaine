@@ -224,8 +224,8 @@ Créer deux partitions : 40 Go pour l’OS et 40 Go pour les données.
 <details>
   <summary>📸︲Paramètres réseau serveur</summary>
 
-  <!-- Capture réseau serveur -->
-  Configurer IP et masque pour le serveur.
+<img width="1024" height="769" alt="Screenshot_11" src="https://github.com/user-attachments/assets/d8ecdf27-9dfd-4eb5-8405-c74a969fc1e8" />
+Configurer IP et masque pour le serveur.
 
 </details>
 
