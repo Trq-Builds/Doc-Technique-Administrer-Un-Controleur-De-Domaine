@@ -18,7 +18,6 @@ Ce repo GitHub présente un guide complet pour réaliser le TP **Active Director
 2. [`🛠️`︲Préparation de l'environnement](#preparation-de-lenvironnement)
    - [`💿`︲Installation de Windows 11 (client)](#installation-de-windows)
    - [`💿`︲Installation de Windows Server 2025 (serveur)](#installation-de-windows-server)
-   - [`⚙️`︲Configuration matérielle, paramètres réseau et création d'un utilisateur](#configuration-materielle-et-utilisateur)
 
 3. [`🏛️`︲Installation et configuration du contrôleur de domaine](#installation-et-configuration-du-controleur-de-domaine)
    - [`🔧`︲Installation des rôles AD DS et DNS](#installation-roles-ad-ds-et-dns)
@@ -97,7 +96,6 @@ Enfin, cliquer sur **OK** pour valider les paramètres et sauvegarder la configu
 ---
 </details>
 
-
 ---
 
 2️⃣・**Installation depuis l’ISO**  
@@ -118,64 +116,27 @@ Enfin, cliquer sur **OK** pour valider les paramètres et sauvegarder la configu
   Sur cette capture, on peut voir le **type d’installation**.  
   Il faut choisir *Installer Windows 11* et cocher la suppression de tous les fichiers, applications et paramètres avant de cliquer sur *Suivant*.
 
-  ---
-  <img width="1023" height="770" alt="Screenshot_5" src="https://github.com/user-attachments/assets/a164ea6f-4915-429d-a664-0cbd76103a77" />
-
-  Sur cette capture, on peut voir la **sélection du disque d’installation**.  
-  Il faut choisir l’espace non alloué de 80 Go et cliquer sur *Suivant* pour lancer l’installation sur ce disque.
-
 </details>
 
 ---
 
-3️⃣・**Accepter les conditions de licence**  
-   - Choisir **Installation personnalisée (Custom Install)**  
+3️⃣・**Création de l’utilisateur**  
+   - **Nom :** `btssio`  
+   - **Mot de passe :** `btssio`  
 
 <details>
-  <summary>📸︲Conditions de licence</summary>
+  <summary>📸︲Création de l’utilisateur</summary>
 
-  <!-- Ici tu peux insérer la capture si dispo -->
-  Sur cette capture, on vérifie et accepte les conditions de licence.  
-  Il faut cliquer sur *Suivant* pour continuer.
+<img width="1022" height="769" alt="Screenshot_11" src="https://github.com/user-attachments/assets/603eca66-704a-4aa0-8b73-7ed9f5db21c1" />
 
-</details>
-
----
-
-4️⃣・**Sélection du disque final**  
-   - **Disque :** 80 Go  
-
-<details>
-  <summary>📸︲Sélection finale du disque</summary>
-
----
-
-<img width="1023" height="770" alt="Screenshot_5" src="https://github.com/user-attachments/assets/2711928a-a7ba-45fd-8c45-51dbb51058e3" />
-
-Sur cette capture, on peut voir l’**emplacement exact pour l’installation**.  
-Il faut sélectionner l’**espace disque non alloué de 80 Go**, puis cliquer sur **Suivant** pour démarrer l’installation.
-
----
-
-<img width="1020" height="774" alt="Screenshot_6" src="https://github.com/user-attachments/assets/575abe4c-2bac-4421-8118-58646670f30a" />
-
-Sur cette capture, l’installateur affiche l’écran **Prêt pour l’installation**.  
-Il faut confirmer les options suivantes avant de cliquer sur **Installer** :  
-- **Édition :** Windows 11 Professionnel  
-- **Option choisie :** *Ne rien conserver* (installation propre)
-
----
-</details>
-
-
-
-
+➡️ Entrer le **nom d’utilisateur `btssio`**, cliquer sur **Suivant**  
+➡️ Entrer le **mot de passe `btssio`** et confirmer  
 
 </details>
 
 ---
 
-5️⃣・**Configuration réseau**  
+4️⃣・**Configuration réseau**  
    - IP : `172.16.0.x`  
    - Masque : `255.255.255.0`  
    - DNS : `172.16.0.1`  
@@ -183,63 +144,9 @@ Il faut confirmer les options suivantes avant de cliquer sur **Installer** :
 <details>
   <summary>📸︲Paramètres réseau</summary>
 
-  <!-- Insérer capture réseau -->
-  Sur cette capture, on configure les paramètres réseau pour la VM.  
-  Il faut entrer l’IP, le masque et le DNS comme indiqué.
+  <!-- Capture réseau -->
+  Entrer les paramètres IP, masque et DNS comme indiqué.
 
-</details>
-
----
-
-6️⃣・**Création de l’utilisateur**  
-   - **Nom :** `btssio`  
-   - **Mot de passe :** `btssio`  
-
-<details>
-  <summary>📸︲Création de l’utilisateur</summary>
-
----
-
-<img width="1022" height="769" alt="Screenshot_11" src="https://github.com/user-attachments/assets/603eca66-704a-4aa0-8b73-7ed9f5db21c1" />
-
-Sur cette capture, on peut voir l’écran de **création du compte utilisateur**.  
-➡️ Il faut saisir le **nom d’utilisateur `btssio`**, puis cliquer sur **Suivant** pour passer à l’étape suivante.
-
----
-
-<img width="1025" height="769" alt="Screenshot_12" src="https://github.com/user-attachments/assets/7ff6432a-c9a3-449b-a8f1-a9ebc136971f" />
-
-Sur cette capture, l’écran de **création du mot de passe** apparaît.  
-➡️ Il faut entrer le **mot de passe `btssio`**, puis cliquer sur **Suivant** pour valider.
-
----
-
-<img width="1024" height="770" alt="Screenshot_13" src="https://github.com/user-attachments/assets/0379dabb-7a9c-40b7-b1e0-6856788ecdca" />
-
-Sur cette capture, on voit l’écran de **confirmation du mot de passe**.  
-➡️ Il faut confirmer le mot de passe `btssio`, puis cliquer sur **Suivant** pour finaliser la création du compte.
-
----
-
-</details>
-
----
-
-7️⃣・**Vérification de l’installation**  
-   - Redémarrer et se connecter avec l’utilisateur  
-
-<details>
-  <summary>📸︲Vérification finale</summary>
-
-  <!-- Insérer capture vérification -->
-  Sur cette capture, on peut voir que l’installation est terminée et que l’utilisateur peut se connecter.  
-
-</details>
-
-<details>
-  <summary><strong>💡︲Conseils pour Windows 11</strong></summary>
-  - Assurez-vous que la machine virtuelle a accès à Internet pour les mises à jour.  
-  - Prenez des captures d’écran de chaque étape importante pour la documentation.
 </details>
 
 ---
@@ -255,9 +162,8 @@ Sur cette capture, on voit l’écran de **confirmation du mot de passe**.
 <details>
   <summary>📸︲Configuration initiale serveur</summary>
 
-  <!-- Insérer capture serveur 1 -->
-  Sur cette capture, on vérifie la configuration initiale de la VM.  
-  Il faut s’assurer que disque, RAM et CPU sont corrects avant d’installer.
+  <!-- Capture config serveur -->
+  Vérifier que disque, RAM et CPU sont corrects avant l’installation.
 
 </details>
 
@@ -270,9 +176,8 @@ Sur cette capture, on voit l’écran de **confirmation du mot de passe**.
 <details>
   <summary>📸︲Partitionnement</summary>
 
-  <!-- Insérer capture partition -->
-  Sur cette capture, on peut voir la **répartition du disque**.  
-  Il faut créer deux partitions : 40 Go pour l’OS et 40 Go pour les données.
+  <!-- Capture partition -->
+  Créer deux partitions : 40 Go pour l’OS et 40 Go pour les données.
 
 </details>
 
@@ -284,84 +189,56 @@ Sur cette capture, on voit l’écran de **confirmation du mot de passe**.
 <details>
   <summary>📸︲Sélection ISO serveur</summary>
 
-  <!-- Insérer capture ISO -->
-  Sur cette capture, on choisit la langue et le clavier pour le serveur.  
+  <!-- Capture ISO -->
+  Choisir langue et clavier pour le serveur.  
 
 </details>
 
 ---
 
-4️⃣・**Accepter les conditions de licence**  
-   - Choisir **Installation personnalisée (Custom Install)**  
-
-<details>
-  <summary>📸︲Conditions de licence serveur</summary>
-
-  <!-- Insérer capture licence serveur -->
-  Sur cette capture, on accepte les conditions de licence.
-
-</details>
-
----
-
-5️⃣・**Sélection de la partition OS**  
-   - Partition : 40 Go  
-
-<details>
-  <summary>📸︲Partition OS</summary>
-
-  <!-- Insérer capture partition OS -->
-  Sur cette capture, on sélectionne la partition de 40 Go pour l’OS et on clique sur *Suivant*.
-
-</details>
-
----
-
-6️⃣・**Configuration réseau**  
-   - IP : `172.16.0.1`  
-   - Masque : `255.255.255.0`  
-
-<details>
-  <summary>📸︲Paramètres réseau serveur</summary>
-
-  <!-- Insérer capture réseau serveur -->
-  Sur cette capture, on configure l’IP et le masque pour le serveur.
-
-</details>
-
----
-
-7️⃣・**Création du compte administrateur**  
+4️⃣・**Création du compte administrateur**  
    - Nom : `Administrator`  
    - Mot de passe : `btssio-lmc25`  
 
 <details>
   <summary>📸︲Création administrateur</summary>
 
-  <!-- Insérer capture admin -->
-  Sur cette capture, on crée le compte administrateur.
+  <!-- Capture création admin -->
+  Saisir le nom et le mot de passe de l’administrateur.
 
 </details>
 
 ---
 
-8️⃣・**Vérification de l’installation**  
+5️⃣・**Configuration réseau**  
+   - IP : `172.16.0.1`  
+   - Masque : `255.255.255.0`  
+
+<details>
+  <summary>📸︲Paramètres réseau serveur</summary>
+
+  <!-- Capture réseau serveur -->
+  Configurer IP et masque pour le serveur.
+
+</details>
+
+---
+
+6️⃣・**Vérification de l’installation**  
    - Redémarrer et se connecter avec le compte administrateur  
 
 <details>
   <summary>📸︲Vérification finale serveur</summary>
 
-  <!-- Insérer capture vérification serveur -->
-  Sur cette capture, on peut voir que le serveur est prêt et que l’administrateur peut se connecter.
+  <!-- Capture vérification serveur -->
+  Le serveur est prêt et l’administrateur peut se connecter.
 
 </details>
+
+---
 
 <details>
   <summary><strong>💡︲Conseils pour Windows Server</strong></summary>
   - Vérifiez que la partition DATA est correctement détectée après l’installation.  
   - Prenez des captures d’écran pour documenter chaque étape.
 </details>
-
----
-
-
