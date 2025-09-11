@@ -197,13 +197,34 @@ Créer deux partitions : 40 Go pour l’OS et 40 Go pour les données.
 <img width="1018" height="771" alt="Screenshot_1" src="https://github.com/user-attachments/assets/0a8564ef-ff3f-43d4-ba0c-2fbee5e9de43" />
 <img width="1026" height="767" alt="Screenshot_19" src="https://github.com/user-attachments/assets/e36dceae-aa06-4a4b-ba8d-cc3a935823ba" />
 
-  Choisir langue Français et clavier pour le serveur.  
+Choisir langue Français et clavier pour le serveur.  
 
 </details>
 
 ---
 
-4️⃣・**Création du compte administrateur**  
+4️⃣・**Sélection de la méthode d’installation**  
+   - Choisir **Installation personnalisée** (Custom Install)  
+   - Sélectionner **Méthode de licence** et entrer la **clé produit**  
+   - Sélectionner l’image : **Windows Server 2025 Standard (expérience utilisateur)**  
+
+<details>
+  <summary>📸︲Méthode d’installation et image</summary>
+
+<img width="1026" height="774" alt="Screenshot_2" src="https://github.com/user-attachments/assets/dff9d49b-90ce-418f-bf61-931849ae3b6b" />
+Vérifier la méthode d’installation, entrer la clé produit et choisir l’image correcte.
+
+<img width="1026" height="770" alt="Screenshot_3" src="https://github.com/user-attachments/assets/350e3289-aca5-4c5b-8440-e6a4807825fb" />
+Entrer la **clé produit**.
+
+<img width="1022" height="773" alt="Screenshot_4" src="https://github.com/user-attachments/assets/f96bac0c-f279-4a23-b65e-b9f92ebd888d" />
+Sélectionner l’image : **Windows Server 2025 Standard (expérience utilisateur)**
+
+</details>
+
+---
+
+5️⃣・**Création du compte administrateur**  
    - Nom : `Administrator`  
    - Mot de passe : `btssio-lmc25`  
 
@@ -217,7 +238,7 @@ Créer deux partitions : 40 Go pour l’OS et 40 Go pour les données.
 
 ---
 
-5️⃣・**Configuration réseau**  
+6️⃣・**Configuration réseau**  
    - IP : `172.16.0.1`  
    - Masque : `255.255.255.0`  
 
@@ -231,7 +252,7 @@ Configurer IP et masque pour le serveur.
 
 ---
 
-6️⃣・**Vérification de l’installation**  
+7️⃣・**Vérification de l’installation**  
    - Redémarrer et se connecter avec le compte administrateur  
 
 <details>
@@ -247,5 +268,5 @@ Le serveur est prêt et l’administrateur peut se connecter !
 <details>
   <summary><strong>💡︲Conseils pour Windows Server</strong></summary>
   - Vérifiez que la partition DATA est correctement détectée après l’installation.  
-  - Prenez des captures d’écran pour documenter chaque étape.
 </details>
+
