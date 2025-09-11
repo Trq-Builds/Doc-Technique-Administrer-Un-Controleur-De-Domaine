@@ -237,8 +237,8 @@ Créer deux partitions : 40 Go pour l’OS et 40 Go pour les données.
 <details>
   <summary>📸︲Vérification finale serveur</summary>
 
-  <!-- Capture vérification serveur -->
-  Le serveur est prêt et l’administrateur peut se connecter.
+<img width="1027" height="774" alt="Screenshot_30" src="https://github.com/user-attachments/assets/2d4565cd-66e0-454e-be4c-6f002718e385" />
+Le serveur est prêt et l’administrateur peut se connecter !
 
 </details>
 
