@@ -16,8 +16,8 @@ Ce repo GitHub présente un guide complet pour réaliser le TP **Active Director
    - [`🖥️`︲Présentation de l'architecture réseau et des outils utilisés](#presentation-de-larchitecture-reseau-et-des-outils-utilises)
 
 2. [`🛠️`︲Préparation de l'environnement](#preparation-de-lenvironnement)
-   - [`💿`︲Installation de Windows 11 (client)`](#installation-de-windows)
-   - [`💿`︲Installation de Windows Server 2025 (serveur)`](#installation-de-windows-server)
+   - [`💿`︲Installation de Windows 11 (client)](#installation-de-windows)
+   - [`💿`︲Installation de Windows Server 2025 (serveur)](#installation-de-windows-server)
    - [`⚙️`︲Configuration matérielle, paramètres réseau et création d'un utilisateur](#configuration-materielle-et-utilisateur)
 
 3. [`🏛️`︲Installation et configuration du contrôleur de domaine](#installation-et-configuration-du-controleur-de-domaine)
