@@ -129,7 +129,10 @@ Enfin, cliquer sur **OK** pour valider les paramètres et sauvegarder la configu
 
 <img width="1022" height="769" alt="Screenshot_11" src="https://github.com/user-attachments/assets/603eca66-704a-4aa0-8b73-7ed9f5db21c1" />
 
-➡️ Entrer le **nom d’utilisateur `btssio`**, cliquer sur **Suivant**  
+➡️ Entrer le **nom d’utilisateur `btssio`**, cliquer sur **Suivant**
+
+<img width="1024" height="770" alt="Screenshot_13" src="https://github.com/user-attachments/assets/73800d3f-d047-4310-91e1-c5b03380349b" />
+
 ➡️ Entrer le **mot de passe `btssio`** et confirmer  
 
 </details>
