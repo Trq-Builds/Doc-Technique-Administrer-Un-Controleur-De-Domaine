@@ -180,8 +180,9 @@ Vérifier que disque, RAM et CPU sont corrects avant l’installation.
 <details>
   <summary>📸︲Partitionnement</summary>
 
-  <!-- Capture partition -->
-  Créer deux partitions : 40 Go pour l’OS et 40 Go pour les données.
+<img width="1022" height="772" alt="Screenshot_5" src="https://github.com/user-attachments/assets/3d76f21a-6dca-4641-903a-3f5ddcb6db0f" />
+
+Créer deux partitions : 40 Go pour l’OS et 40 Go pour les données.
 
 </details>
 
