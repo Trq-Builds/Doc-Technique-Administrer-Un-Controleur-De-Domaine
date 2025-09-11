@@ -75,8 +75,6 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
 
 ---
 
----
-
 <a id="installation-de-windows"></a>
 ### `💿`︲Installation de Windows 11 (client)
 
