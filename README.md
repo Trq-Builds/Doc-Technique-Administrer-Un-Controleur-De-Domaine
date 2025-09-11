@@ -165,8 +165,9 @@ Enfin, cliquer sur **OK** pour valider les paramètres et sauvegarder la configu
 <details>
   <summary>📸︲Configuration initiale serveur</summary>
 
-  <!-- Capture config serveur -->
-  Vérifier que disque, RAM et CPU sont corrects avant l’installation.
+<img width="759" height="731" alt="Screenshot_31" src="https://github.com/user-attachments/assets/09f78ba3-4e73-4579-b685-746b19399063" />
+
+Vérifier que disque, RAM et CPU sont corrects avant l’installation.
 
 </details>
 
