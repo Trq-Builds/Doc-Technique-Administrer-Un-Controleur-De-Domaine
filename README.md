@@ -145,15 +145,33 @@ Enfin, cliquer sur **OK** pour valider les paramètres et sauvegarder la configu
 ---
 
 4️⃣・**Sélection du disque final**  
-   - Disque : **80 Go**  
+   - **Disque :** 80 Go  
 
 <details>
   <summary>📸︲Sélection finale du disque</summary>
 
-  <img width="1023" height="770" alt="Screenshot_5" src="https://github.com/user-attachments/assets/2711928a-a7ba-45fd-8c45-51dbb51058e3" />
+---
 
-  Sur cette capture, on peut voir l’**emplacement exact pour l’installation**.  
-  Il faut sélectionner l’espace disque non alloué de 80 Go et cliquer sur *Suivant* pour lancer l’installation.
+<img width="1023" height="770" alt="Screenshot_5" src="https://github.com/user-attachments/assets/2711928a-a7ba-45fd-8c45-51dbb51058e3" />
+
+Sur cette capture, on peut voir l’**emplacement exact pour l’installation**.  
+Il faut sélectionner l’**espace disque non alloué de 80 Go**, puis cliquer sur **Suivant** pour démarrer l’installation.
+
+---
+
+<img width="1020" height="774" alt="Screenshot_6" src="https://github.com/user-attachments/assets/575abe4c-2bac-4421-8118-58646670f30a" />
+
+Sur cette capture, l’installateur affiche l’écran **Prêt pour l’installation**.  
+Il faut confirmer les options suivantes avant de cliquer sur **Installer** :  
+- **Édition :** Windows 11 Professionnel  
+- **Option choisie :** *Ne rien conserver* (installation propre)
+
+---
+</details>
+
+
+
+
 
 </details>
 
