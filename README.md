@@ -194,7 +194,8 @@ Créer deux partitions : 40 Go pour l’OS et 40 Go pour les données.
 <details>
   <summary>📸︲Sélection ISO serveur</summary>
 
- <img width="1018" height="771" alt="Screenshot_1" src="https://github.com/user-attachments/assets/0a8564ef-ff3f-43d4-ba0c-2fbee5e9de43" />
+<img width="1018" height="771" alt="Screenshot_1" src="https://github.com/user-attachments/assets/0a8564ef-ff3f-43d4-ba0c-2fbee5e9de43" />
+<img width="1026" height="767" alt="Screenshot_19" src="https://github.com/user-attachments/assets/e36dceae-aa06-4a4b-ba8d-cc3a935823ba" />
 
   Choisir langue Français et clavier pour le serveur.  
 
