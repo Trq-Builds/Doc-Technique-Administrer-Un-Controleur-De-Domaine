@@ -81,14 +81,24 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
 ### `💿`︲Installation de Windows 11 (client)
 
 1️⃣・**Configuration de la VM**  
-   - Disque : **80 Go**  
-   - RAM : **4 Go**  
-   - CPU : **1 cœur**
+   - **Disque :** 80 Go  
+   - **RAM :** 4 Go  
+   - **CPU :** 1 cœur  
 
 <details>
-  <summary>📸︲Configuration initiale (VMWARE) </summary>
+  <summary>📸︲Configuration initiale (VMware)</summary>
 
+---
+
+<img width="761" height="733" alt="Screenshot_29" src="https://github.com/user-attachments/assets/8e838f92-9bf5-445a-b6e1-61ea1c5d9e1b" />
+
+Sur cette capture, on peut voir la **configuration de la mémoire de la VM sous VMware**.  
+Il faut régler la mémoire à **4096 Mo (4 Go)**, soit en utilisant le curseur, soit en entrant la valeur manuellement.  
+Enfin, cliquer sur **OK** pour valider les paramètres et sauvegarder la configuration.
+
+---
 </details>
+
 
 ---
 
