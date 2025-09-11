@@ -205,18 +205,24 @@ Il faut confirmer les options suivantes avant de cliquer sur **Installer** :
 <img width="1022" height="769" alt="Screenshot_11" src="https://github.com/user-attachments/assets/603eca66-704a-4aa0-8b73-7ed9f5db21c1" />
 
 Sur cette capture, on peut voir l’écran de **création du compte utilisateur**.  
-Il faut saisir le **nom d’utilisateur `btssio`**, puis cliquer sur **Suivant** pour continuer.
+➡️ Il faut saisir le **nom d’utilisateur `btssio`**, puis cliquer sur **Suivant** pour passer à l’étape suivante.
 
 ---
 
 <img width="1025" height="769" alt="Screenshot_12" src="https://github.com/user-attachments/assets/7ff6432a-c9a3-449b-a8f1-a9ebc136971f" />
 
-Sur cette capture, l’écran de **création du mot de passe** s’affiche.  
-Il faut entrer le **mot de passe `btssio`**, puis cliquer sur **Suivant** pour valider la création du compte.
+Sur cette capture, l’écran de **création du mot de passe** apparaît.  
+➡️ Il faut entrer le **mot de passe `btssio`**, puis cliquer sur **Suivant** pour valider.
+
+---
+
+<img width="1024" height="770" alt="Screenshot_13" src="https://github.com/user-attachments/assets/0379dabb-7a9c-40b7-b1e0-6856788ecdca" />
+
+Sur cette capture, on voit l’écran de **confirmation du mot de passe**.  
+➡️ Il faut confirmer le mot de passe `btssio`, puis cliquer sur **Suivant** pour finaliser la création du compte.
 
 ---
 </details>
-
 ---
 
 7️⃣・**Vérification de l’installation**  
