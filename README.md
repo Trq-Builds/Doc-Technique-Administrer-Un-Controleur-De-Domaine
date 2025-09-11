@@ -137,20 +137,6 @@ Enfin, cliquer sur **OK** pour valider les paramètres et sauvegarder la configu
 
 </details>
 
----
-
-4️⃣・**Configuration réseau**  
-   - IP : `172.16.0.x`  
-   - Masque : `255.255.255.0`  
-   - DNS : `172.16.0.1`  
-
-<details>
-  <summary>📸︲Paramètres réseau</summary>
-
-  <!-- Capture réseau -->
-  Entrer les paramètres IP, masque et DNS comme indiqué.
-
-</details>
 
 ---
 
