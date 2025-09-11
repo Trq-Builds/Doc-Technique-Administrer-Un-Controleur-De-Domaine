@@ -222,7 +222,9 @@ Sur cette capture, on voit l’écran de **confirmation du mot de passe**.
 ➡️ Il faut confirmer le mot de passe `btssio`, puis cliquer sur **Suivant** pour finaliser la création du compte.
 
 ---
+
 </details>
+
 ---
 
 7️⃣・**Vérification de l’installation**  
