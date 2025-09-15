@@ -312,7 +312,18 @@ Cliquez sur Suivant pour continuer.
 
 ---
 
-4️⃣︲
+4️⃣︲Choisir le serveur pour l'installation
+
+L’assistant vous demande ensuite où installer la fonctionnalité.
+
+Cliquez sur Sélectionner un serveur du pool de serveurs.
+
+Dans la liste, choisissez le serveur SRV-AD1.
+<details>
+  <summary><strong>💡︲Captures d'écran</strong></summary>
+![Uploading Screenshot_3.png…]()
+
+</details>
 
 ---
 
