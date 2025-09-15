@@ -298,7 +298,17 @@ Cliquez sur Suivant pour continuer.
 
 ---
 
-3️⃣︲
+3️⃣︲Choisir l'installation basée sur un rôle ou une fonctionnalité
+
+Dans la fenêtre suivante, sélectionnez Installation basée sur un rôle ou une fonctionnalité.
+
+Vous verrez une liste avec des options sous forme de puces.
+
+Cliquez sur Suivant pour continuer.
+<details>
+  <summary><strong>💡︲Captures d'écran</strong></summary>
+<img width="1028" height="767" alt="Screenshot_2" src="https://github.com/user-attachments/assets/974e4085-45c6-4ebd-8d84-9572d2f404f9" />
+</details>
 
 ---
 
