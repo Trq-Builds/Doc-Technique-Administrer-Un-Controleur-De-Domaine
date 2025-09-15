@@ -418,7 +418,21 @@ btssio-lmc25
 
 ---
 
-4️⃣︲
+4️⃣︲Configurer les options DNS et le domaine NetBIOS
+
+Une fois les informations saisies, cliquez sur Suivant pour passer à la fenêtre des options DNS.
+
+Dans le champ de texte du domaine NetBIOS, saisissez DESCARTESBLEU.
+
+En général, ce champ se remplit automatiquement, mais si ce n’est pas le cas, entrez-le manuellement.
+
+Cliquez ensuite sur Suivant pour continuer.
+<details>
+  <summary><strong>💡︲Captures d'écran</strong></summary>
+<img width="1025" height="770" alt="Screenshot_15" src="https://github.com/user-attachments/assets/0cb4593f-715b-4e5e-80d9-06db2f61c9b1" />
+<img width="1024" height="776" alt="Screenshot_16" src="https://github.com/user-attachments/assets/f9e62c9d-7c22-4b1a-830c-bd15b337df2f" />
+</detail>
+
 
 ---
 
