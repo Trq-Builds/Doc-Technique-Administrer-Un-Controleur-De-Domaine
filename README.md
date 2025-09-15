@@ -53,7 +53,7 @@ Ce repo GitHub présente un guide complet pour réaliser le TP **Active Director
 <a id="introduction"></a>
 ## `📘`︲Introduction
 
-Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domaine, gérer les utilisateurs, appliquer des GPO et automatiser certaines tâches via PowerShell.
+Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domaine, gérer les utilisateurs, appliquer des GPO et automatiser certaines tâches via PowerShell !
 
 <a id="contexte-et-objectifs-du-tp"></a>
 ### `📄`︲Contexte et objectifs du TP
