@@ -326,7 +326,22 @@ Dans la liste, choisissez le serveur SRV-AD1.
 
 ---
 
-5️⃣︲
+5️⃣︲Sélectionner les fonctionnalités à installer
+
+Un menu s'ouvre avec des cases à cocher pour sélectionner les fonctionnalités.
+
+Cherchez et cochez la fonctionnalité Service de domaine Active Directory.
+
+Une nouvelle fenêtre s'ouvre.
+
+Cochez la case Inclure les outils de gestion, si applicable (cette option est cochée par défaut).
+
+Cliquez sur Ajouter des fonctionnalités.
+<details>
+  <summary><strong>💡︲Captures d'écran</strong></summary>
+<img width="1025" height="773" alt="Screenshot_4" src="https://github.com/user-attachments/assets/1d7493b3-89ad-4107-b894-4e9979339b02" />
+</details>
+
 
 ---
 
