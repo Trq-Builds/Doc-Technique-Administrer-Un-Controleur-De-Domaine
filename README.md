@@ -371,6 +371,7 @@ Une fois terminée, il sera nécessaire de redémarrer le serveur pour appliquer
 ---
 <a id="promotion-du-serveur-et-creation-du-domaine"></a>
 ### `🌐`︲Promotion du serveur et création du domaine descartesbleu.org
+---
 
 1️⃣︲
 
