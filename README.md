@@ -373,7 +373,18 @@ Une fois terminée, il sera nécessaire de redémarrer le serveur pour appliquer
 ### `🌐`︲Promotion du serveur et création du domaine descartesbleu.org
 ---
 
-1️⃣︲
+1️⃣︲Vérification de l'installation et promotion du serveur
+
+Une fois l'installation terminée et le serveur redémarré, ouvrez le Gestionnaire de serveur.
+
+Une icône jaune avec un signe de danger/attention devrait apparaître, indiquant qu'une action est nécessaire.
+
+Nous allons maintenant procéder à la promotion du serveur et à la création du domaine descartesbleu.org.
+<details>
+  <summary><strong>💡︲Captures d'écran</strong></summary>
+<img width="1026" height="768" alt="Screenshot_12" src="https://github.com/user-attachments/assets/a3169f35-e235-4044-a60d-5737daf172f3" />
+
+</details>
 
 ---
 
