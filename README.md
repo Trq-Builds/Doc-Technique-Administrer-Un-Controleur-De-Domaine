@@ -272,8 +272,8 @@ Le serveur est prêt et l’administrateur peut se connecter !
 
 1️⃣
 
---
--
+---
+
 2️⃣
 
 ---
