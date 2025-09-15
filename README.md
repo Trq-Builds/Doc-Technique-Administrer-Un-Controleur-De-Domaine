@@ -404,7 +404,17 @@ Cliquez ensuite sur Suivant pour continuer.
 
 ---
 
-3️⃣︲
+3️⃣︲Configurer les options du contrôleur de domaine
+
+Dans les options du Contrôleur de domaine, vérifiez que l'option Serveur DNS est cochée. Si ce n'est pas le cas, cochez-la manuellement.
+
+Dans les champs de texte pour les mots de passe, saisissez le mot de passe suivant :
+btssio-lmc25
+(Note : assurez-vous de le saisir deux fois, dans les deux champs de mot de passe).
+<details>
+  <summary><strong>💡︲Captures d'écran</strong></summary>
+   <img width="1022" height="770" alt="Screenshot_14" src="https://github.com/user-attachments/assets/16c3bef0-54e8-4aba-90a7-ff75ad8f97a3" />
+</detail>
 
 ---
 
