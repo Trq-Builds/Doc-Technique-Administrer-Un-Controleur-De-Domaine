@@ -270,7 +270,20 @@ Le serveur est prêt et l’administrateur peut se connecter !
 ---
 ### `🔧`︲Installation des rôles AD DS et DNS...
 
-1️⃣
+1️⃣ ︲ Accéder à l’ajout de rôles et fonctionnalités
+
+Ouvrez le Gestionnaire de serveur.
+
+Dans le Tableau de bord, cliquez sur Gérer.
+
+Sélectionnez ensuite Ajouter des rôles et des fonctionnalités.
+<details>
+  <summary><strong>💡︲Captures d'écran</strong></summary>
+  <img width="1029" height="773" alt="Screenshot_10" src="https://github.com/user-attachments/assets/b8bcf212-d61f-4e17-b618-cf23f5ad5e82" />
+
+</details>
+
+
 
 ---
 
