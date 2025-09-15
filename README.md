@@ -398,7 +398,7 @@ Cliquez ensuite sur Suivant pour continuer.
 <details>
   <summary><strong>💡︲Captures d'écran</strong></summary>
    <img width="1024" height="775" alt="image" src="https://github.com/user-attachments/assets/f0226bab-e78b-4a08-bca4-ff9d8ee1d8ed" />
-   </detail>
+   </details>
 ---
 
 3️⃣︲Configurer les options du contrôleur de domaine
@@ -411,7 +411,7 @@ btssio-lmc25
 <details>
   <summary><strong>💡︲Captures d'écran</strong></summary>
       <img width="1022" height="770" alt="Screenshot_14" src="https://github.com/user-attachments/assets/16c3bef0-54e8-4aba-90a7-ff75ad8f97a3" />
-</detail>
+</details>
 ---
 
 4️⃣︲Configurer les options DNS et le domaine NetBIOS
@@ -427,7 +427,7 @@ Cliquez ensuite sur Suivant pour continuer.
   <summary><strong>💡︲Captures d'écran</strong></summary>
    <img width="1025" height="770" alt="Screenshot_15" src="https://github.com/user-attachments/assets/0cb4593f-715b-4e5e-80d9-06db2f61c9b1" />
    <img width="1024" height="776" alt="Screenshot_16" src="https://github.com/user-attachments/assets/f9e62c9d-7c22-4b1a-830c-bd15b337df2f" />
-</detail>
+</details>
 
 ---
 
