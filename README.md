@@ -395,11 +395,9 @@ Dans cette fenêtre, sélectionnez Ajouter une nouvelle forêt.
 Dans le champ de texte, saisissez le nom du domaine : descartesbleu.org.
 
 Cliquez ensuite sur Suivant pour continuer.
-
 <details>
   <summary><strong>💡︲Captures d'écran</strong></summary>
    <img width="1024" height="775" alt="image" src="https://github.com/user-attachments/assets/f0226bab-e78b-4a08-bca4-ff9d8ee1d8ed" />
-
 </detail>
 
 ---
@@ -446,7 +444,6 @@ Vérifiez bien toutes les options, notamment le nom du domaine et les paramètre
 Une fois que vous avez effectué toutes les vérifications nécessaires, validez toutes les options et cliquez sur Installer pour lancer l’installation.
 
 Le processus d’installation commencera et le serveur sera promu en tant que contrôleur de domaine.
-
 <details>
   <summary><strong>💡︲Captures d'écran</strong></summary>
    <img width="1034" height="783" alt="Screenshot_20" src="https://github.com/user-attachments/assets/1357a4a6-6561-47b3-bfc4-7ae523bceef9" />
