@@ -462,6 +462,42 @@ Le processus d’installation commencera et le serveur sera promu en tant que co
 <a id="simplification-strategie-mots-de-passe"></a>
 ### `🔑`︲Simplification de la stratégie de mots de passe
 
+---
+
+1️⃣︲Ouvrir le menu Démarrer : Cliquez sur le bouton "Démarrer" en bas à gauche de votre écran.
+
+Rechercher "Gestion des stratégies de groupe" : Dans le champ de recherche, tapez "Gestion des stratégies de groupe".
+
+Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "Gestion des stratégies de groupe".
+details>
+  <summary><strong>💡︲Captures d'écran</strong></summary>
+   
+</details>
+
+ 2️⃣︲
+
+---
+
+ 3️⃣︲
+
+---
+
+ 4️⃣︲
+
+---
+
+ 5️⃣︲
+
+ 6️⃣︲
+
+ 7️⃣︲
+
+ 8️⃣︲
+
+ 9️⃣
+
+ 🔟
+
 
 
 
