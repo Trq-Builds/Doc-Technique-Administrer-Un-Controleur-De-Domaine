@@ -351,7 +351,23 @@ Et ensuite faire "Suivant"
 
 ---
 
-6️⃣︲
+6️⃣︲Confirmer et lancer l'installation
+
+Vérifiez que toutes les options d'installation sont correctes pour éviter toute erreur.
+
+Une fois la vérification effectuée, cliquez sur Suivant pour commencer l'installation du rôle.
+
+L'installation prendra quelques minutes.
+
+Une fois terminée, il sera nécessaire de redémarrer le serveur pour appliquer les changements.
+
+<details>
+  <summary><strong>💡︲Captures d'écran</strong></summary>
+<img width="1025" height="771" alt="Screenshot_8" src="https://github.com/user-attachments/assets/624efe48-fd2b-4425-848f-23b69dff1f2a" />
+<img width="1024" height="770" alt="Screenshot_7" src="https://github.com/user-attachments/assets/afa101e0-3f52-4df5-92df-7f4ea79750fb" />
+<img width="1027" height="770" alt="Screenshot_9" src="https://github.com/user-attachments/assets/1b5b2339-2f70-4f99-809f-c5bf919d4da6" />
+</details>
+
 
 ---
 
