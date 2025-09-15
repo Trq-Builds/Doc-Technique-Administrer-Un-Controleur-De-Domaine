@@ -321,8 +321,7 @@ Cliquez sur Sélectionner un serveur du pool de serveurs.
 Dans la liste, choisissez le serveur SRV-AD1.
 <details>
   <summary><strong>💡︲Captures d'écran</strong></summary>
-![Uploading Screenshot_3.png…]()
-
+<img width="1025" height="773" alt="Screenshot_3" src="https://github.com/user-attachments/assets/1f1a653f-6a8f-4934-8ee9-87679b9f353d" />
 </details>
 
 ---
