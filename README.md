@@ -402,6 +402,60 @@ Cliquez ensuite sur Suivant pour continuer.
 
 </detail>
 
+---
+
+3️⃣︲Configurer les options du contrôleur de domaine
+
+Dans les options du Contrôleur de domaine, vérifiez que l'option Serveur DNS est cochée. Si ce n'est pas le cas, cochez-la manuellement.
+
+Dans les champs de texte pour les mots de passe, saisissez le mot de passe suivant :
+btssio-lmc25
+(Note : assurez-vous de le saisir deux fois, dans les deux champs de mot de passe).
+<details>
+  <summary><strong>💡︲Captures d'écran</strong></summary>
+   <img width="1022" height="770" alt="Screenshot_14" src="https://github.com/user-attachments/assets/16c3bef0-54e8-4aba-90a7-ff75ad8f97a3" />
+</detail>
+
+---
+
+4️⃣︲Configurer les options DNS et le domaine NetBIOS
+
+Une fois les informations saisies, cliquez sur Suivant pour passer à la fenêtre des options DNS.
+
+Dans le champ de texte du domaine NetBIOS, saisissez DESCARTESBLEU.
+
+En général, ce champ se remplit automatiquement, mais si ce n’est pas le cas, entrez-le manuellement.
+
+Cliquez ensuite sur Suivant pour continuer.
+<details>
+  <summary><strong>💡︲Captures d'écran</strong></summary>
+<img width="1025" height="770" alt="Screenshot_15" src="https://github.com/user-attachments/assets/0cb4593f-715b-4e5e-80d9-06db2f61c9b1" />
+<img width="1024" height="776" alt="Screenshot_16" src="https://github.com/user-attachments/assets/f9e62c9d-7c22-4b1a-830c-bd15b337df2f" />
+</detail>
+
+---
+
+5️⃣︲Vérification des options et lancement de l'installation
+
+Dans la fenêtre suivante, il vous sera demandé de définir le chemin d’accès pour le stockage des fichiers. Laissez les valeurs par défaut.
+
+Un récapitulatif des options sélectionnées apparaîtra. Relisez attentivement ce récapitulatif pour éviter toute erreur.
+
+Vérifiez bien toutes les options, notamment le nom du domaine et les paramètres du contrôleur de domaine.
+
+Une fois que vous avez effectué toutes les vérifications nécessaires, validez toutes les options et cliquez sur Installer pour lancer l’installation.
+
+Le processus d’installation commencera et le serveur sera promu en tant que contrôleur de domaine.
+
+<details>
+  <summary><strong>💡︲Captures d'écran</strong></summary>
+<img width="1034" height="783" alt="Screenshot_20" src="https://github.com/user-attachments/assets/1357a4a6-6561-47b3-bfc4-7ae523bceef9" />
+<img width="1027" height="771" alt="Screenshot_19" src="https://github.com/user-attachments/assets/fe3f5c3c-b585-4356-9013-9ddd17278323" />
+<img width="1027" height="774" alt="Screenshot_18" src="https://github.com/user-attachments/assets/3483084e-e5ed-4b0c-8839-c367ac750562" />
+<img width="1029" height="775" alt="Screenshot_17" src="https://github.com/user-attachments/assets/db11bbf5-1537-498c-bd50-5164e187fa33" />
+</detail>
+
+---
 
 
 
