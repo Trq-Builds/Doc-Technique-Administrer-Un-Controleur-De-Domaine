@@ -435,7 +435,17 @@ Cliquez ensuite sur Suivant pour continuer.
 
 ---
 
-5️⃣︲
+5️⃣︲Vérification des options et lancement de l'installation
+
+Dans la fenêtre suivante, il vous sera demandé de définir le chemin d’accès pour le stockage des fichiers. Laissez les valeurs par défaut.
+
+Un récapitulatif des options sélectionnées apparaîtra. Relisez attentivement ce récapitulatif pour éviter toute erreur.
+
+Vérifiez bien toutes les options, notamment le nom du domaine et les paramètres du contrôleur de domaine.
+
+Une fois que vous avez effectué toutes les vérifications nécessaires, validez toutes les options et cliquez sur Installer pour lancer l’installation.
+
+Le processus d’installation commencera et le serveur sera promu en tant que contrôleur de domaine.
 
 <details>
   <summary><strong>💡︲Captures d'écran</strong></summary>
