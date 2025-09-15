@@ -343,7 +343,9 @@ Et ensuite faire "Suivant"
 <details>
   <summary><strong>💡︲Captures d'écran</strong></summary>
 <img width="1025" height="773" alt="Screenshot_4" src="https://github.com/user-attachments/assets/1d7493b3-89ad-4107-b894-4e9979339b02" />
+   
 ---
+
 <img width="1026" height="771" alt="Screenshot_5" src="https://github.com/user-attachments/assets/4b8aab9d-6982-4250-94f9-b055739aa7f0" />
 </details>
 
