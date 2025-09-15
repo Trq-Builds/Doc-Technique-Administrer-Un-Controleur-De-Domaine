@@ -256,3 +256,6 @@ Le serveur est prêt et l’administrateur peut se connecter !
   - Vérifiez que la partition DATA est correctement détectée après l’installation.  
 </details>
 
+<a id="#installation-et-configuration-du-controleur-de-domaine"></a>
+### `🏛️`︲Installation et configuration du contrôleur de domaine
+
