@@ -433,32 +433,23 @@ Cliquez ensuite sur Suivant pour continuer.
 <img width="1024" height="776" alt="Screenshot_16" src="https://github.com/user-attachments/assets/f9e62c9d-7c22-4b1a-830c-bd15b337df2f" />
 </detail>
 
-
 ---
 
 5️⃣︲
 
----
+<details>
+  <summary><strong>💡︲Captures d'écran</strong></summary>
+<img width="1034" height="783" alt="Screenshot_20" src="https://github.com/user-attachments/assets/1357a4a6-6561-47b3-bfc4-7ae523bceef9" />
+<img width="1027" height="771" alt="Screenshot_19" src="https://github.com/user-attachments/assets/fe3f5c3c-b585-4356-9013-9ddd17278323" />
+<img width="1027" height="774" alt="Screenshot_18" src="https://github.com/user-attachments/assets/3483084e-e5ed-4b0c-8839-c367ac750562" />
+<img width="1029" height="775" alt="Screenshot_17" src="https://github.com/user-attachments/assets/db11bbf5-1537-498c-bd50-5164e187fa33" />
+</detail>
 
-6️⃣︲
 
----
 
-7️⃣︲
-
----
-
-8️⃣︲
-
----
-
-9️⃣︲
 
 ---
 
-🔟︲
-
----
 
 
 
