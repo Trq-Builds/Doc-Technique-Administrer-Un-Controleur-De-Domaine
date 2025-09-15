@@ -337,6 +337,8 @@ Une nouvelle fenêtre s'ouvre.
 Cochez la case Inclure les outils de gestion, si applicable (cette option est cochée par défaut).
 
 Cliquez sur Ajouter des fonctionnalités.
+
+Et ensuite faire "Suivant"
 <details>
   <summary><strong>💡︲Captures d'écran</strong></summary>
 <img width="1025" height="773" alt="Screenshot_4" src="https://github.com/user-attachments/assets/1d7493b3-89ad-4107-b894-4e9979339b02" />
