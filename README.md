@@ -206,6 +206,9 @@ Entrer la **clé produit**.
 <img width="1022" height="773" alt="Screenshot_4" src="https://github.com/user-attachments/assets/f96bac0c-f279-4a23-b65e-b9f92ebd888d" />
 Sélectionner l’image : **Windows Server 2025 Standard (expérience utilisateur)**
 
+<img width="1019" height="768" alt="Screenshot_6" src="https://github.com/user-attachments/assets/b09467b8-122a-407d-913d-1b060b14b1c5" />
+
+
 </details>
 
 ---
