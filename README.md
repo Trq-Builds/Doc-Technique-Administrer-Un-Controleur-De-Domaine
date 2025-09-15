@@ -283,42 +283,49 @@ Sélectionnez ensuite Ajouter des rôles et des fonctionnalités.
 
 </details>
 
+---
 
+2️⃣︲Lancer l’assistant d’ajout de rôles et de fonctionnalités
+
+La fenêtre Assistant Ajout de rôles et de fonctionnalités s’ouvre automatiquement.
+
+Cliquez sur Suivant pour continuer.
+<details>
+  <summary><strong>💡︲Captures d'écran</strong></summary>
+<img width="1027" height="767" alt="Screenshot_1" src="https://github.com/user-attachments/assets/59314f25-34eb-4084-8768-34021fd2179b" />
+
+</details>
 
 ---
 
-2️⃣
+3️⃣︲
 
 ---
 
-3️⃣
+4️⃣︲
 
 ---
 
-4️⃣
+5️⃣︲
 
 ---
 
-5️⃣
+6️⃣︲
 
 ---
 
-6️⃣
+7️⃣︲
+
+---
+8️⃣︲
 
 ---
 
-7️⃣
-
----
-8️⃣
+9️⃣︲
 
 ---
 
-9️⃣
-
----
-
-🔟
+🔟︲
 
 
 
