@@ -268,7 +268,44 @@ Le serveur est prêt et l’administrateur peut se connecter !
 <a id="installation-et-configuration-du-controleur-de-domaine"></a>
 ### `🏛️`︲Installation et configuration du contrôleur de domaine
 ---
-### `🔧`︲Installation des rôles AD DS et DNS
+### `🔧`︲Installation des rôles AD DS et DNS...
+
+1️⃣
+
+--
+-
+2️⃣
+
+---
+
+3️⃣
+
+---
+
+4️⃣
+
+---
+
+5️⃣
+
+---
+
+6️⃣
+
+---
+
+7️⃣
+
+---
+8️⃣
+
+---
+
+9️⃣
+
+---
+
+🔟
 
 
 
