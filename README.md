@@ -445,9 +445,6 @@ Cliquez ensuite sur Suivant pour continuer.
 <img width="1029" height="775" alt="Screenshot_17" src="https://github.com/user-attachments/assets/db11bbf5-1537-498c-bd50-5164e187fa33" />
 </detail>
 
-
-
-
 ---
 
 
