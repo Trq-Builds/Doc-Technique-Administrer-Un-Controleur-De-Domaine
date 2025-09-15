@@ -368,8 +368,9 @@ Une fois terminée, il sera nécessaire de redémarrer le serveur pour appliquer
 <img width="1027" height="770" alt="Screenshot_9" src="https://github.com/user-attachments/assets/1b5b2339-2f70-4f99-809f-c5bf919d4da6" />
 </details>
 
-
 ---
+
+### `🌐`︲Promotion du serveur et création du domaine descartesbleu.org
 
 
 
