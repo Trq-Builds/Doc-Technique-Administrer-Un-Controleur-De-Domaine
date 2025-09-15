@@ -450,7 +450,7 @@ Le processus d’installation commencera et le serveur sera promu en tant que co
    <img width="1027" height="771" alt="Screenshot_19" src="https://github.com/user-attachments/assets/fe3f5c3c-b585-4356-9013-9ddd17278323" />
    <img width="1027" height="774" alt="Screenshot_18" src="https://github.com/user-attachments/assets/3483084e-e5ed-4b0c-8839-c367ac750562" />
    <img width="1029" height="775" alt="Screenshot_17" src="https://github.com/user-attachments/assets/db11bbf5-1537-498c-bd50-5164e187fa33" />
-</detail>
+</details>
 
 ---
 
