@@ -214,16 +214,8 @@ Sélectionner l’image : **Windows Server 2025 Standard (expérience utilisateu
 ---
 
 5️⃣・**Création du compte administrateur**  
-   - Nom : `Administrator`  
+   - Nom : `btssio`  
    - Mot de passe : `btssio-lmc25`  
-
-<details>
-  <summary>📸︲Création administrateur</summary>
-
-  <!-- Capture création admin -->
-  Saisir le nom et le mot de passe de l’administrateur.
-
-</details>
 
 ---
 
