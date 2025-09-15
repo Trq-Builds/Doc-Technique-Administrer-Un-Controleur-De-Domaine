@@ -383,12 +383,24 @@ Nous allons maintenant procéder à la promotion du serveur et à la création d
 <details>
   <summary><strong>💡︲Captures d'écran</strong></summary>
 <img width="1026" height="768" alt="Screenshot_12" src="https://github.com/user-attachments/assets/a3169f35-e235-4044-a60d-5737daf172f3" />
-
 </details>
 
 ---
 
-2️⃣︲
+2️⃣︲Configurer les services de domaine Active Directory
+
+La fenêtre de l’assistant Configuration des services de domaine Active Directory apparaît.
+
+Dans cette fenêtre, sélectionnez Ajouter une nouvelle forêt.
+
+Dans le champ de texte, saisissez le nom du domaine : descartesbleu.org.
+
+Cliquez ensuite sur Suivant pour continuer.
+
+<details>
+  <summary><strong>💡︲Captures d'écran</strong></summary>
+<img width="1024" height="775" alt="image" src="https://github.com/user-attachments/assets/f0226bab-e78b-4a08-bca4-ff9d8ee1d8ed" />
+</detail>
 
 ---
 
