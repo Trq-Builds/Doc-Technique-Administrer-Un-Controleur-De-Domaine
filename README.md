@@ -258,7 +258,9 @@ Le serveur est prêt et l’administrateur peut se connecter !
 
 <details>
   <summary><strong>💡︲Conseils pour Windows Server</strong></summary>
-  - Vérifiez que la partition DATA est correctement détectée après l’installation.  
+
+  💡 - Vérifiez que la partition DATA est correctement détectée après l’installation.
+  
 </details>
 
 <a id="installation-et-configuration-du-controleur-de-domaine"></a>
