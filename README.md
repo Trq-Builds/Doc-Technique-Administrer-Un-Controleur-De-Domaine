@@ -545,7 +545,9 @@ Vous pouvez y accéder via le **Gestionnaire de serveur**, sous **AD DS**. Faite
 * `Service Scolarité `
 * `Formateurs `
 * `Service Comptabilité`
-  
+
+---
+
 > [!TIP]
 > [🎥︲Démo vidéo – Cliquez-ici]()
 
