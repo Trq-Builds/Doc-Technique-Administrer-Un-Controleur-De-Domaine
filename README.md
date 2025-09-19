@@ -494,9 +494,9 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "`Gesti
 
 3️⃣︲**Configurez les paramètres**
 
-*Le mot de passe ne doit jamais expirer. 
-*La longueur du mot de passe peut être limitée à 5 caractères. 
-*La complexité du mot de passe doit être désactivée. s.
+1. Le mot de passe ne doit jamais expirer.
+2. La longueur du mot de passe peut être limitée à 5 caractères. 
+3. La complexité du mot de passe doit être désactivée.
 
 > [!TIP]
 > [🎥︲Démo vidéo – Cliquez-ici](https://easyfiles.cc/0ECS-OgWETy)
