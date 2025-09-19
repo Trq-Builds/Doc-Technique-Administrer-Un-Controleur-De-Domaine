@@ -504,6 +504,7 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "`Gesti
 2. Tapez `gpupdate /force` et appuyez sur **Entrée**.
 <details>
   <summary><strong>💡︲Captures d'écran</strong></summary>
+   <img width="1023" height="767" alt="image" src="https://github.com/user-attachments/assets/90ac5f74-5b23-4e5f-9c3d-59f67e888815" />
 </details>
 
 ---
