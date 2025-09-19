@@ -140,7 +140,7 @@ Enfin, cliquer sur **OK** pour valider les paramètres et sauvegarder la configu
 </details>
 
 <details>
-  <summary>📸︲OPTIONEL CHOIX OOBE (Pour réduire la télémetrie !)</summary>
+  <summary>📸︲OPTIONEL CHOIX OOBE</summary>
   
 <img width="1026" height="770" alt="Screenshot_18" src="https://github.com/user-attachments/assets/4004e27f-c2c2-46b7-9460-b3ddda233c92" />
 <img width="1022" height="771" alt="Screenshot_17" src="https://github.com/user-attachments/assets/720c73cd-2ad4-465e-b58a-ca5906f895f3" />
@@ -263,7 +263,7 @@ Le serveur est prêt et l’administrateur peut se connecter !
 <details>
   <summary><strong>💡︲Conseils pour Windows Server</strong></summary>
 
-  💡 - Vérifiez que la partition `DATA` est correctement détectée après l’installation.
+  **Vérifiez que la partition `DATA` est correctement créée et détectée après l’installation.**
   
 </details>
 
