@@ -22,7 +22,7 @@ Ce Repo GitHub présente un guide complet mais simple pour réaliser le TP Admin
 
 4. [`🗂️`︲Administration de l'annuaire Active Directory](#administration-de-lannuaire-active-directory)
    - [`🔑`︲Simplification de la stratégie de mots de passe](#simplification-strategie-mots-de-passe)
-   - [`👥`︲Création des OU, groupes et utilisateurs](#creation-ou-groupes-utilisateurs)
+   - [`👥`︲Création des UOs, groupes et utilisateurs](#creation-ou-groupes-utilisateurs)
 
 5. [`💻`︲Intégration d'un client au domaine](#integration-dun-client-au-domaine)
    - [`🌐`︲Configuration réseau et paramètres DNS](#configuration-reseau-dns)
