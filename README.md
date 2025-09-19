@@ -548,7 +548,7 @@ Vous pouvez y accéder via le **Gestionnaire de serveur**, sous **AD DS**. Faite
 
 * `Service Administratif `
 * `Service Scolarité `
-* `Formateurs `
+* `Formateurs`
 * `Service Comptabilité`
 
 > [!TIP]
