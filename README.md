@@ -488,7 +488,7 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "Gestio
 ---
 
 
-3️⃣︲3. Configurez les paramètres**
+3️⃣︲Configurez les paramètres**
 
 * **Historique des mots de passe :** Empêche la réutilisation d'anciens mots de passe.
 * **Durée de vie maximale du mot de passe :** Force le changement après un certain temps.
@@ -501,7 +501,7 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "Gestio
 
 ---
 
- 4️⃣︲### **4. Appliquez les modifications**
+ 4️⃣︲Appliquez les modifications
 
 1. Ouvrez **Invite de commandes** en tant qu'administrateur.
 2. Tapez `gpupdate /force` et appuyez sur **Entrée**.
