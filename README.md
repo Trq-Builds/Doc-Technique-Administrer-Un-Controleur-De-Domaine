@@ -464,11 +464,11 @@ Le processus d’installation commencera et le serveur sera promu en tant que co
 
 ---
 
-1️⃣︲**Ouvrir le menu Démarrer** : Cliquez sur le bouton "Démarrer" en bas à gauche de votre écran.
+1️⃣︲**Ouvrir le menu Démarrer** : Cliquez sur le bouton "Démarrer".
 
-Rechercher "Gestion des stratégies de groupe" : Dans le champ de recherche, tapez "Gestion des stratégies de groupe".
+Rechercher "Gestion des stratégies de groupe" : Dans le champ de recherche, tapez "`Gestion des stratégies de groupe`".
 
-Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "Gestion des stratégies de groupe".
+Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "`Gestion des stratégies de groupe`".
 <details>
   <summary><strong>💡︲Captures d'écran</strong></summary>
      <img width="1026" height="770" alt="Screenshot_21" src="https://github.com/user-attachments/assets/a9a65dbb-cabe-4ef1-87a7-a9061cf8f22b" />
