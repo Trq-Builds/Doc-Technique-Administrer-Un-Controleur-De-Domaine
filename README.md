@@ -9,7 +9,7 @@ Ce repo GitHub présente un guide complet pour réaliser le TP **Active Director
 
 ---
 
-## `📑`︲Sommaire (Cliquez sur la catégorie souhaitée pour y être redirigé en un éclair ! )
+## `📑`︲Sommaire (Le sommaire est cliquable pour vous rediriger vers la partie souhaitée.)
 
 1. [`📘`︲Introduction](#introduction)
    - [`📄`︲Contexte et objectifs du TP](#contexte-et-objectifs-du-tp)
