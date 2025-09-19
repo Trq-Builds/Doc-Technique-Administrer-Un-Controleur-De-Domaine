@@ -42,8 +42,8 @@ Ce Repo GitHub présente un guide complet mais simple pour réaliser le TP Admin
    - [`⏱️`︲Limitation des horaires de connexion, bureau à distance et BgInfo](#limitation-horaires-bureau-bginfo)
 
 10. [`✅`︲Conclusion](#conclusion)
-    - [`📝`︲Résumé des tâches et résultats`](#resume-taches-resultats)
-    - [`🌟`︲Impact des configurations sur collaboration et organisation`](#impact-configurations)
+    - [`📝`︲Résumé des tâches et résultats](#resume-taches-resultats)
+    - [`🌟`︲Impact des configurations sur collaboration et organisation](#impact-configurations)
 
 ---
 
