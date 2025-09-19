@@ -490,11 +490,11 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "Gestio
 
 3️⃣︲**Configurez les paramètres**
 
-* **Historique des mots de passe :** Empêche la réutilisation d'anciens mots de passe.
-* **Durée de vie maximale du mot de passe :** Force le changement après un certain temps.
-* **Durée de vie minimale du mot de passe :** Empêche des changements trop fréquents.
-* **Exigence de complexité :** Oblige l'utilisation de majuscules, minuscules, chiffres et symboles.
-* **Longueur minimale du mot de passe :** Définie le nombre minimum de caractères.
+* **`Historique des mots de passe` :** Empêche la réutilisation d'anciens mots de passe.
+* **`Durée de vie maximale du mot de passe` :** Force le changement après un certain temps.
+* **`Durée de vie minimale du mot de passe` :** Empêche des changements trop fréquents.
+* **`Exigence de complexité` :** Oblige l'utilisation de majuscules, minuscules, chiffres et symboles.
+* **`Longueur minimale du mot de passe` :** Définie le nombre minimum de caractères.
 <details>
   <summary><strong>💡︲Captures d'écran</strong></summary>
 </details>
