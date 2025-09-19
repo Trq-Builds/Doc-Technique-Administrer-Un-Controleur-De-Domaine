@@ -53,8 +53,8 @@ Ce Repo GitHub présente un guide complet mais simple pour réaliser le TP Admin
 Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domaine, gérer les utilisateurs, appliquer des GPO et automatiser certaines tâches via PowerShell !
 
 <a id="contexte-et-objectifs-du-tp"></a>
-### `📄`︲Contexte et objectifs du TP
-- Comprendre le rôle d’un contrôleur de domaine
+> [!NOTE]
+> - Comprendre le rôle d’un contrôleur de domaine
 - Mettre en place un environnement réseau fonctionnel
 - Automatiser certaines tâches d’administration
 
