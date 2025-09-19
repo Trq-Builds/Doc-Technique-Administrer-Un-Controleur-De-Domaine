@@ -502,7 +502,7 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "Gestio
 
 ---
 
- 3️⃣︲ AAAAAAAAAAAAAA
+ 3️⃣︲ 
 
 ---
 
@@ -511,16 +511,28 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "Gestio
 ---
 
  5️⃣︲
+ 
+ ---
 
  6️⃣︲
+ 
+ ---
 
  7️⃣︲
+ 
+ ---
 
  8️⃣︲
+ 
+ ---
 
- 9️⃣
+ 9️⃣︲
+ 
+ ---
 
- 🔟
+ 🔟︲
+ 
+ ---
 
 
 
