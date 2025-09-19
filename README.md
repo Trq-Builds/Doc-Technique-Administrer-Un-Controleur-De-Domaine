@@ -76,7 +76,7 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
 
 ---
 
-1️⃣・**Configuration de la VM**  
+1️⃣︲**Configuration de la VM**  
    - **Disque :** 80 Go  
    - **RAM :** 4 Go  
    - **CPU :** 1 cœur  
@@ -97,7 +97,7 @@ Enfin, cliquer sur **OK** pour valider les paramètres et sauvegarder la configu
 
 ---
 
-2️⃣・**Installation depuis l’ISO**  
+2️⃣︲**Installation depuis l’ISO**  
    - Sélectionner langue, clavier et région  
 
 <details>
@@ -119,7 +119,7 @@ Enfin, cliquer sur **OK** pour valider les paramètres et sauvegarder la configu
 
 ---
 
-3️⃣・**Création de l’utilisateur**  
+3️⃣︲**Création de l’utilisateur**  
    - **Nom :** `btssio`  
    - **Mot de passe :** `btssio`  
 
@@ -154,7 +154,7 @@ Enfin, cliquer sur **OK** pour valider les paramètres et sauvegarder la configu
 
 ---
 
-1️⃣・**Configuration de la VM**  
+1️⃣︲**Configuration de la VM**  
    - Disque : **80 Go**  
    - RAM : **2 Go**  
    - CPU : **1 cœur**
@@ -170,7 +170,7 @@ Vérifier que disque, RAM et CPU sont corrects avant l’installation.
 
 ---
 
-2️⃣・**Partitionnement du disque**  
+2️⃣︲**Partitionnement du disque**  
    - 40 Go pour l’OS  
    - 40 Go pour DATA  
 
@@ -185,7 +185,7 @@ Créer deux partitions : 40 Go pour l’OS et 40 Go pour les données.
 
 ---
 
-3️⃣・**Installation depuis l’ISO**  
+3️⃣︲**Installation depuis l’ISO**  
    - Sélectionner langue, clavier et région  
 
 <details>
@@ -200,7 +200,7 @@ Choisir langue Français et clavier pour le serveur.
 
 ---
 
-4️⃣・**Sélection de la méthode d’installation**  
+4️⃣︲**Sélection de la méthode d’installation**  
    - Choisir **Installation personnalisée** (Custom Install)  
    - Sélectionner **Méthode de licence** et entrer la **clé produit**  
    - Sélectionner l’image : **Windows Server 2025 Standard (expérience utilisateur)**  
@@ -224,13 +224,13 @@ Sélectionner l’image : **Windows Server 2025 Standard (expérience utilisateu
 
 ---
 
-5️⃣・**Création du compte administrateur**  
+5️⃣︲**Création du compte administrateur**  
    - Nom : `btssio`  
    - Mot de passe : `btssio-lmc25`  
 
 ---
 
-6️⃣・**Configuration réseau**  
+6️⃣︲**Configuration réseau**  
    - IP : `172.16.0.1`  
    - Masque : `255.255.255.0`  
 
@@ -244,7 +244,7 @@ Configurer IP et masque pour le serveur.
 
 ---
 
-7️⃣・**Vérification de l’installation**  
+7️⃣︲**Vérification de l’installation**  
    - Redémarrer et se connecter avec le compte administrateur  
 
 <details>
