@@ -512,6 +512,94 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "`Gesti
 <a id="creation-ou-groupes-utilisateurs"></a>
 ### `👥`︲Création des OU, groupes et utilisateurs
 
+
+---
+
+
+### Étape 1 : Accéder à la console "Utilisateurs et ordinateurs Active Directory"
+
+1. Ouvrez la console **Utilisateurs et ordinateurs Active Directory**.
+   Vous pouvez y accéder via le **Gestionnaire de serveur**, sous **AD DS**. Faites un clic droit sur votre serveur et sélectionnez **Ouvrir**.
+
+---
+
+### Étape 2 : Créer la structure des Unités d'Organisation (UO)
+
+Les Unités d'Organisation (UO) permettent de structurer l'entreprise en fonction de ses services et de ses départements. Les noms des UO doivent respecter les règles suivantes : **pas de majuscules ni d’accents**.
+
+Référez-vous à l'Annexe 1 pour créer la structure demandée. À ce stade, **les branches "Stagiaires" et "Salles" ne doivent pas être créées**.
+
+#### 2.1 Créer l'UO principale (racine)
+
+1. Faites un clic droit sur le domaine (ex. : `descartesbleu.org`), puis sélectionnez **Nouveau** > **Unité d'organisation**.
+2. Donnez un nom à cette UO (par exemple, `centre_formation`).
+3. *Optionnel :* Activez l'option **Protéger contre la suppression accidentelle** pour éviter toute suppression accidentelle (disponible depuis Windows Server 2012).
+
+#### 2.2 Créer les UO secondaires (Services et Bureaux)
+
+1. Dans l'UO principale, faites un clic droit et sélectionnez **Nouveau** > **Unité d'organisation** pour ajouter des UO pour chaque service (par exemple, `services`, `formateurs`, `administration`, `bureaux`).
+
+**Exemple de structure** :
+
+* `centre_formation` (UO racine)
+* `services`
+* `formateurs`
+* `administration`
+* `bureaux`
+
+---
+
+### Étape 3 : Créer des Groupes d'Utilisateurs
+
+Les groupes d'utilisateurs permettent de regrouper les utilisateurs ayant des droits similaires. Les **Groupes de sécurité** sont utilisés pour gérer les permissions d'accès aux ressources partagées. L'option **Globale** est recommandée pour les groupes ayant des membres à maintenir quotidiennement.
+
+1. Dans l'UO appropriée (par exemple, dans l'UO `formateurs`), faites un clic droit, puis sélectionnez **Nouveau** > **Groupe**.
+2. Dans la fenêtre de création, sélectionnez l'**Étendue** du groupe (par exemple, **Globale**) et le **Type** de groupe (**Sécurité**).
+
+---
+
+### Étape 4 : Créer des Utilisateurs
+
+Vous allez maintenant créer les comptes utilisateurs dans les UO respectives, en suivant la politique de nomenclature.
+
+#### 4.1 Créer un utilisateur
+
+1. Dans l'UO voulue, faites un clic droit et sélectionnez **Nouveau** > **Utilisateur**.
+2. Remplissez les informations :
+
+   * **Nom** et **Prénom** de l'utilisateur.
+   * **Login** (nom d’ouverture de session) : Format **`prenom.nom`**.
+   * **Mot de passe** : Format **`prenom.nom`**.
+
+#### 4.2 Configuration du mot de passe
+
+1. Dans la fenêtre de définition du mot de passe, configurez les options suivantes :
+
+   * **Décocher** : « L'utilisateur doit changer son mot de passe à la prochaine connexion ».
+   * **Cocher** : « Le mot de passe n’expire jamais ».
+
+2. *Note* : Si la politique de mots de passe de votre domaine l'exige (par défaut ou modifiée), le mot de passe doit être complexe, c'est-à-dire :
+
+   * Minimum 7 caractères.
+   * Contenir au moins trois des éléments suivants : majuscule, minuscule, chiffre, symbole.
+
+3. Cliquez sur **Terminer** pour créer l'utilisateur.
+
+#### 4.3 Modifier les propriétés de l'utilisateur (facultatif)
+
+1. Une fois l'utilisateur créé, vous pouvez modifier ses propriétés (par exemple : bureau, numéro de téléphone, programmes à lancer à l’ouverture de session) en faisant un clic droit sur le compte et en sélectionnant **Propriétés**.
+
+---
+
+### Étape 5 : Ajouter des utilisateurs aux Groupes
+
+Une fois les utilisateurs créés, vous devez les ajouter aux groupes appropriés (par exemple, **formateurs**).
+
+1. Double-cliquez sur le groupe concerné ou faites un clic droit et choisissez **Propriétés**.
+2. Dans l'onglet **Membres**, cliquez sur **Ajouter**.
+3. Entrez le **login** (ex : `prenom.nom`), ou utilisez **Avancé** pour rechercher les utilisateurs.
+4. Cliquez sur **Vérifier les noms** pour valider, puis sur **OK** pour ajouter les utilisateurs au groupe.
+
 ---
 
 1️⃣︲
