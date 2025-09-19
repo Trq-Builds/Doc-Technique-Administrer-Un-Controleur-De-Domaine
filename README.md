@@ -486,7 +486,7 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "`Gesti
 
 1. Ouvrez **Gestion de stratégie de groupe**.
 2. Clic droit sur **Default Domain Policy** > **Modifier**.
-3. Allez dans : Configuration ordinateur → Stratégies → Paramètres Windows → Paramètres de sécurité → Stratégies de comptes → Stratégie de mot de passe
+3. Allez dans : `Configuration ordinateur` → `Stratégies` → `Paramètres Windows` → `Paramètres de sécurité` → `Stratégies de comptes` → `Stratégie de mot de passe`
 <details>
   <summary><strong>💡︲Captures d'écran</strong></summary>
 </details>
