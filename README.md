@@ -407,7 +407,7 @@ Cliquez ensuite sur Suivant pour continuer.
 Dans les options du Contrôleur de domaine, vérifiez que l'option Serveur DNS est cochée. Si ce n'est pas le cas, cochez-la manuellement.
 
 Dans les champs de texte pour les mots de passe, saisissez le mot de passe suivant :
-btssio-lmc25
+`btssio-lmc25`
 (Note : assurez-vous de le saisir deux fois, dans les deux champs de mot de passe).
 <details>
   <summary><strong>💡︲Captures d'écran</strong></summary>
