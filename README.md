@@ -514,14 +514,14 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "`Gesti
 
 ---
 
-### Étape 1 : Accéder à la console "Utilisateurs et ordinateurs Active Directory"
+### Accéder à la console "Utilisateurs et ordinateurs Active Directory"
 
 Ouvrez la console **Utilisateurs et ordinateurs Active Directory**.
 Vous pouvez y accéder via le **Gestionnaire de serveur**, sous **AD DS**. Faites un clic droit sur votre serveur et sélectionnez **Ouvrir**.
 
 ---
 
-### Étape 2 : Créer la structure des Unités d'Organisation (UO)
+### Créer la structure des Unités d'Organisation (UO)
 
 Les Unités d'Organisation (UO) permettent de structurer l'entreprise en fonction de ses services et de ses départements. Les noms des UO doivent respecter les règles suivantes : **pas de majuscules ni d’accents**.
 
@@ -532,7 +532,7 @@ Référez-vous à l'Annexe 1 pour créer la structure demandée. À ce stade, **
 #### 2️⃣.1️⃣ Créer l'UO principale (racine)
 
 1️⃣. Faites un clic droit sur le domaine (ex. : `descartesbleu.org`), puis sélectionnez **Nouveau** > **Unité d'organisation**.
-2️⃣. Donnez un nom à cette UO (par exemple, `centre_formation`).
+2️⃣. Donnez un nom à cette UO (Ici, `Centre De Formation Descartes-bleu`).
 3️⃣. *Optionnel :* Activez l'option **Protéger contre la suppression accidentelle** pour éviter toute suppression accidentelle (disponible depuis Windows Server 2012).
 
 #### 2️⃣.2️⃣ Créer les UO secondaires (Services et Bureaux)
