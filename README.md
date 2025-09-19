@@ -541,10 +541,10 @@ Référez-vous à l'Annexe 1 pour créer la structure demandée. À ce stade, **
 
 **Structure demandée dans le TP** :
 
-*`Service Administratif `
-*`Service Scolarité `
-*`Formateurs `
-*`Service Comptabilité`
+* `Service Administratif `
+* `Service Scolarité `
+* `Formateurs `
+* `Service Comptabilité`
 
 ---
 
