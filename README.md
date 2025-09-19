@@ -481,6 +481,9 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "Gestio
 1. Ouvrez **Gestion de stratégie de groupe**.
 2. Clic droit sur **Default Domain Policy** > **Modifier**.
 3. Allez dans : Configuration ordinateur → Stratégies → Paramètres Windows → Paramètres de sécurité → Stratégies de comptes → Stratégie de mot de passe
+<details>
+  <summary><strong>💡︲Captures d'écran</strong></summary>
+</details>
 
 ---
 
@@ -492,6 +495,9 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "Gestio
 * **Durée de vie minimale du mot de passe :** Empêche des changements trop fréquents.
 * **Exigence de complexité :** Oblige l'utilisation de majuscules, minuscules, chiffres et symboles.
 * **Longueur minimale du mot de passe :** Définie le nombre minimum de caractères.
+<details>
+  <summary><strong>💡︲Captures d'écran</strong></summary>
+</details>
 
 ---
 
@@ -499,6 +505,10 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "Gestio
 
 1. Ouvrez **Invite de commandes** en tant qu'administrateur.
 2. Tapez `gpupdate /force` et appuyez sur **Entrée**.
+3. <details>
+  <summary><strong>💡︲Captures d'écran</strong></summary>
+</details>
+
 
 ---
 
