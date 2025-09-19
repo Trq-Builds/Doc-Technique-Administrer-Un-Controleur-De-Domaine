@@ -505,10 +505,9 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "Gestio
 
 1. Ouvrez **Invite de commandes** en tant qu'administrateur.
 2. Tapez `gpupdate /force` et appuyez sur **Entrée**.
-3. <details>
+<details>
   <summary><strong>💡︲Captures d'écran</strong></summary>
 </details>
-
 
 ---
 
