@@ -259,7 +259,7 @@ Le serveur est prêt et l’administrateur peut se connecter !
 <details>
   <summary><strong>💡︲Conseils pour Windows Server</strong></summary>
 
-  💡 - Vérifiez que la partition DATA est correctement détectée après l’installation.
+  💡 - Vérifiez que la partition `DATA` est correctement détectée après l’installation.
   
 </details>
 
@@ -318,7 +318,7 @@ L’assistant vous demande ensuite où installer la fonctionnalité.
 
 Cliquez sur Sélectionner un serveur du pool de serveurs.
 
-Dans la liste, choisissez le serveur SRV-AD1.
+Dans la liste, choisissez le serveur `SRV-AD1`.
 <details>
   <summary><strong>💡︲Captures d'écran</strong></summary>
 <img width="1025" height="773" alt="Screenshot_3" src="https://github.com/user-attachments/assets/1f1a653f-6a8f-4934-8ee9-87679b9f353d" />
