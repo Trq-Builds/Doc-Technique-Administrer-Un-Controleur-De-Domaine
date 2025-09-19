@@ -54,7 +54,9 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
 
 <a id="contexte-et-objectifs-du-tp"></a>
 > [!NOTE]
-> - Mise en place d’un environnement réseau fonctionnel avec contrôleur de domaine et automatisation des tâches d’administration.
+> -Comprendre le rôle d’un contrôleur de domaine.
+> -Mettre en place un environnement réseau fonctionnel.
+> -Automatiser certaines tâches d’administration
 
 ---
 
