@@ -33,7 +33,7 @@ Ce Repo GitHub présente un guide complet mais simple pour réaliser le TP Admin
    - [`💾`︲Redirection des dossiers utilisateur et mode hors connexion](#redirection-dossiers-mode-hors-ligne)
 
 7. [`📜`︲Automatisation via PowerShell](#automatisation-via-powershell)
-   - [`⚡`︲Script pour créer des OU, groupes et utilisateurs à partir d'un CSV](#script-ou-groupes-utilisateurs)
+   - [`⚡`︲Script pour créer des UOs, groupes et utilisateurs à partir d'un CSV](#script-ou-groupes-utilisateurs)
 
 8. [`🖱️`︲Déploiement de stratégies de groupe (GPO)](#deploiement-de-strategies-de-groupe)
    - [`📂`︲Redirection du dossier Documents, mappage lecteurs réseau et déploiement Firefox](#redirection-documents-mappage-firefox)
