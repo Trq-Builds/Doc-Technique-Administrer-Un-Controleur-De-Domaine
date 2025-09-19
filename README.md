@@ -545,6 +545,9 @@ Référez-vous à l'Annexe 1 pour créer la structure demandée. À ce stade, **
 * `Service Scolarité `
 * `Formateurs `
 * `Service Comptabilité`
+  
+> [!TIP]
+> [🎥︲Démo vidéo – Cliquez-ici]()
 
 ---
 
