@@ -492,17 +492,14 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "`Gesti
 
 ---
 
-
 3️⃣︲**Configurez les paramètres**
 
-* **`Historique des mots de passe` :** Empêche la réutilisation d'anciens mots de passe.
-* **`Durée de vie maximale du mot de passe` :** Force le changement après un certain temps.
-* **`Durée de vie minimale du mot de passe` :** Empêche des changements trop fréquents.
-* **`Exigence de complexité` :** Oblige l'utilisation de majuscules, minuscules, chiffres et symboles.
-* **`Longueur minimale du mot de passe` :** Définie le nombre minimum de caractères.
-<details>
-  <summary><strong>💡︲Captures d'écran</strong></summary>
-</details>
+*Le mot de passe ne doit jamais expirer. 
+*La longueur du mot de passe peut être limitée à 5 caractères. 
+*La complexité du mot de passe doit être désactivée. s.
+
+> [!TIP]
+> [🎥︲Démo vidéo – Cliquez-ici](https://easyfiles.cc/0ECS-OgWETy)
 
 ---
 
