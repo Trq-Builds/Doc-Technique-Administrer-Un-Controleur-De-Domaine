@@ -523,8 +523,8 @@ Vous pouvez y accéder via le **Gestionnaire de serveur**, sous **AD DS**. Faite
 
 ### Créer la structure des Unités d'Organisation (UO)
 
-Les Unités d'Organisation (UO) permettent de structurer l'entreprise en fonction de ses services et de ses départements. Les noms des UO doivent respecter les règles suivantes : **pas de majuscules ni d’accents**.
-
+> [!NOTE]
+> Les Unités d'Organisation (UO) permettent de structurer l'entreprise en fonction de ses services et de ses départements. Les noms des UO doivent respecter les règles suivantes : **pas de majuscules ni d’accents**.
 Référez-vous à l'Annexe 1 pour créer la structure demandée. À ce stade, **les branches "Stagiaires" et "Salles" ne doivent pas être créées**.
 
 ---
