@@ -514,11 +514,9 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "`Gesti
 
 ---
 
-Voici le texte avec les chiffres remplacés par des émojis :
-
 ### Étape 1 : Accéder à la console "Utilisateurs et ordinateurs Active Directory"
 
-1️⃣. Ouvrez la console **Utilisateurs et ordinateurs Active Directory**.
+Ouvrez la console **Utilisateurs et ordinateurs Active Directory**.
 Vous pouvez y accéder via le **Gestionnaire de serveur**, sous **AD DS**. Faites un clic droit sur votre serveur et sélectionnez **Ouvrir**.
 
 ---
@@ -528,6 +526,8 @@ Vous pouvez y accéder via le **Gestionnaire de serveur**, sous **AD DS**. Faite
 Les Unités d'Organisation (UO) permettent de structurer l'entreprise en fonction de ses services et de ses départements. Les noms des UO doivent respecter les règles suivantes : **pas de majuscules ni d’accents**.
 
 Référez-vous à l'Annexe 1 pour créer la structure demandée. À ce stade, **les branches "Stagiaires" et "Salles" ne doivent pas être créées**.
+
+---
 
 #### 2️⃣.1️⃣ Créer l'UO principale (racine)
 
@@ -539,13 +539,12 @@ Référez-vous à l'Annexe 1 pour créer la structure demandée. À ce stade, **
 
 1️⃣. Dans l'UO principale, faites un clic droit et sélectionnez **Nouveau** > **Unité d'organisation** pour ajouter des UO pour chaque service (par exemple, `services`, `formateurs`, `administration`, `bureaux`).
 
-**Exemple de structure** :
+**Structure demandée dans le TP** :
 
-* `centre_formation` (UO racine)
-* `services`
-* `formateurs`
-* `administration`
-* `bureaux`
+*`Service Administratif `
+*`Service Scolarité `
+*`Formateurs `
+*`Service Comptabilité`
 
 ---
 
