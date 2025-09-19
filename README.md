@@ -514,18 +514,18 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "`Gesti
 
 ---
 
-### Accéder à la console "Utilisateurs et ordinateurs Active Directory"
-
-Ouvrez la console **Utilisateurs et ordinateurs Active Directory**.
-Vous pouvez y accéder via le **Gestionnaire de serveur**, sous **AD DS**. Faites un clic droit sur votre serveur et sélectionnez **Ouvrir**.
-
----
-
 ### Créer la structure des Unités d'Organisation (UO)
 
 > [!NOTE]
 > Les Unités d'Organisation (UO) permettent de structurer l'entreprise en fonction de ses services et de ses départements. Les noms des UO doivent respecter les règles suivantes : **pas de majuscules ni d’accents**.
 Référez-vous à l'Annexe 1 pour créer la structure demandée. À ce stade, **les branches "Stagiaires" et "Salles" ne doivent pas être créées**.
+
+---
+
+### Accéder à la console "Utilisateurs et ordinateurs Active Directory"
+
+Ouvrez la console **Utilisateurs et ordinateurs Active Directory**.
+Vous pouvez y accéder via le **Gestionnaire de serveur**, sous **AD DS**. Faites un clic droit sur votre serveur et sélectionnez **Ouvrir**.
 
 ---
 
