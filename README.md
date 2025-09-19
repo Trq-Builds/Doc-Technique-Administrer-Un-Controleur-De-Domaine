@@ -1,11 +1,8 @@
-# .MDPlayground
-Ce repo servira à tester les documentations pour le lycée en .MD, en espérant que ça passe crème autant que la README de la réinstallation Windows que j'ai élaborée.
-
-# `💻`︲Documentation TP Active Directory
+# `💻`︲Documentation TP : Administrer un controleur de domaine
 
 ---
 
-Ce repo GitHub présente un guide complet pour réaliser le TP **Active Directory**, étape par étape. Les instructions sont claires et détaillées afin que tu puisses suivre sans problème, **même si tu es débutant**.
+Ce repo GitHub présente un guide complet / Documentation pour réaliser le TP **Administrer un controleur de domaine**, étape par étape. Les instructions sont claires et détaillées afin que tu puisses suivre sans problèmes.
 
 ---
 
