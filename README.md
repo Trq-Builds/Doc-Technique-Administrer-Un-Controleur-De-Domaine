@@ -271,7 +271,7 @@ Le serveur est prêt et l’administrateur peut se connecter !
 <a id="installation-roles-ad-ds-et-dns"></a>
 ### `🔧`︲Installation des rôles AD DS et DNS...
 
-1️⃣ ︲ Accéder à l’ajout de rôles et fonctionnalités
+1️⃣ ︲**Accéder à l’ajout de rôles et fonctionnalités**
 
 Ouvrez le Gestionnaire de serveur.
 
@@ -286,7 +286,7 @@ Sélectionnez ensuite Ajouter des rôles et des fonctionnalités.
 
 ---
 
-2️⃣︲Lancer l’assistant d’ajout de rôles et de fonctionnalités
+2️⃣︲**Lancer l’assistant d’ajout de rôles et de fonctionnalités**
 
 La fenêtre Assistant Ajout de rôles et de fonctionnalités s’ouvre automatiquement.
 
@@ -298,7 +298,7 @@ Cliquez sur Suivant pour continuer.
 
 ---
 
-3️⃣︲Choisir l'installation basée sur un rôle ou une fonctionnalité
+3️⃣︲**Choisir l'installation basée sur un rôle ou une fonctionnalité**
 
 Dans la fenêtre suivante, sélectionnez Installation basée sur un rôle ou une fonctionnalité.
 
@@ -312,7 +312,7 @@ Cliquez sur Suivant pour continuer.
 
 ---
 
-4️⃣︲Choisir le serveur pour l'installation
+4️⃣︲**Choisir le serveur pour l'installation**
 
 L’assistant vous demande ensuite où installer la fonctionnalité.
 
@@ -326,7 +326,7 @@ Dans la liste, choisissez le serveur SRV-AD1.
 
 ---
 
-5️⃣︲Sélectionner les fonctionnalités à installer
+5️⃣︲**Sélectionner les fonctionnalités à installer**
 
 Un menu s'ouvre avec des cases à cocher pour sélectionner les fonctionnalités.
 
@@ -350,7 +350,7 @@ Et ensuite faire "Suivant"
 
 ---
 
-6️⃣︲Confirmer et lancer l'installation
+6️⃣︲**Confirmer et lancer l'installation**
 
 Vérifiez que toutes les options d'installation sont correctes pour éviter toute erreur.
 
@@ -372,7 +372,7 @@ Une fois terminée, il sera nécessaire de redémarrer le serveur pour appliquer
 ### `🌐`︲Promotion du serveur et création du domaine descartesbleu.org
 ---
 
-1️⃣︲Vérification de l'installation et promotion du serveur
+1️⃣︲**Vérification de l'installation et promotion du serveur**
 
 Une fois l'installation terminée et le serveur redémarré, ouvrez le Gestionnaire de serveur.
 
@@ -386,7 +386,7 @@ Nous allons maintenant procéder à la promotion du serveur et à la création d
 
 ---
 
-2️⃣︲Configurer les services de domaine Active Directory
+2️⃣︲**Configurer les services de domaine Active Directory**
 
 La fenêtre de l’assistant Configuration des services de domaine Active Directory apparaît.
 
@@ -402,7 +402,7 @@ Cliquez ensuite sur Suivant pour continuer.
 
 ---
 
-3️⃣︲Configurer les options du contrôleur de domaine
+3️⃣︲**Configurer les options du contrôleur de domaine**
 
 Dans les options du Contrôleur de domaine, vérifiez que l'option Serveur DNS est cochée. Si ce n'est pas le cas, cochez-la manuellement.
 
@@ -416,7 +416,7 @@ btssio-lmc25
 
 ---
 
-4️⃣︲Configurer les options DNS et le domaine NetBIOS
+4️⃣︲**Configurer les options DNS et le domaine NetBIOS**
 
 Une fois les informations saisies, cliquez sur Suivant pour passer à la fenêtre des options DNS.
 
@@ -433,7 +433,7 @@ Cliquez ensuite sur Suivant pour continuer.
 
 ---
 
-5️⃣︲Vérification des options et lancement de l'installation
+5️⃣︲**Vérification des options et lancement de l'installation**
 
 Dans la fenêtre suivante, il vous sera demandé de définir le chemin d’accès pour le stockage des fichiers. Laissez les valeurs par défaut.
 
@@ -464,7 +464,7 @@ Le processus d’installation commencera et le serveur sera promu en tant que co
 
 ---
 
-1️⃣︲Ouvrir le menu Démarrer : Cliquez sur le bouton "Démarrer" en bas à gauche de votre écran.
+1️⃣︲**Ouvrir le menu Démarrer** : Cliquez sur le bouton "Démarrer" en bas à gauche de votre écran.
 
 Rechercher "Gestion des stratégies de groupe" : Dans le champ de recherche, tapez "Gestion des stratégies de groupe".
 
@@ -476,7 +476,7 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "Gestio
 
 ---
 
-2️⃣︲Modifiez la politique de groupe par défaut
+2️⃣︲**Modifiez la politique de groupe par défaut**
 
 1. Ouvrez **Gestion de stratégie de groupe**.
 2. Clic droit sur **Default Domain Policy** > **Modifier**.
@@ -488,7 +488,7 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "Gestio
 ---
 
 
-3️⃣︲Configurez les paramètres**
+3️⃣︲**Configurez les paramètres**
 
 * **Historique des mots de passe :** Empêche la réutilisation d'anciens mots de passe.
 * **Durée de vie maximale du mot de passe :** Force le changement après un certain temps.
@@ -501,7 +501,7 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "Gestio
 
 ---
 
- 4️⃣︲Appliquez les modifications
+ 4️⃣︲**Appliquez les modifications**
 
 1. Ouvrez **Invite de commandes** en tant qu'administrateur.
 2. Tapez `gpupdate /force` et appuyez sur **Entrée**.
