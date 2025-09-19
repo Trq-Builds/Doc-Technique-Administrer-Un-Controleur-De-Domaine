@@ -77,6 +77,8 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
 <a id="installation-de-windows"></a>
 ### `💿`︲Installation de Windows 11 (client)
 
+---
+
 1️⃣・**Configuration de la VM**  
    - **Disque :** 80 Go  
    - **RAM :** 4 Go  
@@ -152,6 +154,8 @@ Enfin, cliquer sur **OK** pour valider les paramètres et sauvegarder la configu
 
 <a id="installation-de-windows-server"></a>
 ### `💿`︲Installation de Windows Server 2025 (serveur)
+
+---
 
 1️⃣・**Configuration de la VM**  
    - Disque : **80 Go**  
