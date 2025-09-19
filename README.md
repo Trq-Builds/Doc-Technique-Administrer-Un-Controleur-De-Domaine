@@ -538,6 +538,8 @@ Vous pouvez y accéder via le **Gestionnaire de serveur**, sous **AD DS**. Faite
 - 2️⃣. Donnez un nom à cette UO (Ici, `Centre De Formation Descartes-bleu`).
 - 3️⃣. *Optionnel :* Activez l'option **Protéger contre la suppression accidentelle** pour éviter toute suppression accidentelle (disponible depuis Windows Server 2012).
 
+---
+
 #### 2️⃣.2️⃣ Créer les UO secondaires (Services et Bureaux)
 
 1️⃣. Dans l'UO principale, faites un clic droit et sélectionnez **Nouveau** > **Unité d'organisation** pour ajouter des UO pour chaque service (par exemple, `services`, `formateurs`, `administration`, `bureaux`).
