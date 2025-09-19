@@ -476,18 +476,17 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "Gestio
 
 ---
 
-### **1. Accédez aux paramètres**
-
-* **Windows Server 2000/2003 :** Outils d'administration > Stratégie de sécurité du domaine.
-* **Windows Server 2008/2012 :** Outils d'administration > Gestion des stratégies de groupe.
-
-### **2. Modifiez la politique de groupe par défaut**
+2️⃣︲Modifiez la politique de groupe par défaut
 
 1. Ouvrez **Gestion de stratégie de groupe**.
 2. Clic droit sur **Default Domain Policy** > **Modifier**.
 3. Allez dans : `Configuration ordinateur` > `Stratégies` > `Paramètres Windows` > `Paramètres de sécurité` > `Stratégies de comptes` > `Stratégie de mot de passe`.
 
-### **3. Configurez les paramètres**
+
+---
+
+
+3️⃣︲3. Configurez les paramètres**
 
 * **Historique des mots de passe :** Empêche la réutilisation d'anciens mots de passe.
 * **Durée de vie maximale du mot de passe :** Force le changement après un certain temps.
@@ -495,45 +494,14 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "Gestio
 * **Exigence de complexité :** Oblige l'utilisation de majuscules, minuscules, chiffres et symboles.
 * **Longueur minimale du mot de passe :** Définie le nombre minimum de caractères.
 
-### **4. Appliquez les modifications**
+---
+
+ 4️⃣︲### **4. Appliquez les modifications**
 
 1. Ouvrez **Invite de commandes** en tant qu'administrateur.
 2. Tapez `gpupdate /force` et appuyez sur **Entrée**.
 
 ---
-
- 3️⃣︲ 
-
----
-
- 4️⃣︲
-
----
-
- 5️⃣︲
- 
- ---
-
- 6️⃣︲
- 
- ---
-
- 7️⃣︲
- 
- ---
-
- 8️⃣︲
- 
- ---
-
- 9️⃣︲
- 
- ---
-
- 🔟︲
- 
- ---
-
 
 
 
