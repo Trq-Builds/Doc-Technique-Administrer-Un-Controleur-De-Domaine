@@ -531,9 +531,9 @@ Référez-vous à l'Annexe 1 pour créer la structure demandée. À ce stade, **
 
 #### 2️⃣.1️⃣ Créer l'UO principale (racine)
 
-1️⃣. Faites un clic droit sur le domaine `descartesbleu.org`, puis sélectionnez **Nouveau** > **Unité d'organisation**.
-2️⃣. Donnez un nom à cette UO (Ici, `Centre De Formation Descartes-bleu`).
-3️⃣. *Optionnel :* Activez l'option **Protéger contre la suppression accidentelle** pour éviter toute suppression accidentelle (disponible depuis Windows Server 2012).
+- 1️⃣. Faites un clic droit sur le domaine `descartesbleu.org`, puis sélectionnez **Nouveau** > **Unité d'organisation**.
+- 2️⃣. Donnez un nom à cette UO (Ici, `Centre De Formation Descartes-bleu`).
+- 3️⃣. *Optionnel :* Activez l'option **Protéger contre la suppression accidentelle** pour éviter toute suppression accidentelle (disponible depuis Windows Server 2012).
 
 #### 2️⃣.2️⃣ Créer les UO secondaires (Services et Bureaux)
 
