@@ -514,6 +514,19 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "`Gesti
 
 ---
 
+1️⃣︲
+
+---
+
+2️⃣︲
+
+---
+
+3️⃣︲
+
+---
+
+
 
 
 
