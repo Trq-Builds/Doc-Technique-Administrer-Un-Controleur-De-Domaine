@@ -594,10 +594,10 @@ Vous allez maintenant créer les comptes utilisateurs dans les UO respectives, e
 
 Une fois les utilisateurs créés, vous devez les ajouter aux groupes appropriés (par exemple, **formateurs**).
 
-* 1️⃣. Double-cliquez sur le groupe concerné ou faites un clic droit et choisissez **Propriétés**.
-* 2️⃣. Dans l'onglet **Membres**, cliquez sur **Ajouter**.
-* 3️⃣. Entrez le **login** (ex : `prenom.nom`), ou utilisez **Avancé** pour rechercher les utilisateurs.
-* 4️⃣. Cliquez sur **Vérifier les noms** pour valider, puis sur **OK** pour ajouter les utilisateurs au groupe.
+1️⃣. Double-cliquez sur le groupe concerné ou faites un clic droit et choisissez **Propriétés**.
+2️⃣. Dans l'onglet **Membres**, cliquez sur **Ajouter**.
+3️⃣. Entrez le **login** (ex : `prenom.nom`), ou utilisez **Avancé** pour rechercher les utilisateurs.
+4️⃣. Cliquez sur **Vérifier les noms** pour valider, puis sur **OK** pour ajouter les utilisateurs au groupe.
 
 ---
 
