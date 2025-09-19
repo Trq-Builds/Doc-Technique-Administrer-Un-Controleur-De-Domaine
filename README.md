@@ -513,7 +513,6 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "`Gesti
 </details>
 
 ---
-[🎥 Démo vidéo – cliquez ici](https://easyfiles.cc/8O9G6b0Oeg9)
 
 
 
