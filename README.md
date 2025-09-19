@@ -478,7 +478,6 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "`Gesti
      <img width="1026" height="770" alt="Screenshot_21" src="https://github.com/user-attachments/assets/a9a65dbb-cabe-4ef1-87a7-a9061cf8f22b" />
 </details>
 
-[🎥︲Démo vidéo – cliquez ici](https://easyfiles.cc/8O9G6b0Oeg9)
 
 ---
 
@@ -487,9 +486,9 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "`Gesti
 1. Ouvrez **Gestion de stratégie de groupe**.
 2. Clic droit sur **Default Domain Policy** > **Modifier**.
 3. Allez dans : `Configuration ordinateur` → `Stratégies` → `Paramètres Windows` → `Paramètres de sécurité` → `Stratégies de comptes` → `Stratégie de mot de passe`
-<details>
-  <summary><strong>💡︲Captures d'écran</strong></summary>
-</details>
+
+[🎥︲Démo vidéo – Cliquez-ici](https://easyfiles.cc/8_5Ii65raSA)
+
 
 ---
 
