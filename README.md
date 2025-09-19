@@ -62,10 +62,10 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
 
 <a id="presentation-de-larchitecture-reseau-et-des-outils-utilises"></a>
 > [!IMPORTANT]
-> Présentation de l'architecture réseau et des outils utilisés
+> Présentation de l'architecture réseau et des outils utilisés :
 > - **Serveur :** Windows Server 2025
-> - **Client :** Windows 11
-> - **Outils :** Active Directory, DNS, PowerShell, GPO
+> - **Client :** Windows 11.
+> - **Outils :** Active Directory, DNS, PowerShell, GPO.
 
 ---
 
