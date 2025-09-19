@@ -578,6 +578,8 @@ Vous allez maintenant créer les comptes utilisateurs dans les UO respectives, e
 * **Login** (nom d’ouverture de session) : Format **`prenom.nom`**.
 * **Mot de passe** : Format **`prenom.nom`**.
 
+---
+
 #### 4️⃣.2️⃣ Configuration du mot de passe
 
 1️⃣. Dans la fenêtre de définition du mot de passe, configurez les options suivantes :
