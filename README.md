@@ -477,6 +477,8 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "`Gesti
      <img width="1026" height="770" alt="Screenshot_21" src="https://github.com/user-attachments/assets/a9a65dbb-cabe-4ef1-87a7-a9061cf8f22b" />
 </details>
 
+[🎥︲Démo vidéo – cliquez ici](https://easyfiles.cc/8O9G6b0Oeg9)
+
 ---
 
 2️⃣︲**Modifiez la politique de groupe par défaut**
