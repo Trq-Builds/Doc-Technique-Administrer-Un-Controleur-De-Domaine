@@ -520,8 +520,9 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "`Gesti
 ---
 
 > [!NOTE]
-> Les Unités d'Organisation (UO) permettent de structurer l'entreprise en fonction de ses services et de ses départements. Les noms des UO doivent respecter les règles suivantes : **pas de majuscules ni d’accents**.
-Référez-vous à l'Annexe 1 pour créer la structure demandée. À ce stade, **les branches "Stagiaires" et "Salles" ne doivent pas être créées**.
+> - Les Unités d'Organisation (UO) permettent de structurer l'entreprise en fonction de ses services et de ses départements. Les noms des UO doivent respecter les règles suivantes : **pas de majuscules ni d’accents**.
+> - Référez-vous à l'Annexe 1 pour créer la structure demandée. 
+> - À ce stade, **les branches "Stagiaires" et "Salles" ne doivent pas être créées**.
 
 ---
 
