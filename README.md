@@ -568,6 +568,24 @@ Les groupes d'utilisateurs permettent de regrouper les utilisateurs ayant des dr
 
 Vous allez maintenant créer les comptes utilisateurs dans les UO respectives, en suivant la politique de nomenclature.
 
+# Architecture des Services
+
+## `📁`︲Service Administratif
+- `👤`︲**Patrick SALRIE**
+- `👤`︲**Christine ALLONGUI**
+
+## `📁` Service Scolarité
+- `👤`︲**Amina ZOUBIER**
+
+## `📁`︲Formateurs
+- `👤`︲**Gaëlle CASTEL**
+- `👤`︲**Sylvain CHERRIER**
+- `👤`︲**Valéry PERRIN**
+
+## `📁`︲Service Comptabilité
+- `👤`︲**Cécile LE BOHEC**
+
+
 #### 4️⃣.1️⃣ Créer un utilisateur
 
 1️⃣. Dans l'UO voulue, faites un clic droit et sélectionnez **Nouveau** > **Utilisateur**.
