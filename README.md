@@ -603,12 +603,7 @@ Vous allez maintenant créer les comptes utilisateurs dans les UO respectives, e
 * **Décocher** : « L'utilisateur doit changer son mot de passe à la prochaine connexion ».
 * **Cocher** : « Le mot de passe n’expire jamais ».
 
-2️⃣. *Note* : Si la politique de mots de passe de votre domaine l'exige (par défaut ou modifiée), le mot de passe doit être complexe, c'est-à-dire :
-
-* Minimum 7 caractères.
-* Contenir au moins trois des éléments suivants : majuscule, minuscule, chiffre, symbole.
-
-3️⃣. Cliquez sur **Terminer** pour créer l'utilisateur.
+2️⃣. Cliquez sur **Terminer** pour créer l'utilisateur.
 
 #### 4️⃣.3️⃣ Modifier les propriétés de l'utilisateur (facultatif)
 
