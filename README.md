@@ -526,8 +526,6 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "`Gesti
 
 ---
 
-### Créer la structure des Unités d'Organisation (UO)
-
 ### Accéder à la console "Utilisateurs et ordinateurs Active Directory"
 
 Ouvrez la console **Utilisateurs et ordinateurs Active Directory**.
