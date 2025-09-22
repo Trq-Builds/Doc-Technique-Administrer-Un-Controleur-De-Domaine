@@ -564,6 +564,8 @@ Les groupes d'utilisateurs permettent de regrouper les utilisateurs ayant des dr
 * 3️⃣. Créez les groupes suivants comme affiché ci-dessus.
    *    Par exemple, dans l'UO "Formateur", créez le groupe `GRPFormateur`.
    *    Répétez l'opération pour les autres UOs.
+     
+---
 
 * `📁`︲Service Administratif ➡️ GRPAdministratif
 * `📁` Service Scolarité ➡️ GRPScolarité
