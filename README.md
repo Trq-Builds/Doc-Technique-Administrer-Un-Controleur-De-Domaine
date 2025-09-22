@@ -587,8 +587,8 @@ Vous allez maintenant créer les comptes utilisateurs dans les UO respectives, e
 
 #### 4️⃣.1️⃣ Créer un utilisateur
 
-1️⃣. Dans l'UO voulue, faites un clic droit et sélectionnez **Nouveau** > **Utilisateur**.
-2️⃣. Remplissez les informations :
+* 1️⃣. Dans l'UO voulue, faites un clic droit et sélectionnez **Nouveau** > **Utilisateur**.
+* 2️⃣. Remplissez les informations :
 
 * **Nom** et **Prénom** de l'utilisateur.
 * **Login** (nom d’ouverture de session) : Format **`prenom.nom`**.
