@@ -556,8 +556,8 @@ Vous pouvez y accéder via le **Gestionnaire de serveur**, sous **AD DS**. Faite
 ---
 
 ### Étape 3 : Créer des Groupes d'Utilisateurs
-
-Les groupes d'utilisateurs permettent de regrouper les utilisateurs ayant des droits similaires. Les **Groupes de sécurité** sont utilisés pour gérer les permissions d'accès aux ressources partagées. L'option **Globale** est recommandée pour les groupes ayant des membres à maintenir quotidiennement.
+> [!NOTE]
+>Les groupes d'utilisateurs permettent de regrouper les utilisateurs ayant des droits similaires. Les **Groupes de sécurité** sont utilisés pour gérer les permissions d'accès aux ressources > partagées. L'option **Globale** est recommandée pour les groupes ayant des membres à maintenir quotidiennement.
 
 * 1️⃣. Dans l'UO appropriée (par exemple, dans l'UO `formateurs`), faites un clic droit, puis sélectionnez **Nouveau** > **Groupe**.
 * 2️⃣. Dans la fenêtre de création, sélectionnez l'**Étendue** du groupe (par exemple, **Globale**) et le **Type** de groupe (**Sécurité**).
