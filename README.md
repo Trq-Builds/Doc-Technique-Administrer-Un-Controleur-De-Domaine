@@ -561,6 +561,7 @@ Les groupes d'utilisateurs permettent de regrouper les utilisateurs ayant des dr
 
 * 1️⃣. Dans l'UO appropriée (par exemple, dans l'UO `formateurs`), faites un clic droit, puis sélectionnez **Nouveau** > **Groupe**.
 * 2️⃣. Dans la fenêtre de création, sélectionnez l'**Étendue** du groupe (par exemple, **Globale**) et le **Type** de groupe (**Sécurité**).
+  
   <details>
   <summary><strong>💡︲Captures d'écran</strong></summary>
 </details>
