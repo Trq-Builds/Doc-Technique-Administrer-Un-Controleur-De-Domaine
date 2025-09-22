@@ -553,7 +553,7 @@ Vous pouvez y accéder via le **Gestionnaire de serveur**, sous **AD DS**. Faite
 * `Service Comptabilité`
 
 > [!TIP]
-> [🎥︲Démo vidéo – Cliquez-ici]()
+> [🎥︲Démo vidéo HS !!!  – Cliquez-ici]()
 
 ---
 
