@@ -605,6 +605,8 @@ Vous allez maintenant créer les comptes utilisateurs dans les UO respectives, e
 
 2️⃣. Cliquez sur **Terminer** pour créer l'utilisateur.
 
+---
+
 #### 4️⃣.3️⃣ Modifier les propriétés de l'utilisateur (facultatif)
 
 1️⃣. Une fois l'utilisateur créé, vous pouvez modifier ses propriétés (par exemple : bureau, numéro de téléphone, programmes à lancer à l’ouverture de session) en faisant un clic droit sur le compte et en sélectionnant **Propriétés**.
