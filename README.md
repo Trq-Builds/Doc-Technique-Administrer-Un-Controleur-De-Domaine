@@ -545,10 +545,10 @@ Vous pouvez y accéder via le **Gestionnaire de serveur**, sous **AD DS**. Faite
 
 **Structure demandée dans le TP** :
 
- `🗂️`︲`Service Administratif `
- `🗂️`︲`Service Scolarité `
- `🗂️`︲`Formateurs`
- `🗂️`︲`Service Comptabilité`
+ - `🗂️`︲`Service Administratif `
+ - `🗂️`︲`Service Scolarité `
+ - `🗂️`︲`Formateurs`
+ - `🗂️`︲`Service Comptabilité`
 
 > [!TIP]
 > [🎥︲Démo vidéo – Cliquez-ici](https://easyfiles.cc/foSU5ug92ZJ)
