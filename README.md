@@ -58,14 +58,14 @@ Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domai
 > [!NOTE]
 > - **Comprendre le rôle d’un contrôleur de domaine.**
 > - **Mettre en place un environnement réseau fonctionnel.**
-> - **Automatiser certaines tâches d’administration**
+> - **Automatiser certaines tâches d’administration.**
 
 ---
 
 <a id="presentation-de-larchitecture-reseau-et-des-outils-utilises"></a>
 > [!IMPORTANT]
 > Présentation de l'architecture réseau et des outils utilisés :
-> - **Serveur :** Windows Server 2025
+> - **Serveur :** Windows Server 2025.
 > - **Client :** Windows 11.
 > - **Outils :** Active Directory, DNS, PowerShell, GPO.
 
