@@ -568,8 +568,6 @@ Les groupes d'utilisateurs permettent de regrouper les utilisateurs ayant des dr
 
 Vous allez maintenant créer les comptes utilisateurs dans les UO respectives, en suivant la politique de nomenclature.
 
-#### Architecture des Services
-
 ### `📁`︲Service Administratif
 - `👤`︲**Patrick SALRIE**
 - `👤`︲**Christine ALLONGUI**
@@ -585,6 +583,7 @@ Vous allez maintenant créer les comptes utilisateurs dans les UO respectives, e
 ### `📁`︲Service Comptabilité
 - `👤`︲**Cécile LE BOHEC**
 
+---
 
 #### 4️⃣.1️⃣ Créer un utilisateur
 
