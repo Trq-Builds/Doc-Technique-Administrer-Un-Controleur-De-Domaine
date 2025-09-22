@@ -574,6 +574,7 @@ Les groupes d'utilisateurs permettent de regrouper les utilisateurs ayant des dr
   
   <details>
   <summary><strong>💡︲Captures d'écran</strong></summary>
+  <img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/719d42af-65ae-4085-9a38-ca09d0d2a27a" />
 </details>
 
 ---
