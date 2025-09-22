@@ -568,21 +568,21 @@ Les groupes d'utilisateurs permettent de regrouper les utilisateurs ayant des dr
 
 Vous allez maintenant créer les comptes utilisateurs dans les UO respectives, en suivant la politique de nomenclature.
 
-# Architecture des Services
+#### Architecture des Services
 
-## `📁`︲Service Administratif
+### `📁`︲Service Administratif
 - `👤`︲**Patrick SALRIE**
 - `👤`︲**Christine ALLONGUI**
 
-## `📁` Service Scolarité
+### `📁` Service Scolarité
 - `👤`︲**Amina ZOUBIER**
 
-## `📁`︲Formateurs
+### `📁`︲Formateurs
 - `👤`︲**Gaëlle CASTEL**
 - `👤`︲**Sylvain CHERRIER**
 - `👤`︲**Valéry PERRIN**
 
-## `📁`︲Service Comptabilité
+### `📁`︲Service Comptabilité
 - `👤`︲**Cécile LE BOHEC**
 
 
