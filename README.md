@@ -640,8 +640,7 @@ Une fois les utilisateurs créés, vous devez les ajouter aux groupes approprié
 
 ---
 
-<a id="integration-dun-client-au-domaine
-"></a>
+<a id="integration-dun-client-au-domaine"></a>
 ### `💻`︲Intégration d'un client au domaine.
 
 ---
