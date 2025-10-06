@@ -645,3 +645,95 @@ Une fois les utilisateurs créés, vous devez les ajouter aux groupes approprié
 
 ---
 
+## I. 🔍 Vérifications préalables
+
+Avant de commencer, assurez-vous que les conditions suivantes sont remplies :
+
+1. **Nom du domaine**
+   Vous devez connaître le **nom exact du domaine** (ex : `descartesbleu.org`).
+
+
+2. **Adresse IP configurée**
+   Le PC doit avoir une **adresse IP fixe** ou bien définie par le DHCP.
+
+3. **DNS pointant vers le contrôleur de domaine**
+   Le **serveur DNS** du PC doit être **l’adresse IP du contrôleur de domaine**.
+
+4. **Tester la connectivité réseau**
+   Vérifiez que le poste peut **communiquer avec le serveur** :
+
+   * **Ping de l’adresse IP du serveur DNS**
+
+     ```bash
+     ping 172.16.0.1
+     ```
+
+   * **Ping du nom de domaine complet (FQDN)**
+
+     ```bash
+     ping descartesbleu.org
+     ```
+
+   * **Vérification DNS avec nslookup**
+
+     ```bash
+     nslookup descartesbleu.org
+     ```
+
+     Cela doit afficher une réponse avec l’adresse IP du contrôleur de domaine.
+
+---
+
+## II. 🛠️ Méthodes pour rejoindre un domaine
+
+Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
+
+### 🖱️ A. Avec l'interface graphique (facile)
+
+1. Faites un clic droit sur **Ce PC** > **Propriétés**.
+2. Cliquez sur **Domaine ou groupe de travail**.
+3. Dans les **Propriétés système**, cliquez sur **Modifier**.
+4. Sélectionnez **Domaine** et entrez le **nom du domaine**.
+5. Entrez les **identifiants du compte autorisé**.
+6. Redémarrez le PC quand demandé.
+
+### 💻 B. Avec PowerShell (rapide et fiable)
+
+1. Lancez **PowerShell en tant qu’administrateur**.
+2. Tapez la commande suivante (remplacez `nom-du-domaine.local`) :
+
+   ```powershell
+   Add-Computer -DomainName nom-du-domaine.local
+   ```
+3. Entrez les **identifiants du compte autorisé**.
+4. Redémarrez le PC avec cette commande :
+
+   ```powershell
+   Restart-Computer
+   ```
+
+---
+
+## III. ✅ Après la jonction : tests et conseils
+
+1. Une fois redémarré, le PC est membre du domaine.
+2. Essayez de vous connecter avec un **compte utilisateur du domaine** (ex : `prenom.nom`).
+
+---
+
+## 📝 En résumé
+
+| Étape              | À faire                                           |
+| ------------------ | ------------------------------------------------- |
+| Prérequis          | Vérifiez édition, IP, DNS, nom de domaine, droits |
+| Connectivité       | Testez `ping`, `nslookup` vers le serveur         |
+| Méthode GUI        | Interface Windows, simple pour débutants          |
+| Méthode PowerShell | Plus rapide, utile pour automatisation            |
+| Après redémarrage  | Testez avec un compte domaine                     |
+
+---
+
+
+
+
+
