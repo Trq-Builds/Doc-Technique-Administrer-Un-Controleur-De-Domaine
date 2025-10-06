@@ -651,17 +651,17 @@ Une fois les utilisateurs créés, vous devez les ajouter aux groupes approprié
 ---
 Avant de commencer, assurez-vous que les conditions suivantes sont remplies :
 
-1. **Nom du domaine**
+- 1️⃣. **Nom du domaine**
    Vous devez connaître le **nom exact du domaine** (ex : `descartesbleu.org`).
 
 
-2. **Adresse IP configurée**
+- 2️⃣. **Adresse IP configurée**
    Le PC doit avoir une **adresse IP fixe** ou bien définie par le DHCP.
 
-3. **DNS pointant vers le contrôleur de domaine**
+- 3️⃣. **DNS pointant vers le contrôleur de domaine**
    Le **serveur DNS** du PC doit être **l’adresse IP du contrôleur de domaine**.
 
-4. **Tester la connectivité réseau**
+- 4️⃣. **Tester la connectivité réseau**
    Vérifiez que le poste peut **communiquer avec le serveur** :
 
    * **Ping de l’adresse IP du serveur DNS**
@@ -692,7 +692,7 @@ Avant de commencer, assurez-vous que les conditions suivantes sont remplies :
 ---
 Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 
-### 🖼️ Avec l'interface graphique (facile)
+### `🖼️` Avec l'interface graphique (facile)
 
 - 1️⃣. Faites un clic droit sur **Ce PC** > **Propriétés**.
 - 2️⃣. Cliquez sur **Domaine ou groupe de travail**.
@@ -709,7 +709,7 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 ---
 
 
-### 💻 B. Avec PowerShell (rapide et fiable)
+### `💻` B. Avec PowerShell (rapide et fiable)
 
 1. Lancez **PowerShell en tant qu’administrateur**.
 2. Tapez la commande suivante (remplacez `nom-du-domaine.local`) :
@@ -729,7 +729,7 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 
 ---
 
-## 📝 En résumé
+## `📝` En résumé
 
 | Étape              | À faire                                           |
 | ------------------ | ------------------------------------------------- |
