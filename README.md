@@ -746,6 +746,89 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 
 ---
 
+## I. 🔧 Préparer le dossier de stockage sur le serveur
+
+1. **Créer un dossier partagé sur le serveur**
+
+   * Exemple : `D:\profils`
+   * Faire un clic droit → **Propriétés** → **Partage** → **Partage avancé**
+   * Cochez **Partager ce dossier**
+   * Nom du partage : `profils$` (le `$` le rend invisible sur le réseau)
+
+2. **Définir les permissions**
+
+   * **Partage** : Donner **Contrôle total** à **Tout le monde**
+   * **Sécurité (NTFS)** :
+
+     * Désactiver l’héritage
+     * Ajouter **Utilisateurs du domaine** (ou groupe ciblé, ex : `formateurs`)
+     * Donner les droits : **Lecture, Écriture, Modification**
+
+---
+
+## II. 🛠️ Créer et configurer la GPO de redirection
+
+1. **Créer une GPO**
+
+   * Dans la console **Gestion des stratégies de groupe (GPMC)**
+   * Clic droit sur l’OU des utilisateurs (ex : `formateurs`) → **Créer une GPO et la lier ici**
+
+2. **Configurer la redirection des dossiers**
+
+   * Éditer la GPO → Aller dans :
+     `Configuration utilisateur > Stratégies > Paramètres Windows > Redirection de dossiers`
+
+   * Pour chaque dossier à rediriger (**Documents**, **Bureau**, etc.) :
+
+     * Clic droit → **Propriétés**
+     * Onglet **Cible** :
+
+       * Type : **De base**
+       * Emplacement : **Rediriger vers l’emplacement suivant**
+       * Chemin UNC : `\\SRV-AD1\profils$\%USERNAME%\Documents`
+     * Onglet **Paramètres** :
+
+       * Décocher **Accorder à l’utilisateur des droits exclusifs**
+
+3. **Appliquer la stratégie**
+
+   * Sur les postes clients : ouvrir une invite de commande et exécuter :
+
+     ```
+     gpupdate /force
+     ```
+
+---
+
+## III. 🔄 Activer le **mode Toujours hors connexion**
+
+Ce mode permet à l’utilisateur d’accéder à ses fichiers redirigés même sans connexion réseau.
+
+1. **Configurer dans la GPO (Configuration ordinateur)**
+
+   * Aller dans :
+     `Configuration ordinateur > Stratégies > Modèles d’administration > Réseau > Fichiers hors connexion`
+
+2. **Activer le mode**
+
+   * Double-cliquer sur **Configurer le mode de liaison lente** → **Activé**
+   * Cliquer sur **Afficher** :
+
+     * Nom de la valeur : `*` (pour tous les partages, ou `\\SRV-AD1\profils$`)
+     * Valeur : `Latency=1`
+
+3. **Appliquer la GPO**
+
+   * Redémarrer les ordinateurs pour que le paramètre prenne effet
+
+---
+
+✅ **Résultat attendu** :
+
+* Les dossiers des utilisateurs sont stockés sur le serveur.
+* Ils sont accessibles même sans connexion grâce au cache local.
+
+---
 
 
 
