@@ -645,6 +645,10 @@ Une fois les utilisateurs créés, vous devez les ajouter aux groupes approprié
 
 ---
 
+<a id="configuration-reseau-dns"></a>
+### `🌐`︲Configuration réseau et paramètres DNS
+
+---
 Avant de commencer, assurez-vous que les conditions suivantes sont remplies :
 
 1. **Nom du domaine**
@@ -682,8 +686,8 @@ Avant de commencer, assurez-vous que les conditions suivantes sont remplies :
 
 ---
 
-## II. 🛠️ Méthodes pour rejoindre un domaine
-
+<a id="joindre-domaine"></a>
+### `🔗`︲Joindre le domaine descartesbleu.org
 Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 
 ### 🖱️ A. Avec l'interface graphique (facile)
