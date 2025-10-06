@@ -717,10 +717,6 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
    Restart-Computer
    ```
 
----
-
-## . ✅ Après la jonction : tests et conseils
-
 1. Une fois redémarré, le PC est membre du domaine.
 2. Essayez de vous connecter avec un **compte utilisateur du domaine** (ex : `prenom.nom`).
 
