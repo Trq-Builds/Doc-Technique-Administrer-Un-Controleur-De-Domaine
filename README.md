@@ -697,6 +697,7 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 
 <details>
   <summary><strong>💡︲Captures d'écran</strong></summary>
+   <img width="1023" height="768" alt="image" src="https://github.com/user-attachments/assets/3437a0db-0531-4a54-b5f2-e7a9bdb266ce" />
 </details>
 
 ---
