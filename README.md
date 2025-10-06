@@ -695,6 +695,12 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 5. Entrez les **identifiants du compte autorisé**.
 6. Redémarrez le PC quand demandé.
 
+<details>
+  <summary><strong>💡︲Captures d'écran</strong></summary>
+</details>
+
+   
+
 ### 💻 B. Avec PowerShell (rapide et fiable)
 
 1. Lancez **PowerShell en tant qu’administrateur**.
@@ -712,7 +718,7 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 
 ---
 
-## III. ✅ Après la jonction : tests et conseils
+## . ✅ Après la jonction : tests et conseils
 
 1. Une fois redémarré, le PC est membre du domaine.
 2. Essayez de vous connecter avec un **compte utilisateur du domaine** (ex : `prenom.nom`).
