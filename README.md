@@ -645,8 +645,6 @@ Une fois les utilisateurs créés, vous devez les ajouter aux groupes approprié
 
 ---
 
-## I. 🔍 Vérifications préalables
-
 Avant de commencer, assurez-vous que les conditions suivantes sont remplies :
 
 1. **Nom du domaine**
