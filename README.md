@@ -699,7 +699,8 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
   <summary><strong>💡︲Captures d'écran</strong></summary>
 </details>
 
-   
+---
+
 
 ### 💻 B. Avec PowerShell (rapide et fiable)
 
