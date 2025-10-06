@@ -694,12 +694,12 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 
 ### 🖼️ Avec l'interface graphique (facile)
 
-1️⃣. Faites un clic droit sur **Ce PC** > **Propriétés**.
-2️⃣. Cliquez sur **Domaine ou groupe de travail**.
-3️⃣. Dans les **Propriétés système**, cliquez sur **Modifier**.
-4️⃣. Sélectionnez **Domaine** et entrez le **nom du domaine**.
-5️⃣. Entrez les **identifiants du compte autorisé**.
-6️⃣. Redémarrez le PC quand demandé.
+- 1️⃣. Faites un clic droit sur **Ce PC** > **Propriétés**.
+- 2️⃣. Cliquez sur **Domaine ou groupe de travail**.
+- 3️⃣. Dans les **Propriétés système**, cliquez sur **Modifier**.
+- 4️⃣. Sélectionnez **Domaine** et entrez le **nom du domaine**.
+- 5️⃣. Entrez les **identifiants du compte autorisé**.
+- 6️⃣. Redémarrez le PC quand demandé.
 
 <details>
   <summary><strong>💡︲Captures d'écran</strong></summary>
