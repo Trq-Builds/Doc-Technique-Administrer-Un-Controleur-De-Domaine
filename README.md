@@ -692,7 +692,7 @@ Avant de commencer, assurez-vous que les conditions suivantes sont remplies :
 ---
 Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 
-### `🖼️` Avec l'interface graphique (facile)
+### `🖼️`︲Avec l'interface graphique (facile)
 
 - 1️⃣. Faites un clic droit sur **Ce PC** > **Propriétés**.
 - 2️⃣. Cliquez sur **Domaine ou groupe de travail**.
@@ -708,8 +708,7 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 
 ---
 
-
-### `💻` Avec PowerShell (plus fiable si changement de GUI)
+### `💻`︲Avec PowerShell (plus fiable si changement de GUI)
 
 1. Lancez **PowerShell en tant qu’administrateur**.
 2. Tapez la commande suivante (remplacez `nom-du-domaine.local`) :
@@ -729,7 +728,7 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 
 ---
 
-## `📝` En résumé
+## `📝`︲En résumé
 
 | Étape              | À faire                                           |
 | ------------------ | ------------------------------------------------- |
@@ -766,7 +765,7 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 
 ---
 
-## `🛠️` Créer et configurer la GPO de redirection
+## `🛠️`︲Créer et configurer la GPO de redirection
 
 1. **Créer une GPO**
 
@@ -800,7 +799,7 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 
 ---
 
-## `🔄` Activer le **mode Toujours hors connexion**
+## `🔄` ︲ctiver le **mode Toujours hors connexion**
 
 Ce mode permet à l’utilisateur d’accéder à ses fichiers redirigés même sans connexion réseau.
 
@@ -823,7 +822,7 @@ Ce mode permet à l’utilisateur d’accéder à ses fichiers redirigés même 
 
 ---
 
-`✅` **Résultat attendu** :
+`✅`︲**Résultat attendu** :
 
 * Les dossiers des utilisateurs sont stockés sur le serveur.
 * Ils sont accessibles même sans connexion grâce au cache local.
