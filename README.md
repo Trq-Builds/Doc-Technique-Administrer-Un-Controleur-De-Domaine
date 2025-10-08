@@ -746,7 +746,7 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 
 ---
 
-## 🔧 Préparer le dossier de stockage sur le serveur
+## `🔧` Préparer le dossier de stockage sur le serveur
 
 1. **Créer un dossier partagé sur le serveur**
 
@@ -766,7 +766,7 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 
 ---
 
-## 🛠️ Créer et configurer la GPO de redirection
+## `🛠️` Créer et configurer la GPO de redirection
 
 1. **Créer une GPO**
 
@@ -800,7 +800,7 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 
 ---
 
-## 🔄 Activer le **mode Toujours hors connexion**
+## `🔄` Activer le **mode Toujours hors connexion**
 
 Ce mode permet à l’utilisateur d’accéder à ses fichiers redirigés même sans connexion réseau.
 
@@ -823,7 +823,7 @@ Ce mode permet à l’utilisateur d’accéder à ses fichiers redirigés même 
 
 ---
 
-✅ **Résultat attendu** :
+`✅` **Résultat attendu** :
 
 * Les dossiers des utilisateurs sont stockés sur le serveur.
 * Ils sont accessibles même sans connexion grâce au cache local.
