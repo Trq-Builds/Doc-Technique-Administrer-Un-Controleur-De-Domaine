@@ -748,14 +748,14 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 
 ## `🔧` Préparer le dossier de stockage sur le serveur
 
-1. **Créer un dossier partagé sur le serveur**
+- 1️⃣. **Créer un dossier partagé sur le serveur**
 
    * Exemple : `D:\profils`
    * Faire un clic droit → **Propriétés** → **Partage** → **Partage avancé**
    * Cochez **Partager ce dossier**
    * Nom du partage : `profils$` (le `$` le rend invisible sur le réseau)
 
-2. **Définir les permissions**
+- 2️⃣. **Définir les permissions**
 
    * **Partage** : Donner **Contrôle total** à **Tout le monde**
    * **Sécurité (NTFS)** :
@@ -800,7 +800,7 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 
 ---
 
-## `🔄` ︲ctiver le **mode Toujours hors connexion**
+## `🔄` ︲Activer le **mode Toujours hors connexion**
 
 Ce mode permet à l’utilisateur d’accéder à ses fichiers redirigés même sans connexion réseau.
 
