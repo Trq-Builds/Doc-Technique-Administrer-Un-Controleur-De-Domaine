@@ -804,12 +804,12 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 
 Ce mode permet à l’utilisateur d’accéder à ses fichiers redirigés même sans connexion réseau.
 
-1. **Configurer dans la GPO (Configuration ordinateur)**
+- 1️⃣. **Configurer dans la GPO (Configuration ordinateur)**
 
    * Aller dans :
      `Configuration ordinateur > Stratégies > Modèles d’administration > Réseau > Fichiers hors connexion`
 
-2. **Activer le mode**
+- 2️⃣. **Activer le mode**
 
    * Double-cliquer sur **Configurer le mode de liaison lente** → **Activé**
    * Cliquer sur **Afficher** :
@@ -817,7 +817,7 @@ Ce mode permet à l’utilisateur d’accéder à ses fichiers redirigés même 
      * Nom de la valeur : `*` (pour tous les partages, ou `\\SRV-AD1\profils$`)
      * Valeur : `Latency=1`
 
-3. **Appliquer la GPO**
+- 3️⃣. **Appliquer la GPO**
 
    * Redémarrer les ordinateurs pour que le paramètre prenne effet
 
