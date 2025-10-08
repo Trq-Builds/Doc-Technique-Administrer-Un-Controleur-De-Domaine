@@ -768,12 +768,12 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 
 ## `🛠️`︲Créer et configurer la GPO de redirection
 
-1. **Créer une GPO**
+- 1️⃣. **Créer une GPO**
 
    * Dans la console **Gestion des stratégies de groupe (GPMC)**
    * Clic droit sur l’OU des utilisateurs (ex : `formateurs`) → **Créer une GPO et la lier ici**
 
-2. **Configurer la redirection des dossiers**
+- 2️⃣. **Configurer la redirection des dossiers**
 
    * Éditer la GPO → Aller dans :
      `Configuration utilisateur > Stratégies > Paramètres Windows > Redirection de dossiers`
@@ -790,7 +790,7 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 
        * Décocher **Accorder à l’utilisateur des droits exclusifs**
 
-3. **Appliquer la stratégie**
+- 3️⃣. **Appliquer la stratégie**
 
    * Sur les postes clients : ouvrir une invite de commande et exécuter :
 
