@@ -710,21 +710,22 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 
 ### `💻`︲Avec PowerShell (plus fiable si changement de GUI)
 
-1. Lancez **PowerShell en tant qu’administrateur**.
-2. Tapez la commande suivante (remplacez `nom-du-domaine.local`) :
+- 1️⃣. Lancez **PowerShell en tant qu’administrateur**.
+- 2️⃣. Tapez la commande suivante (remplacez `nom-du-domaine.local`) :
 
    ```powershell
    Add-Computer -DomainName nom-du-domaine.local
    ```
-3. Entrez les **identifiants du compte autorisé**.
-4. Redémarrez le PC avec cette commande :
+   
+- 3️⃣. Entrez les **identifiants du compte autorisé**.
+- 4️⃣. Redémarrez le PC avec cette commande :
 
    ```powershell
    Restart-Computer
    ```
 
-1. Une fois redémarré, le PC est membre du domaine.
-2. Essayez de vous connecter avec un **compte utilisateur du domaine** (ex : `prenom.nom`).
+- 1️⃣. Une fois redémarré, le PC est membre du domaine.
+- 2️⃣. Essayez de vous connecter avec un **compte utilisateur du domaine** (ex : `prenom.nom`).
 
 ---
 
