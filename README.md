@@ -746,7 +746,7 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 
 ---
 
-## `🔧` Préparer le dossier de stockage sur le serveur
+## `🔧`︲Préparer le dossier de stockage sur le serveur
 
 - 1️⃣. **Créer un dossier partagé sur le serveur**
 
