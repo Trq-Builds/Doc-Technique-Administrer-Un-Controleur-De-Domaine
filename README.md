@@ -690,7 +690,6 @@ Avant de commencer, assurez-vous que les conditions suivantes sont remplies :
 ### `🔗`︲Joindre le domaine descartesbleu.org
 
 ---
-Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 
 ### `🖼️`︲Avec l'interface graphique (facile)
 
