@@ -709,7 +709,7 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 ---
 
 
-### `💻` B. Avec PowerShell (rapide et fiable)
+### `💻` Avec PowerShell (plus fiable si changement de GUI)
 
 1. Lancez **PowerShell en tant qu’administrateur**.
 2. Tapez la commande suivante (remplacez `nom-du-domaine.local`) :
@@ -746,7 +746,7 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 
 ---
 
-## I. 🔧 Préparer le dossier de stockage sur le serveur
+## 🔧 Préparer le dossier de stockage sur le serveur
 
 1. **Créer un dossier partagé sur le serveur**
 
@@ -766,7 +766,7 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 
 ---
 
-## II. 🛠️ Créer et configurer la GPO de redirection
+## 🛠️ Créer et configurer la GPO de redirection
 
 1. **Créer une GPO**
 
@@ -800,7 +800,7 @@ Deux méthodes sont possibles : via l’interface graphique ou en PowerShell.
 
 ---
 
-## III. 🔄 Activer le **mode Toujours hors connexion**
+## 🔄 Activer le **mode Toujours hors connexion**
 
 Ce mode permet à l’utilisateur d’accéder à ses fichiers redirigés même sans connexion réseau.
 
