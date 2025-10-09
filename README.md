@@ -798,11 +798,6 @@ Avant de commencer, assurez-vous que les conditions suivantes sont remplies :
 
        * Décocher **Accorder à l’utilisateur des droits exclusifs**
 
-       
-> [!TIP]
-> [🎥︲Démo vidéo – Cliquez-ici](https://easyfiles.cc/Oxus8427i7P)
-      
-
 - 3️⃣. **Appliquer la stratégie**
 
    * Sur les postes clients : ouvrir une invite de commande et exécuter :
@@ -810,7 +805,9 @@ Avant de commencer, assurez-vous que les conditions suivantes sont remplies :
      ```
      gpupdate /force
      ```
-
+     
+> [!TIP]
+> [🎥︲Démo vidéo – Cliquez-ici](https://easyfiles.cc/Oxus8427i7P)
 ---
 
 ## `🔄` ︲Activer le **mode Toujours hors connexion**
