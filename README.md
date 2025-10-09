@@ -763,6 +763,11 @@ Avant de commencer, assurez-vous que les conditions suivantes sont remplies :
      * Ajouter **Utilisateurs du domaine** (ou groupe ciblé, ex : `formateurs`)
      * Donner les droits : **Lecture, Écriture, Modification**
 
+<details>
+  <summary><strong>💡︲Captures d'écran</strong></summary>
+     <img width="1024" height="775" alt="image" src="https://github.com/user-attachments/assets/35daa6dc-691c-41b2-a364-b5bf478a76c2" />
+</details>
+
 ---
 
 ## `🛠️`︲Créer et configurer la GPO de redirection
