@@ -745,6 +745,7 @@ Avant de commencer, assurez-vous que les conditions suivantes sont remplies :
 
 ---
 
+<a id="creation-dossiers-partages"></a>
 ## `📂`︲Création des dossiers partagés et permissions
 
 - 1️⃣. **Créer un dossier partagé sur le serveur**
