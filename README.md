@@ -819,22 +819,15 @@ Ce mode permet à l’utilisateur d’accéder à ses fichiers redirigés même 
    * Aller dans :
      `Configuration ordinateur > Stratégies > Modèles d’administration > Réseau > Fichiers hors connexion`
 
-- 2️⃣. **Activer le mode**
-
-   * Double-cliquer sur **Configurer le mode de liaison lente** → **Activé**
-   * Cliquer sur **Afficher** :
-
-     * Nom de la valeur : `*` (pour tous les partages, ou `\\SRV-AD1\profils$`)
-     * Valeur : `Latency=1`
-
-- 3️⃣. **Appliquer la GPO**
-
-   * Redémarrer les ordinateurs pour que le paramètre prenne effet
+     <details>
+  <summary><strong>💡︲Captures d'écran</strong></summary>
+   <img width="1024" height="770" alt="image" src="https://github.com/user-attachments/assets/11530e18-3e7e-4e47-8854-4779ae765612" />
+</details>
 
 > [!TIP]
 > [🎥︲Démo vidéo – Cliquez-ici](https://easyfiles.cc/7kZ-EWXAKOd)
    
-
+   
 ---
 
 `✅`︲**Résultat attendu** :
