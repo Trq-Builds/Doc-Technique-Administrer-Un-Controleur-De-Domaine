@@ -767,6 +767,7 @@ Avant de commencer, assurez-vous que les conditions suivantes sont remplies :
   <summary><strong>💡︲Captures d'écran</strong></summary>
      <img width="1024" height="775" alt="image" src="https://github.com/user-attachments/assets/35daa6dc-691c-41b2-a364-b5bf478a76c2" />
      <img width="1026" height="768" alt="image" src="https://github.com/user-attachments/assets/5cfa00c6-3b26-4493-b26e-f2daff572b8a" />
+     <img width="1020" height="771" alt="image" src="https://github.com/user-attachments/assets/85281443-0e5c-4f0e-8e6a-9d0b3c5fd8a5" />
 </details>
 
 ---
