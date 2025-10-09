@@ -773,6 +773,7 @@ Avant de commencer, assurez-vous que les conditions suivantes sont remplies :
 
 ---
 
+<a id="redirection-dossiers-mode-hors-ligne"></a>
 ## `💾`︲Redirection des dossiers utilisateur et mode hors connexion
 
 - 1️⃣. **Créer une GPO**
