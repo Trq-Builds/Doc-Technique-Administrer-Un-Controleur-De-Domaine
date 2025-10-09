@@ -819,7 +819,7 @@ Ce mode permet à l’utilisateur d’accéder à ses fichiers redirigés même 
    * Aller dans :
      `Configuration ordinateur > Stratégies > Modèles d’administration > Réseau > Fichiers hors connexion`
 
-     <details>
+<details>
   <summary><strong>💡︲Captures d'écran</strong></summary>
    <img width="1024" height="770" alt="image" src="https://github.com/user-attachments/assets/11530e18-3e7e-4e47-8854-4779ae765612" />
 </details>
