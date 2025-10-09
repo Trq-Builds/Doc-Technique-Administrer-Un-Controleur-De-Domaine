@@ -745,7 +745,7 @@ Avant de commencer, assurez-vous que les conditions suivantes sont remplies :
 
 ---
 
-## `🔧`︲Préparer le dossier de stockage sur le serveur
+## `📂`︲Création des dossiers partagés et permissions
 
 - 1️⃣. **Créer un dossier partagé sur le serveur**
 
