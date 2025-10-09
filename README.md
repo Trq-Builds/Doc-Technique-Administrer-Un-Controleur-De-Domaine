@@ -831,6 +831,10 @@ Ce mode permet à l’utilisateur d’accéder à ses fichiers redirigés même 
 
    * Redémarrer les ordinateurs pour que le paramètre prenne effet
 
+> [!TIP]
+> [🎥︲Démo vidéo – Cliquez-ici](https://easyfiles.cc/7kZ-EWXAKOd)
+   
+
 ---
 
 `✅`︲**Résultat attendu** :
