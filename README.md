@@ -810,7 +810,7 @@ Avant de commencer, assurez-vous que les conditions suivantes sont remplies :
 > [🎥︲Démo vidéo – Cliquez-ici](https://easyfiles.cc/Oxus8427i7P)
 ---
 
-## `🔄` ︲Activer le **mode Toujours hors connexion**
+## `🔄` ︲Activer le **mode Hors-Connexion**
 
 Ce mode permet à l’utilisateur d’accéder à ses fichiers redirigés même sans connexion réseau.
 
