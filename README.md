@@ -772,7 +772,7 @@ Avant de commencer, assurez-vous que les conditions suivantes sont remplies :
 
 ---
 
-## `🛠️`︲Créer et configurer la GPO de redirection
+## `💾`︲Redirection des dossiers utilisateur et mode hors connexion
 
 - 1️⃣. **Créer une GPO**
 
