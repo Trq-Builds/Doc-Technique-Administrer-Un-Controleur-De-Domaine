@@ -818,7 +818,11 @@ Ce mode permet à l’utilisateur d’accéder à ses fichiers redirigés même 
 
    * Aller dans :
      `Configuration ordinateur > Stratégies > Modèles d’administration > Réseau > Fichiers hors connexion`
+     
+- 2️⃣.Cliquez sur `Autoriser ou interdire l'utilisation de la fonctionalité de fihiers hors connexion`
 
+- 3️⃣. Cliquez sur **Activer** à gauche. Apliquer - OK.
+     
 <details>
   <summary><strong>💡︲Captures d'écran</strong></summary>
    <img width="1024" height="770" alt="image" src="https://github.com/user-attachments/assets/11530e18-3e7e-4e47-8854-4779ae765612" />
@@ -826,7 +830,6 @@ Ce mode permet à l’utilisateur d’accéder à ses fichiers redirigés même 
 
 > [!TIP]
 > [🎥︲Démo vidéo – Cliquez-ici](https://easyfiles.cc/7kZ-EWXAKOd)
-   
    
 ---
 
