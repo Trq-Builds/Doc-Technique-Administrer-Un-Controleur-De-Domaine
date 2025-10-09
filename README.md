@@ -833,13 +833,6 @@ Ce mode permet à l’utilisateur d’accéder à ses fichiers redirigés même 
    
 ---
 
-`✅`︲**Résultat attendu** :
-
-* Les dossiers des utilisateurs sont stockés sur le serveur.
-* Ils sont accessibles même sans connexion grâce au cache local.
-
----
-
 
 
 
