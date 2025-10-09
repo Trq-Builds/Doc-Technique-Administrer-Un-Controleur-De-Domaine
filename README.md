@@ -833,6 +833,12 @@ Ce mode permet à l’utilisateur d’accéder à ses fichiers redirigés même 
    
 ---
 
+<a id="automatisation-via-powershell"></a>
+### `📜`︲Automatisation via PowerShell
+
+---
+
+
 
 
 
