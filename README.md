@@ -918,8 +918,6 @@ foreach ($user in $Utilisateurs) {
     # Affichage
     Write-Host "Utilisateur $Identifiant créé et ajouté au groupe $GroupeNom." -ForegroundColor Green
 }
-
-
 ```
 
 ---
@@ -984,7 +982,7 @@ Le script va automatiquement :
 * Ajouter chaque utilisateur au groupe.
 
 > [!TIP]
-> [🎥︲Démo vidéo – Cliquez-ici]()
+> [🎥︲Démo vidéo – Cliquez-ici](https://easyfiles.cc/ODeJNl2AZFQ)
 
 ---
 
