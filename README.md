@@ -937,8 +937,9 @@ prenom;nom;mail;motdepasse
 Jean;Dupont;jean.dupont@descartesbleu.org;mypassword123
 Marie;Curie;marie.curie@descartesbleu.org;password456
 ```
-
-> `⚠️`︲**Important** : Les mots de passe sont visibles (en clair). Ne laissez pas ce fichier accessible à tout le monde.
+s
+> [!WARNING]
+> Les mots de passe sont visibles (en clair). Ne laissez pas ce fichier accessible à tout le monde.
 
 ---
 
