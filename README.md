@@ -983,6 +983,9 @@ Le script va automatiquement :
 * Créer un utilisateur pour chaque personne.
 * Ajouter chaque utilisateur au groupe.
 
+> [!TIP]
+> [🎥︲Démo vidéo – Cliquez-ici]()
+
 ---
 
 
