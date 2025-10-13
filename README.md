@@ -960,9 +960,9 @@ TEARIKI;Virgile;virgile.teariki@descartesbleu.org;virgile.teariki
 
 ---
 
-### 2. `📁`︲**Où placer le fichier CSV**
+### 2. `📁`︲**Où placer le fichier .CSV**
 
-Le fichier CSV doit être à l’emplacement suivant (ou à adapter dans le script) :
+Le fichier .CSV doit être à l’emplacement suivant (ou à adapter dans le script) :
 
 ```powershell
 $CsvPath = "C:\Users\Administrateur\Documents\script\stagiaires_sisr.csv"
@@ -979,7 +979,7 @@ Le script va automatiquement :
 
 * Créer une unité d’organisation : `OU=stagiaires_sisr` dans `OU=stagiaires`.
 * Créer un **groupe de sécurité** : `grp_stagiaires_sisr`.
-* Lire chaque ligne du fichier CSV.
+* Lire chaque ligne du fichier .CSV.
 * Créer un utilisateur pour chaque personne.
 * Ajouter chaque utilisateur au groupe.
 
