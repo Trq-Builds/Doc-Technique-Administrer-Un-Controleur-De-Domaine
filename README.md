@@ -843,7 +843,7 @@ Ce mode permet à l’utilisateur d’accéder à ses fichiers redirigés même 
 
 ---
 <a id="script-ou-groupes-utilisateurs"></a>
-### `⚡`︲Script pour créer des UOs, groupes et utilisateurs à partir d'un CSV
+### `⚡`︲Script pour créer des UOs, groupes et utilisateurs à partir d'un .CSV
 ---
 
 ```Shell
