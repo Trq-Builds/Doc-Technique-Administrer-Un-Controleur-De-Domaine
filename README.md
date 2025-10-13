@@ -920,11 +920,11 @@ foreach ($user in $Utilisateurs) {
 
 ### 1. `✅`︲**Avant de commencer**
 
-Assurez-vous d’avoir :
-
-* Un serveur **Active Directory** avec des **droits d’administrateur**.
-* Le module PowerShell **ActiveDirectory** installé.
-* Un compte avec le droit de **créer des utilisateurs** dans AD (ex. : administrateur de domaine).
+> [!IMPORTANT]
+> * Assurez-vous d’avoir :
+> * Un serveur **Active Directory** avec des **droits d’administrateur**.
+> * Le module PowerShell **ActiveDirectory** installé.
+> * Un compte avec le droit de **créer des utilisateurs** dans AD (ex. : administrateur de domaine).
 
 ---
 
@@ -937,7 +937,7 @@ prenom;nom;mail;motdepasse
 Jean;Dupont;jean.dupont@descartesbleu.org;mypassword123
 Marie;Curie;marie.curie@descartesbleu.org;password456
 ```
-s
+
 > [!WARNING]
 > Les mots de passe sont visibles (en clair). Ne laissez pas ce fichier accessible à tout le monde.
 
