@@ -936,12 +936,23 @@ foreach ($user in $Utilisateurs) {
 
 ### 1. `📄`︲**Fichier .CSV requis**
 
-Le script utilise un fichier CSV pour créer les comptes utilisateurs. Voici un exemple de contenu :
+Le script utilise un fichier CSV pour créer les comptes utilisateurs.
 
 ```csv
-prenom;nom;mail;motdepasse
-Jean;Dupont;jean.dupont@descartesbleu.org;mypassword123
-Marie;Curie;marie.curie@descartesbleu.org;password456
+nom;prenom;mail;motdepasse
+ANASSI;Cedric;cedric.anassi@descartesbleu.org;cedric.anassi
+BARSACQ;Hugo;hugo.barsacq@descartesbleu.org;hugo.barsacq
+BESSE;Lucas;lucas.besse@descartesbleu.org;lucas.besse
+CAMPAN;Anthony;anthony.campan@descartesbleu.org;anthony.campan
+CHABROL;Thomas;thomas.chabrol@descartesbleu.org;thomas.chabrol
+COURDIL;Theo;theo.courdil@descartesbleu.org;theo.courdil
+LALANNE;Andoni;andoni.lalanne@descartesbleu.org;andoni.lalanne
+LAMARQUE;Andony;andony.lamarque@descartesbleu.org;andony.lamarque
+LOTZ;Bryan;bryan.lotz@descartesbleu.org;bryan.lotz
+MORALES;Enaut;enaut.morales@descartesbleu.org;enaut.morales
+PAVE;Mathilde;mathilde.pave@descartesbleu.org;mathilde.pave
+TEARIKI;Virgile;virgile.teariki@descartesbleu.org;virgile.teariki
+
 ```
 
 > [!WARNING]
