@@ -842,7 +842,9 @@ Ce mode permet à l’utilisateur d’accéder à ses fichiers redirigés même 
 ### `📜`︲Automatisation via PowerShell
 
 ---
-
+<a id="script-ou-groupes-utilisateurs"></a>
+### `⚡`︲Script pour créer des UOs, groupes et utilisateurs à partir d'un CSV
+---
 
 ```Shell
 # Importation du module Active Directory (nécessaire pour exécuter les commandes AD)
@@ -911,6 +913,61 @@ foreach ($user in $Utilisateurs) {
     Write-Host "Utilisateur $Identifiant créé et ajouté au groupe $GroupeNom." -ForegroundColor Green
 }
 ```
+
+---
+
+## `📝`︲** Utilisation du script**
+
+### 1. `✅`︲**Avant de commencer**
+
+Assurez-vous d’avoir :
+
+* Un serveur **Active Directory** avec des **droits d’administrateur**.
+* Le module PowerShell **ActiveDirectory** installé.
+* Un compte avec le droit de **créer des utilisateurs** dans AD (ex. : administrateur de domaine).
+
+---
+
+### 2. `📄`︲**Fichier .CSV requis**
+
+Le script utilise un fichier CSV pour créer les comptes utilisateurs. Voici un exemple de contenu :
+
+```csv
+prenom;nom;mail;motdepasse
+Jean;Dupont;jean.dupont@descartesbleu.org;mypassword123
+Marie;Curie;marie.curie@descartesbleu.org;password456
+```
+
+> `⚠️`︲**Important** : Les mots de passe sont visibles (en clair). Ne laissez pas ce fichier accessible à tout le monde.
+
+---
+
+### 3. `📁`︲**Où placer le fichier CSV**
+
+Le fichier CSV doit être à l’emplacement suivant (ou à adapter dans le script) :
+
+```powershell
+$CsvPath = "C:\Users\Administrateur\Documents\script\stagiaires_sisr.csv"
+```
+
+---
+
+### 4. `▶️`︲**Lancer le script**
+
+1. **Ouvrez PowerShell ISE en mode administrateur**.
+2. Lancez le script.
+
+Le script va automatiquement :
+
+* Créer une unité d’organisation : `OU=stagiaires_sisr` dans `OU=stagiaires`.
+* Créer un **groupe de sécurité** : `grp_stagiaires_sisr`.
+* Lire chaque ligne du fichier CSV.
+* Créer un utilisateur pour chaque personne.
+* Ajouter chaque utilisateur au groupe.
+
+---
+
+
 
 
 
