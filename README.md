@@ -846,6 +846,10 @@ Ce mode permet à l’utilisateur d’accéder à ses fichiers redirigés même 
 ### `⚡`︲Script pour créer des UOs, groupes et utilisateurs à partir d'un .CSV
 ---
 
+> [!NOTE]
+> Voici le script que j'ai utilisé pour la procédure. Il suffit de le copier-coller dans la VM ; il devrait fonctionner sans problème. Assurez-vous toutefois que le chemin vers le fichier CSV 
+> est correct, sinon le script ne pourra pas trouver les entrées et échouera.
+
 ```Shell
 # Importation du module Active Directory (si nécessaire)
 Import-Module ActiveDirectory
@@ -980,6 +984,9 @@ Le script va automatiquement :
 * Lire chaque ligne du fichier .CSV.
 * Créer un utilisateur pour chaque personne.
 * Ajouter chaque utilisateur au groupe.
+
+> [!IMPORTANT]
+> Sur la vidéo de démonstration, le script avait déja été executer une fois ce qui explique les mesage d'erreur sur la vidéo, dans votre cas si c'est la première fois que vous le lancer il n'y > aura rien, juste des messages en vert pour confimer la création des utilisateur avec succés.
 
 > [!TIP]
 > [🎥︲Démo vidéo – Cliquez-ici](https://easyfiles.cc/ODeJNl2AZFQ)
