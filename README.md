@@ -844,6 +844,75 @@ Ce mode permet à l’utilisateur d’accéder à ses fichiers redirigés même 
 ---
 
 
+```Shell
+# Importation du module Active Directory (nécessaire pour exécuter les commandes AD)
+Import-Module ActiveDirectory
+
+# Définition des chemins pour la structure Active Directory
+$DomaineDN = "DC=descartesbleu,DC=org"  # Nom de domaine complet (DN) de l'AD
+$OU_Parent = "OU=stagiaires,$DomaineDN"  # Unité d'organisation parente
+$OU_Child = "stagiaires_sisr"  # Nom de l'OU enfant à créer
+
+# 1. Création de l'unité d'organisation (OU) 'stagiaires_sisr'
+New-ADOrganizationalUnit -Name $OU_Child -Path $OU_Parent -ProtectedFromAccidentalDeletion $false
+Write-Host "OU '$OU_Child' créée avec succès dans '$OU_Parent'." -ForegroundColor Cyan
+
+# Construction du chemin complet de l'OU nouvellement créée
+$OU_Path = "OU=$OU_Child," + $OU_Parent
+
+# Définition du nom du groupe à créer
+$GroupName = "grp_stagiaires_sisr"
+
+# Création du groupe de sécurité global dans l'OU 'stagiaires_sisr'
+New-ADGroup -Name $GroupName `
+            -GroupScope Global `
+            -GroupCategory Security `
+            -Path $OU_Path `
+            -Description "Groupe de sécurité global pour les stagiaires SISR"
+
+Write-Host "Le groupe '$GroupName' a été créé avec succès dans l'OU 'stagiaires_sisr'." -ForegroundColor Cyan
+
+# Définition des constantes
+$OU_Path = "OU=stagiaires_sisr,OU=stagiaires,DC=descartesbleu,DC=org"  # Chemin complet de l'OU
+$GroupeNom = "grp_stagiaires_sisr"  # Nom du groupe de sécurité
+$CsvPath = "C:\Users\Administrateur\Documents\script\stagiaires_sisr.csv"  # Chemin vers le fichier CSV contenant les données des utilisateurs
+
+# Lecture du fichier CSV contenant les informations des utilisateurs (format CSV avec délimiteur ';')
+$Utilisateurs = Import-Csv -Path $CsvPath -Delimiter ';'
+
+# Boucle pour traiter chaque utilisateur du fichier CSV
+foreach ($user in $Utilisateurs) {
+    $Prenom = $user.prenom      # Prénom de l'utilisateur
+    $Nom = $user.nom            # Nom de famille de l'utilisateur
+    $Mail = $user.mail          # Adresse e-mail
+    $MotDePasse = $user.motdepasse  # Mot de passe (en clair dans le CSV)
+
+    # Génération de l'identifiant unique (samAccountName) à partir du prénom et du nom
+    $Identifiant = ($Prenom + "." + $Nom).ToLower()
+
+    # Création de l'utilisateur dans l'OU spécifiée
+    New-ADUser `
+        -Name "$Prenom $Nom" `               # Nom complet de l'utilisateur
+        -GivenName $Prenom `                 # Prénom
+        -Surname $Nom `                      # Nom de famille
+        -SamAccountName $Identifiant `       # Identifiant unique
+        -UserPrincipalName $Mail `           # Nom d'utilisateur principal (UPN)
+        -EmailAddress $Mail `                # Adresse e-mail
+        -AccountPassword (ConvertTo-SecureString $MotDePasse -AsPlainText -Force) `  # Mot de passe sécurisé
+        -Enabled $true `                     # Compte activé
+        -Path $OU_Path `                     # Emplacement dans l'AD
+        -ChangePasswordAtLogon $false `      # Ne pas forcer le changement de mot de passe à la première connexion
+        -PasswordNeverExpires $true          # Mot de passe ne expire pas
+
+    # Ajout de l'utilisateur au groupe 'grp_stagiaires_sisr'
+    Add-ADGroupMember -Identity $GroupeNom -Members $Identifiant
+
+    # Message de confirmation
+    Write-Host "Utilisateur $Identifiant créé et ajouté au groupe $GroupeNom." -ForegroundColor Green
+}
+```
+
+
 
 
 
