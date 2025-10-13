@@ -916,7 +916,7 @@ foreach ($user in $Utilisateurs) {
 
 ---
 
-## `📝`︲** Utilisation du script**
+## `📝`︲**Utilisation du script**
 
 ### 1. `✅`︲**Avant de commencer**
 
