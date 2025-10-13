@@ -918,8 +918,6 @@ foreach ($user in $Utilisateurs) {
 
 ## `📝`︲**Utilisation du script**
 
-### 1. `✅`︲**Avant de commencer**
-
 > [!IMPORTANT]
 > * Assurez-vous d’avoir :
 > * Un serveur **Active Directory** avec des **droits d’administrateur**.
@@ -928,7 +926,7 @@ foreach ($user in $Utilisateurs) {
 
 ---
 
-### 2. `📄`︲**Fichier .CSV requis**
+### 1. `📄`︲**Fichier .CSV requis**
 
 Le script utilise un fichier CSV pour créer les comptes utilisateurs. Voici un exemple de contenu :
 
@@ -943,7 +941,7 @@ Marie;Curie;marie.curie@descartesbleu.org;password456
 
 ---
 
-### 3. `📁`︲**Où placer le fichier CSV**
+### 2. `📁`︲**Où placer le fichier CSV**
 
 Le fichier CSV doit être à l’emplacement suivant (ou à adapter dans le script) :
 
@@ -953,7 +951,7 @@ $CsvPath = "C:\Users\Administrateur\Documents\script\stagiaires_sisr.csv"
 
 ---
 
-### 4. `▶️`︲**Lancer le script**
+### 3. `▶️`︲**Lancer le script**
 
 1. **Ouvrez PowerShell ISE en mode administrateur**.
 2. Lancez le script.
