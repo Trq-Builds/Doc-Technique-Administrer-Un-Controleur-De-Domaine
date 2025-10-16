@@ -923,6 +923,128 @@ foreach ($user in $Utilisateurs) {
     Write-Host "Utilisateur $Identifiant créé et ajouté au groupe $GroupeNom." -ForegroundColor Green
 }
 ```
+<details>
+  <summary><strong>💡︲Instructions pour l’élaboration de ce script, accompagnées de sa documentation.</strong></summary>
+   Voici une proposition de documentation pour ton fichier README, qui décrit chaque étape du script et son fonctionnement. J'ai essayé d'être aussi clair et détaillé que possible pour que toute personne qui l'utilise puisse comprendre ce qu'il fait.
+
+---
+
+## Script PowerShell pour la gestion des stagiaires SISR dans Active Directory
+
+Ce script PowerShell est conçu pour automatiser la création d'une **Unité Organisationnelle (OU)** et d'un **groupe de sécurité** dans Active Directory, ainsi que la gestion des utilisateurs stagiaires dans l'OU spécifiée.
+
+### Prérequis
+
+* **PowerShell** : Ce script doit être exécuté sur une machine ayant PowerShell installé.
+* **Module Active Directory** : Le module Active Directory doit être installé et disponible. Il peut être importé avec `Import-Module ActiveDirectory`.
+* **Accès administrateur** : Vous devez avoir des droits administratifs sur le domaine Active Directory pour exécuter ce script.
+
+### Description du script
+
+1. **Création d'une Unité Organisationnelle (OU)**
+   Le script crée une nouvelle OU nommée `stagiaires_sisr` sous une OU parente nommée `stagiaires`, dans le domaine `descartesbleu.org`.
+
+2. **Création d'un Groupe de Sécurité Global**
+   Un groupe de sécurité global appelé `grp_stagiaires_sisr` est créé dans l'OU `stagiaires_sisr`.
+
+3. **Lecture d'un fichier CSV**
+   Le script lit un fichier CSV contenant les informations des stagiaires (prénom, nom, adresse e-mail et mot de passe) et crée un utilisateur pour chaque stagiaire dans l'OU `stagiaires_sisr`.
+
+4. **Création des utilisateurs et ajout au groupe**
+   Pour chaque stagiaire, un utilisateur est créé dans Active Directory, et l'utilisateur est ajouté au groupe `grp_stagiaires_sisr`.
+
+### Structure du script
+
+#### 1. Importation du module Active Directory
+
+```Shell
+Import-Module ActiveDirectory
+```
+
+Cette ligne importe le module Active Directory, nécessaire pour interagir avec le domaine Active Directory.
+
+#### 2. Définition des chemins et des variables
+
+Le script commence par définir des variables essentielles telles que :
+
+* **$DomaineDN** : Le nom du domaine (ici `descartesbleu.org`).
+* **$OU_Parent** : L'OU parente sous laquelle l'OU `stagiaires_sisr` sera créée.
+* **$OU_Child** : Le nom de l'OU enfant à créer (`stagiaires_sisr`).
+* **$OU_Path** : Le chemin complet de l'OU.
+* **$GroupName** : Le nom du groupe de sécurité à créer.
+
+#### 3. Création de l'OU `stagiaires_sisr`
+
+```Shell
+New-ADOrganizationalUnit -Name $OU_Child -Path $OU_Parent -ProtectedFromAccidentalDeletion $false
+Write-Host "OU '$OU_Child' créée avec succès dans '$OU_Parent.'"
+```
+
+Cette section crée l'OU `stagiaires_sisr` sous l'OU parent `stagiaires` dans le domaine spécifié.
+
+#### 4. Création du groupe de sécurité
+
+```Shell
+New-ADGroup -Name $GroupName -GroupScope Global -GroupCategory Security -Path $OU_Path -Description "Groupe de sécurité global pour les stagiaires SISR"
+Write-Host "Le groupe '$GroupName' a été créé avec succès."
+```
+
+Le script crée ensuite un groupe de sécurité global dans l'OU `stagiaires_sisr`. Ce groupe sera utilisé pour regrouper tous les stagiaires dans Active Directory.
+
+#### 5. Lecture du fichier CSV et création des utilisateurs
+
+```Shell
+$Utilisateurs = Import-Csv -Path $CsvPath -Delimiter ';'
+
+foreach ($user in $Utilisateurs) {
+    $Prenom = $user.prenom
+    $Nom = $user.nom
+    $Mail = $user.mail
+    $MotDePasse = $user.motdepasse
+    $Identifiant = ($Prenom + "." + $Nom).ToLower()
+
+    New-ADUser -Name "$Prenom $Nom" -GivenName $Prenom -Surname $Nom -SamAccountName $Identifiant -UserPrincipalName $Mail -EmailAddress $Mail -AccountPassword (ConvertTo-SecureString $MotDePasse -AsPlainText -Force) -Enabled $true -Path $OU_Path -ChangePasswordAtLogon $false -PasswordNeverExpires $true
+    Add-ADGroupMember -Identity $GroupeNom -Members $Identifiant
+    Write-Host "Utilisateur $Identifiant créé et ajouté au groupe $GroupeNom."
+}
+```
+
+Cette section lit un fichier CSV (`stagiaires_sisr.csv`), où chaque ligne contient des informations sur un stagiaire (prénom, nom, email, mot de passe). Pour chaque stagiaire :
+
+* Un utilisateur est créé dans Active Directory avec un **samAccountName** composé du prénom et du nom (en minuscules).
+* L'utilisateur est ajouté au groupe de sécurité `grp_stagiaires_sisr`.
+
+Les informations de mot de passe sont converties en texte sécurisé.
+
+#### 6. Résultats
+
+À chaque création d'utilisateur et ajout au groupe, un message de confirmation est affiché à l'écran avec les détails de l'utilisateur créé.
+
+### Format du fichier CSV
+
+Le fichier CSV utilisé pour importer les stagiaires doit être formaté comme suit :
+
+```csv
+prenom;nom;mail;motdepasse
+Jean;Dupont;jean.dupont@descartesbleu.org;MotDePasse123
+Marie;Lemoine;marie.lemoine@descartesbleu.org;MotDePasse456
+```
+
+Assurez-vous que les colonnes sont séparées par des points-virgules (`;`).
+
+### Variables et personnalisations
+
+Voici un aperçu des variables que vous pouvez modifier dans le script pour l'adapter à votre environnement :
+
+* **$DomaineDN** : Modifiez ce champ pour correspondre à votre domaine.
+* **$OU_Parent** et **$OU_Child** : Changez ces valeurs si vous souhaitez créer l'OU dans une autre structure.
+* **$CsvPath** : Assurez-vous que le chemin du fichier CSV est correct pour votre environnement.
+
+### Sécurité et bonnes pratiques
+
+* **Mot de passe** : Le mot de passe des utilisateurs est défini comme *"motdepasse"* dans le fichier CSV. Assurez-vous de configurer un mot de passe sécurisé pour chaque stagiaire.
+* **Protection contre les suppressions accidentelles** : L'OU `stagiaires_sisr` est créée sans protection contre la suppression accidentelle. Vous pouvez modifier cela en ajustant le paramètre `$ProtectedFromAccidentalDeletion`.
+</details>
 
 ---
 
