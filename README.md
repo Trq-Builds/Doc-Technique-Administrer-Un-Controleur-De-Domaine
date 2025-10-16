@@ -2,7 +2,10 @@
 
 ---
 
-Ce Repo GitHub présente un guide complet mais simple pour réaliser le TP Administrer un contrôleur de domaine, étape par étape. Les instructions sont claires et détaillées, de manière à ce que tu puisses suivre sans problème. Pour ne pas te perdre, tu seras aidé avec des captures d'écran ainsi que de courtes vidéos pour te guider visuellement !
+Ce Repo GitHub présente un guide complet mais simple pour réaliser le TP "Administrer Un Contrôleur De Domaine", étape par étape. Les instructions sont claires et détaillées, de manière à ce que tu puisses suivre sans problème.µ
+Pour ne pas te perdre, tu seras aidé avec des captures d'écran ainsi que de courtes vidéos pour te guider visuellement !
+
+---
 
 > [!WARNING]
 > Les vidéos hébergées sur EasyFiles.cc ne fonctionnent pas avec Bouygues Telecom.
