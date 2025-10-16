@@ -1116,7 +1116,7 @@ Le script va automatiquement :
 > [🎥︲Démo vidéo – Cliquez-ici (easyfiles.cc)](https://easyfiles.cc/ODeJNl2AZFQ)
 
 > [!TIP]
-> [🎥︲Démo vidéo – Cliquez-ici (mega.nz](https:)
+> [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https:)
 
 ---
 
