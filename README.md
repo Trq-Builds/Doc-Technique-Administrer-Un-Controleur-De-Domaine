@@ -929,11 +929,11 @@ foreach ($user in $Utilisateurs) {
 
 ---
 
-## ︲Script PowerShell pour la gestion des stagiaires SISR dans Active Directory
+## `⚡`︲Script PowerShell pour la gestion des stagiaires SISR dans Active Directory
 
 Ce script PowerShell est conçu pour automatiser la création d'une **Unité Organisationnelle (OU)** et d'un **groupe de sécurité** dans Active Directory, ainsi que la gestion des utilisateurs stagiaires dans l'OU spécifiée.
 
-### ︲Prérequis
+### `⚡`︲Prérequis
 
 * **PowerShell** : Ce script doit être exécuté sur une machine ayant PowerShell installé.
 * **Module Active Directory** : Le module Active Directory doit être installé et disponible. Il peut être importé avec `Import-Module ActiveDirectory`.
@@ -953,7 +953,7 @@ Ce script PowerShell est conçu pour automatiser la création d'une **Unité Org
 4. **Création des utilisateurs et ajout au groupe**
    Pour chaque stagiaire, un utilisateur est créé dans Active Directory, et l'utilisateur est ajouté au groupe `grp_stagiaires_sisr`.
 
-### ︲Structure du script
+### `⚡`︲Structure du script
 
 #### 1. Importation du module Active Directory
 
@@ -1020,7 +1020,7 @@ Les informations de mot de passe sont converties en texte sécurisé.
 
 À chaque création d'utilisateur et ajout au groupe, un message de confirmation est affiché à l'écran avec les détails de l'utilisateur créé.
 
-### ︲Format du fichier CSV
+### `⚡`︲Format du fichier CSV
 
 Le fichier CSV utilisé pour importer les stagiaires doit être formaté comme suit :
 
