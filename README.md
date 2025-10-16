@@ -933,7 +933,7 @@ foreach ($user in $Utilisateurs) {
 
 Ce script PowerShell est conçu pour automatiser la création d'une **Unité Organisationnelle (OU)** et d'un **groupe de sécurité** dans Active Directory, ainsi que la gestion des utilisateurs stagiaires dans l'OU spécifiée.
 
-### `⚡`︲Prérequis
+### `🪛`︲Prérequis
 
 * **PowerShell** : Ce script doit être exécuté sur une machine ayant PowerShell installé.
 * **Module Active Directory** : Le module Active Directory doit être installé et disponible. Il peut être importé avec `Import-Module ActiveDirectory`.
@@ -953,7 +953,7 @@ Ce script PowerShell est conçu pour automatiser la création d'une **Unité Org
 4. **Création des utilisateurs et ajout au groupe**
    Pour chaque stagiaire, un utilisateur est créé dans Active Directory, et l'utilisateur est ajouté au groupe `grp_stagiaires_sisr`.
 
-### `⚡`︲Structure du script
+### `📦`︲Structure du script
 
 #### 1. Importation du module Active Directory
 
@@ -1020,7 +1020,7 @@ Les informations de mot de passe sont converties en texte sécurisé.
 
 À chaque création d'utilisateur et ajout au groupe, un message de confirmation est affiché à l'écran avec les détails de l'utilisateur créé.
 
-### `⚡`︲Format du fichier CSV
+### `🟩`︲Format du fichier CSV
 
 Le fichier CSV utilisé pour importer les stagiaires doit être formaté comme suit :
 
@@ -1032,7 +1032,7 @@ Marie;Lemoine;marie.lemoine@descartesbleu.org;MotDePasse456
 
 Assurez-vous que les colonnes sont séparées par des points-virgules (`;`).
 
-### ︲Variables et personnalisations
+### `🟨`︲Variables et personnalisations
 
 Voici un aperçu des variables que vous pouvez modifier dans le script pour l'adapter à votre environnement :
 
@@ -1040,7 +1040,7 @@ Voici un aperçu des variables que vous pouvez modifier dans le script pour l'ad
 * **$OU_Parent** et **$OU_Child** : Changez ces valeurs si vous souhaitez créer l'OU dans une autre structure.
 * **$CsvPath** : Assurez-vous que le chemin du fichier CSV est correct pour votre environnement.
 
-### ︲Sécurité et bonnes pratiques
+### `🟦`︲Sécurité et bonnes pratiques
 
 * **Mot de passe** : Le mot de passe des utilisateurs est défini comme *"motdepasse"* dans le fichier CSV. Assurez-vous de configurer un mot de passe sécurisé pour chaque stagiaire.
 * **Protection contre les suppressions accidentelles** : L'OU `stagiaires_sisr` est créée sans protection contre la suppression accidentelle. Vous pouvez modifier cela en ajustant le paramètre `$ProtectedFromAccidentalDeletion`.
