@@ -1121,6 +1121,165 @@ Le script va automatiquement :
 ### `🖱️`︲Déploiement de stratégies de groupe (GPO)
 
 ---
+> [!NOTE]
+> Les GPO permettent une gestion centralisée d’Active Directory : sécurité, configuration utilisateur, déploiement de logiciels ou de ressources réseau.
+
+---
+
+## A. 🔧 Gestion des GPO
+
+**Accès via** `GPMC.msc` (**Outils d'administration**)
+
+### ➕ Créer & Modifier une GPO
+
+1. Ouvrir la console GPMC.
+2. Naviguer : `Forêt > Domaines > [nom du domaine]`.
+3. Clic droit sur une OU > **Créer un objet GPO dans ce domaine, et le lier ici…**.
+4. Nommer > OK.
+5. Clic droit > **Modifier** pour ouvrir l'éditeur.
+
+### 🔁 Appliquer & Vérifier
+
+* **Appliquer :** `gpupdate /force`
+* **Vérifier :** `gpresult /R`
+
+---
+
+## B. 🔐 Politique de mot de passe
+
+Configurer via **Default Domain Policy** :
+
+`Configuration ordinateur > Stratégies > Paramètres Windows > Paramètres de sécurité > Stratégies de comptes > Stratégie de mot de passe`
+
+### Paramètres recommandés :
+
+* Historique des mots de passe
+* Durée minimale/maximale
+* Complexité
+* Longueur minimale (≥ 7)
+
+---
+
+## C. 📁 Redirection de dossiers (ex : Formateurs)
+
+Stockage des profils utilisateur sur un partage réseau.
+
+### 1. Dossier partagé
+
+* Créer dossier (ex: `\\SRV\Profils$`)
+* Partage : Contrôle total à "Utilisateurs du domaine"
+* NTFS : Supprimer héritage, accorder `Modification`, `Lecture`, `Écriture` à "Utilisateurs du domaine"
+
+### 2. GPO de redirection
+
+`Configuration utilisateur > Stratégies > Paramètres Windows > Redirection de dossiers`
+
+Configurer chaque dossier (Documents, Bureau...) :
+
+* Cible : **Rediriger vers l’emplacement suivant**
+* Chemin : `\\SRV\Profils$\%USERNAME%\Dossier`
+* Décocher "Droits exclusifs"
+
+### 3. Tester
+
+* Se connecter avec un utilisateur concerné
+* `gpupdate /force`
+* Vérifier création du dossier et l'icône de synchronisation
+
+---
+
+## D. 🌐 Mode Toujours Hors Connexion (Always Offline)
+
+Accélère l’accès aux fichiers redirigés, même en réseau local.
+
+### Activation :
+
+`Configuration ordinateur > Stratégies > Modèles d'administration > Réseau > Fichiers hors connexion > Configurer le mode de liaison lente`
+
+* **Activer** > Ajouter `*` comme nom > Valeur : `Latency=1`
+
+🔹 *Pour désactiver la fonctionnalité sur les postes fixes : même emplacement > "Autoriser ou interdire l’utilisation..." > Désactiver.*
+
+---
+
+## E. 💽 Mappage de lecteurs réseaux
+
+Remplace les anciens scripts `net use`.
+
+### Configuration :
+
+`Configuration utilisateur > Préférences > Paramètres Windows > Mappages de lecteur`
+
+1. **Action :** Mettre à jour
+2. **Emplacement :** `\\SRV\Partage$`
+3. **Lettre :** ex: P
+4. **Reconnecter**
+5. **Ciblage** : `Commun > Ciblage au niveau de l’élément` → Groupe de sécurité
+
+🔁 Ajouter une action "Supprimer" avec ciblage inverse pour retirer le lecteur si l’utilisateur quitte le groupe.
+
+---
+
+## F. 🧩 Déploiement de logiciels (.msi)
+
+Déploiement simple via GPO, sans script.
+
+### Étapes :
+
+1. Créer un partage réseau (lecture pour les ordinateurs).
+2. GPO :
+   `Configuration ordinateur/utilisateur > Stratégies > Paramètres du logiciel > Installation de logiciel`
+3. Ajouter un **Package** (via chemin UNC).
+4. Choisir :
+
+   * **Attribué** (automatique, pour ordinateurs)
+   * **Publié** (manuel, pour utilisateurs)
+
+🔁 Redémarrer ou `gpupdate /force` pour appliquer.
+
+---
+
+## G. 🖼️ Déploiement de BgInfo
+
+Affiche des infos système sur le bureau (IP, nom PC, etc.)
+
+### 1. Préparation
+
+* Télécharger **Bginfo.exe**
+* Créer un fichier `.bgi` personnalisé
+* Placer `.exe`, `.bgi` et script `bginfo.bat` dans `%logonserver%\netlogon\BgInfo`
+
+```batch
+@echo off
+%logonserver%\netlogon\BgInfo\Bginfo.exe %logonserver%\netlogon\BgInfo\Template_Bginfo.bgi /accepteula /silent /timer 0
+exit
+```
+
+### 2. GPO de script
+
+`Configuration utilisateur > Stratégies > Paramètres Windows > Scripts (ouverture de session)`
+
+* Ajouter `bginfo.bat`
+* Pour filtrer :
+
+  * Retirer **Utilisateurs authentifiés**
+  * Ajouter un groupe (ex: `Adm-Bginfo`)
+  * Délégation : ajouter **Utilisateurs authentifiés** en lecture
+
+---
+
+## 📌 Résumé des commandes utiles
+
+| Commande          | Description                        |
+| ----------------- | ---------------------------------- |
+| `gpupdate /force` | Appliquer immédiatement les GPO    |
+| `gpresult /R`     | Vérifier les GPO appliquées        |
+| `rsop.msc`        | Résultat de la stratégie de groupe |
+
+---
+
+Tu peux copier ce texte directement dans ta documentation GitHub en Markdown. Si tu veux que je t’aide à le structurer avec des en-têtes ou styles Markdown pour GitHub, je peux aussi le faire.
+
 
 
 
