@@ -501,6 +501,9 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "`Gesti
 > [!TIP]
 > [🎥︲Démo vidéo – Cliquez-ici](https://easyfiles.cc/0ECS-OgWETy)
 
+> [!TIP]
+> [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https:)
+
 ---
 
  4️⃣︲**Appliquez les modifications**
@@ -552,6 +555,9 @@ Vous pouvez y accéder via le **Gestionnaire de serveur**, sous **AD DS**. Faite
 
 > [!TIP]
 > [🎥︲Démo vidéo – Cliquez-ici](https://easyfiles.cc/foSU5ug92ZJ)
+
+> [!TIP]
+> [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https:)
 
 ---
 
@@ -813,6 +819,9 @@ Avant de commencer, assurez-vous que les conditions suivantes sont remplies :
      
 > [!TIP]
 > [🎥︲Démo vidéo – Cliquez-ici](https://easyfiles.cc/Oxus8427i7P)
+
+> [!TIP]
+> [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https:)
 ---
 
 ## `🔄` ︲Activer le **mode Hors-Connexion**
@@ -835,6 +844,9 @@ Ce mode permet à l’utilisateur d’accéder à ses fichiers redirigés même 
 
 > [!TIP]
 > [🎥︲Démo vidéo – Cliquez-ici](https://easyfiles.cc/7kZ-EWXAKOd)
+
+> [!TIP]
+> [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https:)
    
 ---
 
@@ -1110,7 +1122,7 @@ Le script va automatiquement :
 * Ajouter chaque utilisateur au groupe.
 
 > [!IMPORTANT]
-> Sur la vidéo de démonstration, le script avait déja été executer une fois ce qui explique les mesage d'erreur sur la vidéo, dans votre cas si c'est la première fois que vous le lancer il n'y > aura rien, juste des messages en vert pour confimer la création des utilisateur avec succés.
+> Sur la vidéo de démonstration, le script avait déja été executer une fois ce qui explique les mesage d'erreur sur la vidéo, dans votre cas si c'est la première fois que vous le lancer il n'y aura rien, juste des messages en vert pour confimer la création des utilisateur avec succés.
 
 > [!TIP]
 > [🎥︲Démo vidéo – Cliquez-ici (easyfiles.cc)](https://easyfiles.cc/ODeJNl2AZFQ)
