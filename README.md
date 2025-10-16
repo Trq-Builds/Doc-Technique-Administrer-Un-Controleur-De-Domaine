@@ -18,7 +18,7 @@ Pour ne pas te perdre, tu seras aidé avec des captures d'écran ainsi que de co
 ## `📑`︲Sommaire (Le sommaire est cliquable pour vous rediriger rapidement vers la partie souhaitée.)
 
 1. [`📘`︲Introduction](#introduction)
-   - [`📄`︲Contexte et objectifs du TP](#contexte-et-objectifs-du-tp)
+   - [`❔`︲Contexte et objectifs du TP](#contexte-et-objectifs-du-tp)
    - [`🖥️`︲Présentation de l'architecture réseau et des outils utilisés](#presentation-de-larchitecture-reseau-et-des-outils-utilises)
 
 2. [`🛠️`︲Préparation de l'environnement](#preparation-de-lenvironnement)
@@ -42,7 +42,7 @@ Pour ne pas te perdre, tu seras aidé avec des captures d'écran ainsi que de co
    - [`💾`︲Redirection des dossiers utilisateur et mode hors connexion](#redirection-dossiers-mode-hors-ligne)
 
 7. [`📜`︲Automatisation via PowerShell](#automatisation-via-powershell)
-   - [`⚡`︲Script pour créer des UOs, groupes et utilisateurs à partir d'un CSV](#script-ou-groupes-utilisateurs)
+   - [`⚡`︲Script pour créer des UOs, groupes et utilisateurs à partir d'un .CSV](#script-ou-groupes-utilisateurs)
 
 8. [`🖱️`︲Déploiement de stratégies de groupe (GPO)](#deploiement-de-strategies-de-groupe)
    - [`📂`︲Redirection du dossier Documents, mappage lecteurs réseau et déploiement Firefox](#redirection-documents-mappage-firefox)
