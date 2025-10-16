@@ -1113,7 +1113,10 @@ Le script va automatiquement :
 > Sur la vidéo de démonstration, le script avait déja été executer une fois ce qui explique les mesage d'erreur sur la vidéo, dans votre cas si c'est la première fois que vous le lancer il n'y > aura rien, juste des messages en vert pour confimer la création des utilisateur avec succés.
 
 > [!TIP]
-> [🎥︲Démo vidéo – Cliquez-ici](https://easyfiles.cc/ODeJNl2AZFQ)
+> [🎥︲Démo vidéo – Cliquez-ici(easyfiles.cc)](https://easyfiles.cc/ODeJNl2AZFQ)
+
+> [!TIP]
+> [🎥︲Démo vidéo – Cliquez-ici(mega.nz]()
 
 ---
 
