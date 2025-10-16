@@ -925,6 +925,7 @@ foreach ($user in $Utilisateurs) {
 ```
 <details>
   <summary><strong>💡︲Instructions pour l’élaboration de ce script, accompagnées de sa documentation.</strong></summary>
+---
    
 >Voici une documentation, qui décrit chaque étape du script et son fonctionnement.
 >J'ai essayé d'être aussi clair et détaillé que possible pour que toute personne qui l'utilise puisse comprendre ce qu'il fait.
