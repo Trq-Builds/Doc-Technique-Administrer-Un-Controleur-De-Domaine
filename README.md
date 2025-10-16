@@ -15,7 +15,7 @@ Pour ne pas te perdre, tu seras aidé avec des captures d'écran ainsi que de co
 
 ---
 
-## `📑`︲Sommaire (Le sommaire est cliquable pour vous rediriger vers la partie souhaitée.)
+## `📑`︲Sommaire (Le sommaire est cliquable pour vous rediriger rapidement vers la partie souhaitée.)
 
 1. [`📘`︲Introduction](#introduction)
    - [`📄`︲Contexte et objectifs du TP](#contexte-et-objectifs-du-tp)
