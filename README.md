@@ -1278,9 +1278,6 @@ exit
 
 ---
 
-Tu peux copier ce texte directement dans ta documentation GitHub en Markdown. Si tu veux que je t’aide à le structurer avec des en-têtes ou styles Markdown pour GitHub, je peux aussi le faire.
-
-
 
 
 
