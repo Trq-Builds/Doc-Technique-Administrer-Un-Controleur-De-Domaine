@@ -112,7 +112,7 @@ Enfin, cliquer sur **OK** pour valider les paramètres et sauvegarder la configu
    - Sélectionner langue, clavier et région  
 
 <details>
-  <summary>📸︲Sélection clavier et disque</summary>
+  <summary>📸︲Sélection clavier et installation</summary>
 
   ---
   <img width="1022" height="769" alt="Screenshot_2" src="https://github.com/user-attachments/assets/4013d7fe-1cf0-4e5c-8d7d-b4cf663a85e1" />
