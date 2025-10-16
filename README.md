@@ -1126,11 +1126,11 @@ Le script va automatiquement :
 
 ---
 
-## A. 🔧 Gestion des GPO
+## A. `🔧` Gestion des GPO
 
 **Accès via** `GPMC.msc` (**Outils d'administration**)
 
-### ➕ Créer & Modifier une GPO
+### `➕` Créer & Modifier une GPO
 
 1. Ouvrir la console GPMC.
 2. Naviguer : `Forêt > Domaines > [nom du domaine]`.
@@ -1138,14 +1138,14 @@ Le script va automatiquement :
 4. Nommer > OK.
 5. Clic droit > **Modifier** pour ouvrir l'éditeur.
 
-### 🔁 Appliquer & Vérifier
+### `🔁` Appliquer & Vérifier
 
 * **Appliquer :** `gpupdate /force`
 * **Vérifier :** `gpresult /R`
 
 ---
 
-## B. 🔐 Politique de mot de passe
+## B. `🔐` Politique de mot de passe
 
 Configurer via **Default Domain Policy** :
 
@@ -1160,7 +1160,7 @@ Configurer via **Default Domain Policy** :
 
 ---
 
-## C. 📁 Redirection de dossiers (ex : Formateurs)
+## C. `📁` Redirection de dossiers (ex : Formateurs)
 
 Stockage des profils utilisateur sur un partage réseau.
 
@@ -1188,7 +1188,7 @@ Configurer chaque dossier (Documents, Bureau...) :
 
 ---
 
-## D. 🌐 Mode Toujours Hors Connexion (Always Offline)
+## D. `🌐` Mode Toujours Hors Connexion (Always Offline)
 
 Accélère l’accès aux fichiers redirigés, même en réseau local.
 
@@ -1202,7 +1202,7 @@ Accélère l’accès aux fichiers redirigés, même en réseau local.
 
 ---
 
-## E. 💽 Mappage de lecteurs réseaux
+## E. `💽` Mappage de lecteurs réseaux
 
 Remplace les anciens scripts `net use`.
 
@@ -1220,7 +1220,7 @@ Remplace les anciens scripts `net use`.
 
 ---
 
-## F. 🧩 Déploiement de logiciels (.msi)
+## F. `🧩` Déploiement de logiciels (.msi)
 
 Déploiement simple via GPO, sans script.
 
@@ -1239,7 +1239,7 @@ Déploiement simple via GPO, sans script.
 
 ---
 
-## G. 🖼️ Déploiement de BgInfo
+## G. `🖼️` Déploiement de BgInfo
 
 Affiche des infos système sur le bureau (IP, nom PC, etc.)
 
@@ -1268,7 +1268,7 @@ exit
 
 ---
 
-## 📌 Résumé des commandes utiles
+## `📌` Résumé des commandes utiles
 
 | Commande          | Description                        |
 | ----------------- | ---------------------------------- |
