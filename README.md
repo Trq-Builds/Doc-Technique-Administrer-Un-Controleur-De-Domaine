@@ -59,9 +59,10 @@ Pour ne pas te perdre, tu seras aidé avec des captures d'écran ainsi que de co
 <a id="introduction"></a>
 ## `📘`︲Introduction
 
-Bienvenue dans ce TP Active Directory. Ici, tu apprendras à configurer un domaine, gérer les utilisateurs, appliquer des GPO et automatiser certaines tâches via PowerShell !
+Tu vas apprendre à configurer un domaine, comprendre le rôle d’un contrôleur de domaine, gérer efficacement les utilisateurs et les groupes, appliquer des stratégies de groupe (GPO) et automatiser certaines tâches courantes grâce à PowerShell. L’objectif est de te permettre de mettre en place un environnement réseau fonctionnel et de maîtriser les bases essentielles de l’administration système dans un contexte professionnel.
 
 ---
+=
 
 <a id="contexte-et-objectifs-du-tp"></a>
 > [!NOTE]
