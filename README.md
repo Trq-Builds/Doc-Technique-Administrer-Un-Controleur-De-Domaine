@@ -927,9 +927,7 @@ foreach ($user in $Utilisateurs) {
   <summary><strong>💡︲Instructions pour l’élaboration de ce script, accompagnées de sa documentation.</strong></summary>
    > [!NOTE]
    > Voici une documentation, qui décrit chaque étape du script et son fonctionnement.
-   > J'ai essayé d'être aussi clair et détaillé que possible pour que toute personne qui l'utilise puisse
-   > comprendre ce qu'il fait.
-
+   > J'ai essayé d'être aussi clair et détaillé que possible pour que toute personne qui l'utilise puisse comprendre ce qu'il fait.
 ---
 
 ## `⚡`︲Script PowerShell pour la gestion des stagiaires SISR dans Active Directory
