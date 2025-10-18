@@ -2,7 +2,7 @@
 
 ---
 
-Ce Repo GitHub présente un guide complet mais simple pour réaliser le TP "Administrer Un Contrôleur De Domaine", étape par étape. Les instructions sont claires et détaillées, de manière à ce que tu puisses suivre sans problème.µ
+Ce Repo GitHub présente un guide complet mais simple pour réaliser le TP "Administrer Un Contrôleur De Domaine", étape par étape. Les instructions sont claires et détaillées, de manière à ce que tu puisses suivre sans problème.
 Pour ne pas te perdre, tu seras aidé avec des captures d'écran ainsi que de courtes vidéos pour te guider visuellement !
 
 ---
