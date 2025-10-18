@@ -1106,7 +1106,7 @@ TEARIKI;Virgile;virgile.teariki@descartesbleu.org;virgile.teariki
 
 ---
 
-### 2. `📁`︲**Où placer le fichier .CSV**
+### `📁`︲**Où placer le fichier .CSV**
 
 Le fichier .CSV doit être à l’emplacement suivant (ou à adapter dans le script) :
 
@@ -1116,7 +1116,7 @@ $CsvPath = "C:\Users\Administrateur\Documents\script\stagiaires_sisr.csv"
 
 ---
 
-### 3. `▶️`︲**Lancer le script**
+### `▶️`︲**Lancer le script**
 
 1. **Ouvrez PowerShell ISE en mode administrateur**.
 2. Lancez le script.
@@ -1168,7 +1168,7 @@ Le script va automatiquement :
 
 ---
 
-## B. `🔐` Politique de mot de passe
+## `🔐` Politique de mot de passe
 
 Configurer via **Default Domain Policy** :
 
@@ -1183,7 +1183,7 @@ Configurer via **Default Domain Policy** :
 
 ---
 
-## C. `📁` Redirection de dossiers (ex : Formateurs)
+## `📁` Redirection de dossiers (ex : Formateurs)
 
 Stockage des profils utilisateur sur un partage réseau.
 
@@ -1211,7 +1211,7 @@ Configurer chaque dossier (Documents, Bureau...) :
 
 ---
 
-## D. `🌐` Mode Toujours Hors Connexion (Always Offline)
+## `🌐` Mode Toujours Hors Connexion (Always Offline)
 
 Accélère l’accès aux fichiers redirigés, même en réseau local.
 
@@ -1225,7 +1225,7 @@ Accélère l’accès aux fichiers redirigés, même en réseau local.
 
 ---
 
-## E. `💽` Mappage de lecteurs réseaux
+## `💽` Mappage de lecteurs réseaux
 
 Remplace les anciens scripts `net use`.
 
@@ -1243,7 +1243,7 @@ Remplace les anciens scripts `net use`.
 
 ---
 
-## F. `🧩` Déploiement de logiciels (.msi)
+## `🧩` Déploiement de logiciels (.msi)
 
 Déploiement simple via GPO, sans script.
 
@@ -1262,7 +1262,7 @@ Déploiement simple via GPO, sans script.
 
 ---
 
-## G. `🖼️` Déploiement de BgInfo
+## `🖼️` Déploiement de BgInfo
 
 Affiche des infos système sur le bureau (IP, nom PC, etc.)
 
@@ -1278,7 +1278,7 @@ Affiche des infos système sur le bureau (IP, nom PC, etc.)
 exit
 ```
 
-### 2. GPO de script
+### GPO de script
 
 `Configuration utilisateur > Stratégies > Paramètres Windows > Scripts (ouverture de session)`
 
