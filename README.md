@@ -504,10 +504,8 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "`Gesti
 3. La complexité du mot de passe doit être désactivée.
 
 > [!TIP]
-> [🎥︲Démo vidéo – Cliquez-ici](https://easyfiles.cc/0ECS-OgWETy)
+> [🎥︲Démo vidéo – Cliquez-ici](https://dona.one/f/0ECS-OgWETy)
 
-> [!TIP]
-> [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https:)
 
 ---
 
