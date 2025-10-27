@@ -493,10 +493,7 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "`Gesti
 3. Allez dans : `Configuration ordinateur` → `Stratégies` → `Paramètres Windows` → `Paramètres de sécurité` → `Stratégies de comptes` → `Stratégie de mot de passe`
 
 > [!TIP]
-> [🎥︲Démo vidéo – Cliquez-ici](https://easyfiles.cc/8_5Ii65raSA)
-
-> [!TIP]
-> [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https:)
+> [🎥︲Démo vidéo – Cliquez-ici](https://dona.one/f/8_5Ii65raSA)
 
 ---
 
