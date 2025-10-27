@@ -557,10 +557,7 @@ Vous pouvez y accéder via le **Gestionnaire de serveur**, sous **AD DS**. Faite
  - `🗂️`︲`Service Comptabilité`
 
 > [!TIP]
-> [🎥︲Démo vidéo – Cliquez-ici](https://easyfiles.cc/foSU5ug92ZJ)
-
-> [!TIP]
-> [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https:)
+> [🎥︲Démo vidéo – Cliquez-ici](https://dona.one/f/foSU5ug92ZJ)
 
 ---
 
