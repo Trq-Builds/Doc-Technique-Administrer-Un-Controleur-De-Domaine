@@ -1149,11 +1149,11 @@ Le script va automatiquement :
 
 ---
 
-## A. `🔧` Gestion des GPO
+## Gestion des GPO
 
 **Accès via** `GPMC.msc` (**Outils d'administration**)
 
-### `➕` Créer & Modifier une GPO
+### Créer & Modifier une GPO
 
 1. Ouvrir la console GPMC.
 2. Naviguer : `Forêt > Domaines > [nom du domaine]`.
@@ -1161,14 +1161,14 @@ Le script va automatiquement :
 4. Nommer > OK.
 5. Clic droit > **Modifier** pour ouvrir l'éditeur.
 
-### `🔁` Appliquer & Vérifier
+### Appliquer & Vérifier
 
 * **Appliquer :** `gpupdate /force`
 * **Vérifier :** `gpresult /R`
 
 ---
 
-## `🔐` Politique de mot de passe
+## Politique de mot de passe
 
 Configurer via **Default Domain Policy** :
 
@@ -1183,7 +1183,7 @@ Configurer via **Default Domain Policy** :
 
 ---
 
-## `📁` Redirection de dossiers (ex : Formateurs)
+## Redirection de dossiers (ex : Formateurs)
 
 Stockage des profils utilisateur sur un partage réseau.
 
@@ -1211,7 +1211,7 @@ Configurer chaque dossier (Documents, Bureau...) :
 
 ---
 
-## `🌐` Mode Toujours Hors Connexion (Always Offline)
+## Mode Toujours Hors Connexion (Always Offline)
 
 Accélère l’accès aux fichiers redirigés, même en réseau local.
 
@@ -1221,11 +1221,11 @@ Accélère l’accès aux fichiers redirigés, même en réseau local.
 
 * **Activer** > Ajouter `*` comme nom > Valeur : `Latency=1`
 
-🔹 *Pour désactiver la fonctionnalité sur les postes fixes : même emplacement > "Autoriser ou interdire l’utilisation..." > Désactiver.*
+*Pour désactiver la fonctionnalité sur les postes fixes : même emplacement > "Autoriser ou interdire l’utilisation..." > Désactiver.*
 
 ---
 
-## `💽` Mappage de lecteurs réseaux
+## Mappage de lecteurs réseaux
 
 Remplace les anciens scripts `net use`.
 
@@ -1239,11 +1239,11 @@ Remplace les anciens scripts `net use`.
 4. **Reconnecter**
 5. **Ciblage** : `Commun > Ciblage au niveau de l’élément` → Groupe de sécurité
 
-🔁 Ajouter une action "Supprimer" avec ciblage inverse pour retirer le lecteur si l’utilisateur quitte le groupe.
+Ajouter une action "Supprimer" avec ciblage inverse pour retirer le lecteur si l’utilisateur quitte le groupe.
 
 ---
 
-## `🧩` Déploiement de logiciels (.msi)
+## Déploiement de logiciels (.msi)
 
 Déploiement simple via GPO, sans script.
 
@@ -1258,11 +1258,11 @@ Déploiement simple via GPO, sans script.
    * **Attribué** (automatique, pour ordinateurs)
    * **Publié** (manuel, pour utilisateurs)
 
-🔁 Redémarrer ou `gpupdate /force` pour appliquer.
+Redémarrer ou `gpupdate /force` pour appliquer.
 
 ---
 
-## `🖼️` Déploiement de BgInfo
+## Déploiement de BgInfo
 
 Affiche des infos système sur le bureau (IP, nom PC, etc.)
 
@@ -1291,7 +1291,7 @@ exit
 
 ---
 
-## `📌` Résumé des commandes utiles
+##  Résumé des commandes utiles
 
 | Commande          | Description                        |
 | ----------------- | ---------------------------------- |
