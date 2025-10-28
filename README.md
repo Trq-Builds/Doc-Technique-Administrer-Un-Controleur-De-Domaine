@@ -1530,6 +1530,36 @@ Cette documentation rassemble tout le nécessaire pour reproduire l’environnem
 
 ---
 
+| Type                         | Chemin UNC                                | Description                                                 |
+| :--------------------------- | :---------------------------------------- | :---------------------------------------------------------- |
+| **Serveur**                  | `\\SRV-AD1`                               | Contrôleur de domaine principal                             |
+| **Racine de profils**        | `\\SRV-AD1\profils$`                      | Dossier partagé (masqué) contenant les profils utilisateurs |
+| **Sous-dossier utilisateur** | `\\SRV-AD1\profils$\%USERNAME%`           | Dossier personnel de chaque utilisateur                     |
+| **Documents**                | `\\SRV-AD1\profils$\%USERNAME%\Documents` | Dossier *Documents* redirigé                                |
+| **Bureau**                   | `\\SRV-AD1\profils$\%USERNAME%\Bureau`    | Dossier *Bureau* redirigé (formateurs)                      |
+| **Images**                   | `\\SRV-AD1\profils$\%USERNAME%\Images`    | Dossier *Images* redirigé                                   |
+| **Favoris**                  | `\\SRV-AD1\profils$\%USERNAME%\Favoris`   | Dossier *Favoris* redirigé                                  |
+
+---
+
+| Type                    | Chemin UNC                   | Description                                              |
+| :---------------------- | :--------------------------- | :------------------------------------------------------- |
+| **Partage commun**      | `\\SRV-AD1\depot`            | Zone d’échange ou dépôt commun                           |
+| **Ressources**          | `\\SRV-AD1\ressources`       | Dossier pour les fichiers pédagogiques ou administratifs |
+| **Partage personnel**   | `\\SRV-AD1\perso`            | Racine des dossiers personnels stagiaires                |
+| **Dossier utilisateur** | `\\SRV-AD1\perso\prenom.nom` | Dossier personnel d’un stagiaire (Documents redirigés)   |
+
+---
+
+| Type                   | Chemin UNC                            | Description                                                                |
+| :--------------------- | :------------------------------------ | :------------------------------------------------------------------------- |
+| **Applications (MSI)** | `\\SRV-AD1\applications$`             | Source des fichiers d’installation déployés par GPO (ex : Firefox)         |
+| **Scripts Netlogon**   | `\\descartesbleu.org\Netlogon`        | Répertoire système du domaine contenant les scripts d’ouverture de session |
+| **BgInfo**             | `\\descartesbleu.org\Netlogon\BgInfo` | Contient `Bginfo.exe`, le modèle `.bgi` et le script `bginfo.bat`          |
+
+---
+
+
 
 
 
