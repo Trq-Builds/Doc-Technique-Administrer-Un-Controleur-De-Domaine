@@ -495,7 +495,7 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "`Gesti
 > [🎥︲Démo vidéo – Cliquez-ici](https://dona.one/f/8_5Ii65raSA)
 
 > [!TIP]
-> [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https:)
+> [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https://mega.nz/file/dqBRmKAQ#L_Ak1SKhfHACe-pYV1mwFha3WAaI0d7ptCoB6ZdKQAw)
 
 ---
 
@@ -1300,6 +1300,8 @@ exit
 | `rsop.msc`        | Résultat de la stratégie de groupe |
 
 ---
+
+
 
 
 
