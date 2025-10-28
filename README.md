@@ -1418,7 +1418,7 @@ Cette option permet d’empêcher certains utilisateurs (ex. : stagiaires) de se
 5. Dans le tableau, cliquez sur les heures autorisées ou refusées (ex. : Lundi–Vendredi, 8h–18h).
 6. Validez par **OK**.
 
-✅ L’utilisateur ne pourra plus se connecter en dehors des plages autorisées.
+L’utilisateur ne pourra plus se connecter en dehors des plages autorisées.
 
 ---
 
@@ -1438,7 +1438,7 @@ Permet aux administrateurs d’accéder au serveur à distance via “Connexion 
 5. Le pare-feu s’ajuste automatiquement → cliquez sur **OK**.
 6. Cliquez sur **Appliquer** puis **OK**.
 
-✅ Le Bureau à distance est maintenant **activé**.
+Le Bureau à distance est maintenant **activé**.
 
 ---
 
@@ -1486,7 +1486,7 @@ BgInfo affiche automatiquement sur le Bureau des infos système (nom du PC, IP, 
 6. Dans le ciblage, sélectionnez les OU concernées (ex. : *Servers*, *Domain Controllers*).
 7. Fermez et appliquez la GPO.
 
-✅ Le script sera copié et exécuté automatiquement à chaque démarrage ou ouverture de session.
+Le script sera copié et exécuté automatiquement à chaque démarrage ou ouverture de session.
 
 ---
 
