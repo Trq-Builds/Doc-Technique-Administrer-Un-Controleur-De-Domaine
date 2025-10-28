@@ -7,9 +7,10 @@ Pour ne pas te perdre, tu seras aidé avec des captures d'écran ainsi que de co
 
 ---
 
-> [> [!IMPORTANT]
+[!IMPORTANT]
 > Les vidéos sont hébergées sur `dona.one`.
 > Autrement utilisez Mega.nz pour visionner les vidéos.
+
 ---
 
 ## `📑`︲Sommaire (Le sommaire est interactif : cliquez pour accéder directement à la section souhaitée.)
