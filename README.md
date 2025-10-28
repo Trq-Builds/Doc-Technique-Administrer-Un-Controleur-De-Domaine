@@ -1319,7 +1319,7 @@ Cette redirection enregistre les fichiers des utilisateurs sur le serveur, ce qu
 
 ### Étape 1 : Créer le dossier partagé
 
-1. Sur le serveur, créez un dossier (ex. : `D:\Profils`).
+1. Sur le serveur, créez un dossier (ex. : `E:\profils`).
 2. Faites un clic droit → **Propriétés → Partage avancé**.
 3. Cochez **Partager ce dossier** et ajoutez un `$` pour le masquer (ex. `\\SRV-AD1\Profils$`).
 4. Dans les **autorisations de partage**, donnez **Contrôle total** à *Tout le monde*.
