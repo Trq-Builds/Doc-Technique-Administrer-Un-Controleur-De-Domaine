@@ -1302,6 +1302,97 @@ exit
 ---
 
 
+### `📂`︲Redirection du dossier Documents, mappage lecteurs réseau et déploiement Firefox
+
+---
+> [!NOTE]
+> **Objectifs :**
+> Rediriger le dossier *Documents*
+> Mapper un lecteur réseau
+> Déployer Firefox automatiquement
+
+---
+
+## 1. Rediriger le dossier *Documents*
+
+Cette redirection enregistre les fichiers des utilisateurs sur le serveur, ce qui permet la sauvegarde centralisée et l’accès depuis n’importe quel poste.
+
+### Étape 1 : Créer le dossier partagé
+
+1. Sur le serveur, créez un dossier (ex. : `D:\Profils`).
+2. Faites un clic droit → **Propriétés → Partage avancé**.
+3. Cochez **Partager ce dossier** et ajoutez un `$` pour le masquer (ex. `\\SRV-AD1\Profils$`).
+4. Dans les **autorisations de partage**, donnez **Contrôle total** à *Tout le monde*.
+5. Dans l’onglet **Sécurité**, désactivez l’héritage et donnez aux *Utilisateurs du domaine* les droits **Lecture/Écriture** uniquement.
+
+### Étape 2 : Configurer la GPO
+
+1. Ouvrez **Gestion des stratégies de groupe (GPMC)**.
+2. Créez une nouvelle GPO et liez-la à l’OU des utilisateurs.
+3. Allez dans :
+   **Configuration utilisateur → Stratégies → Paramètres Windows → Redirection de dossiers**.
+4. Clic droit sur **Documents → Propriétés**.
+
+   * **Type :** De base
+   * **Emplacement :** `\\serveur\Profils$\%USERNAME%\Documents`
+   * **Droits exclusifs :** décochés
+5. Appliquez la stratégie puis exécutez sur les postes :
+
+   ```
+   gpupdate /force
+   ```
+6. Vérifiez dans les propriétés du dossier *Documents* que le chemin pointe bien vers le serveur.
+
+💡 *Astuce :* Activez le mode hors connexion pour permettre le travail sans réseau.
+Chemin : *Configuration ordinateur → Modèles d’administration → Réseau → Fichiers hors connexion.*
+
+---
+
+## 2. Mapper un lecteur réseau
+
+Le mappage par GPO remplace les anciens scripts de connexion.
+
+### Étapes :
+
+1. Dans la GPMC, éditez la GPO de votre choix.
+2. Allez dans :
+   **Configuration utilisateur → Préférences → Paramètres Windows → Mappages de lecteur.**
+3. Nouveau → **Lecteur mappé** :
+
+   * **Action :** Mettre à jour
+   * **Emplacement :** `\\SRV-AD1\Partage$`
+   * **Lettre :** P:
+   * **Nom :** PARTAGE
+   * **Reconnecter :** coché
+4. (Optionnel) Dans l’onglet **Commun**, utilisez le **Ciblage** pour limiter le mappage à un groupe spécifique.
+
+---
+
+## 3. Déployer Firefox (fichier .MSI)
+
+### Étape 1 : Préparer le partage
+
+1. Créez un dossier partagé (ex. `D:\Applications$`).
+2. Copiez le fichier **Firefox.msi** dedans.
+3. Autorisez les **Ordinateurs du domaine** à avoir les droits de **Lecture**.
+
+### Étape 2 : Configurer la GPO
+
+1. Dans la GPMC, créez une GPO liée à l’OU contenant les **ordinateurs**.
+2. Allez dans :
+   **Configuration ordinateur → Stratégies → Paramètres du logiciel → Installation de logiciel.**
+3. Clic droit → **Nouveau → Package**, puis indiquez le chemin UNC :
+   `\\serveur\Applications$\Firefox.msi`
+4. Choisissez **Attribué** (installation automatique).
+5. Redémarrez les postes ou lancez :
+
+   ```
+   gpupdate /force
+   ```
+
+---
+
+
 
 
 
