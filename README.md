@@ -1559,7 +1559,7 @@ Cette documentation rassemble tout le nécessaire pour reproduire l’environnem
 
 ---
 
-## `🧰` Outils utilisés pour la création de cette documentation
+## `🧰`︲Outils utilisés pour la création de cette documentation
 
 * **DeepSeekV3.2**
 * **Documents d’annexes fournis**
