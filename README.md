@@ -86,7 +86,7 @@ Pour ne pas te perdre, tu seras aidé avec des captures d'écran ainsi que de co
 1️⃣︲**Configuration de la VM**  
    - **Disque :** 80 Go  
    - **RAM :** 4 Go  
-   - **CPU :** 1 cœur  
+   - **CPU :** 2 cœurs  
 
 <details>
   <summary>📸︲Configuration initiale (VMware)</summary>
@@ -164,7 +164,7 @@ Enfin, cliquer sur **OK** pour valider les paramètres et sauvegarder la configu
 1️⃣︲**Configuration de la VM**  
    - Disque : **80 Go**  
    - RAM : **2 Go**  
-   - CPU : **1 cœur**
+   - CPU : **2 cœurs**
 
 <details>
   <summary>📸︲Configuration initiale serveur</summary>
