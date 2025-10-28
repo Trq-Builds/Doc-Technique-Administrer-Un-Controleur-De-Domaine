@@ -1509,6 +1509,7 @@ Vous pouvez aussi déployer BgInfo via un **script d’ouverture de session** :
 
 ---
 
+<a id="conclusion"></a>
 ### `✅`︲Conclusion et Annexes.
 
 ---
@@ -1572,6 +1573,10 @@ Cette documentation rassemble tout le nécessaire pour reproduire l’environnem
 * **Qwen3-VL-235B-A22B**
 * **Screenpresso**
 * **VMWare**
+
+> Nora player
+> Mac DeMarco - 20200229 2 
+
 ---
 
 
