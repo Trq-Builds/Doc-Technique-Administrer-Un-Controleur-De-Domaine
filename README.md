@@ -90,7 +90,9 @@ Pour ne pas te perdre, tu seras aidé avec des captures d'écran ainsi que de co
 
 <details>
   <summary>📸︲Configuration initiale (VMware)</summary>
-
+   
+> [!WARNING]
+> Snapshot : prendre un snapshot de la VM après validation de cette configuration (obligatoire).
 ---
 
 <img width="761" height="733" alt="Screenshot_29" src="https://github.com/user-attachments/assets/8e838f92-9bf5-445a-b6e1-61ea1c5d9e1b" />
