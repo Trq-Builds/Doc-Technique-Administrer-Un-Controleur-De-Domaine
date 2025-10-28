@@ -13,7 +13,7 @@ Pour ne pas te perdre, tu seras aidé avec des captures d'écran ainsi que de co
 
 ---
 
-## `📑`︲Sommaire (Le sommaire est interactif : cliquez pour accéder directement à la section souhaitée.)
+## `📑`︲Sommaire (cliquez pour accéder directement à la section souhaitée.)
 
 1. [`📘`︲Introduction](#introduction)
    - [`❔`︲Contexte et objectifs du TP](#contexte-et-objectifs-du-tp)
