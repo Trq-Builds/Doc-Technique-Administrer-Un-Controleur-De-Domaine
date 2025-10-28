@@ -1509,6 +1509,31 @@ Vous pouvez aussi déployer BgInfo via un **script d’ouverture de session** :
 
 ---
 
+### `✅`︲Conclusion et Annexes.
+
+---
+
+Cette documentation rassemble tout le nécessaire pour reproduire l’environnement demandé par le TP : installation et configuration du serveur, promotion en contrôleur de domaine, création des UO et comptes, déploiement des GPO, scripts d’import d’utilisateurs, et procédures de vérification. Si tu as suivi les étapes et appliqué les corrections indiquées, tu peux être confiant : la structure est fonctionnelle et prête à être validée.
+
+
+* Une installation reproductible et documentée pas-à-pas, pensée pour être suivie même par quelqu’un qui découvre un peu l’environnement.
+* Des scripts et exemples prêts à l’emploi (CSV / PowerShell) — attention à la sécurité des mots de passe en clair dans les exemples.
+* Des points de contrôle clairs (tests DNS, `gpupdate`, `gpresult`, captures écran) pour prouver que chaque étape a été correctement réalisée.
+
+### Reminders — les indispensables !
+
+1. **Snapshots** : prends un snapshot après chaque étape majeure (OS installé, DC promu, client joint, GPO appliquée). Obligatoire pour le TP.
+2. **Vérifications** : captures d’écran des commandes `nslookup`, `dcdiag`/`gpresult` et d’un login utilisateur.
+3. **Noms / conventions** : UO en minuscules, chemins DATA sur `E:\` et admin = `Administrateur / btssio-lmc25` (conforme au TP).
+4. **CSV & script** : assure-toi que l’en-tête CSV correspond exactement aux champs lus par ton script. Une erreur là = création de comptes foirée.
+5. **Sécurité** : masque ou supprime les mots de passe réels dans les copies finales, ou indique clairement que ce sont des exemples.
+
+---
+
+
+
+
+
 
 
 
