@@ -232,8 +232,11 @@ Sélectionner l’image : **Windows Server 2025 Standard (expérience utilisateu
 ---
 
 5️⃣︲**Création du compte administrateur**  
-   - Nom : `btssio`  
-   - Mot de passe : `btssio-lmc25`  
+   - Nom : `Administrateur`  
+   - Mot de passe : `btssio-lmc25`
+   
+**Enregistrer le couple login/mot de passe (Administrateur / btssio-lmc25) dans la description de la VM.
+**
 
 ---
 
