@@ -556,10 +556,10 @@ Vous pouvez y accéder via le **Gestionnaire de serveur**, sous **AD DS**. Faite
 
 **Structure demandée dans le TP** :
 
- - `🗂️`︲`Service Administratif `
- - `🗂️`︲`Service Scolarité `
- - `🗂️`︲`Formateurs`
- - `🗂️`︲`Service Comptabilité`
+ - `🗂️`︲`service_administratif `
+ - `🗂️`︲`service_scolarité `
+ - `🗂️`︲`formateurs`
+ - `🗂️`︲`service_comptabilité`
 
 > [!TIP]
 > [🎥︲Démo vidéo – Cliquez-ici](https://dona.one/f/foSU5ug92ZJ)
