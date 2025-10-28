@@ -1047,7 +1047,7 @@ Les informations de mot de passe sont converties en texte sécurisé.
 Le fichier CSV utilisé pour importer les stagiaires doit être formaté comme suit :
 
 ```csv
-prenom;nom;mail;motdepasse
+nom;prenom;mail;motdepasse
 Jean;Dupont;jean.dupont@descartesbleu.org;MotDePasse123
 Marie;Lemoine;marie.lemoine@descartesbleu.org;MotDePasse456
 ```
