@@ -10,7 +10,7 @@ Pour ne pas te perdre, tu seras aidé avec des captures d'écran ainsi que de co
 > [!WARNING]
 > Les vidéos sont hébergées sur `dona.one`. Tout devrait fonctionner.
 > Dans le cas contraire, merci de me le signaler.
-> Les utilisateurs Bouygues devront utiliser Mega.nz pour visionner les vidéos.
+> Autrement utilisez Mega.nz pour visionner les vidéos.
 
 ---
 
