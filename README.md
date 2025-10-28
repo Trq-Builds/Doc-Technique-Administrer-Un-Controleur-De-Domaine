@@ -8,8 +8,7 @@ Pour ne pas te perdre, tu seras aidé avec des captures d'écran ainsi que de co
 ---
 
 > [!WARNING]
-> Les vidéos hébergées sur EasyFiles.cc ne fonctionnent pas avec Bouygues Telecom.
-> Si vous êtes chez un autre fournisseur d'accès à Internet (FAI), elles devraient fonctionner normalement.
+> Les vidéos sont hébergées sur `dona.one`. Tout devrait fonctionner.
 > Dans le cas contraire, merci de me le signaler.
 > Les utilisateurs Bouygues devront utiliser Mega.nz pour visionner les vidéos.
 
