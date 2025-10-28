@@ -1392,6 +1392,17 @@ Le mappage par GPO remplace les anciens scripts de connexion.
 
 ---
 
+### `🔒`︲Restrictions et fonctionnalités avancées
+
+---
+
+### `⏱️`︲Limitation des horaires de connexion, bureau à distance et BgInfo
+
+---
+
+
+
+
 
 
 
