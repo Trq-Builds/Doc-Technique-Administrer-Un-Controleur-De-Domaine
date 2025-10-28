@@ -509,7 +509,7 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "`Gesti
 > [🎥︲Démo vidéo – Cliquez-ici](https://dona.one/f/0ECS-OgWETy)
 
 > [!TIP]
-> [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https:)
+> [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https://mega.nz/file/YqZW0JID#9W8xB5BJz-Q4s2zM1SdWqPmhhVHNFvfZc98MtnyxjCM)
 
 
 ---
