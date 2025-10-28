@@ -257,6 +257,9 @@ Configurer IP et masque pour le serveur.
 
 </details>
 
+> [!WARNING]
+> Prendre un snapshot de la VM après validation de cette configuration.
+
 ---
 
 7️⃣︲**Vérification de l’installation**  
