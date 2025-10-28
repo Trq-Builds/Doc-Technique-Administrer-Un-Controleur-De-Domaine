@@ -1498,9 +1498,6 @@ Vous pouvez aussi déployer BgInfo via un **script d’ouverture de session** :
 
 ---
 
-Souhaite-tu que je te fasse une **version “fiche synthèse A4” prête à imprimer ou mettre sur intranet**, avec mise en page visuelle (icônes, encadrés, couleurs) comme pour la précédente ?
-
-
 
 
 
