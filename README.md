@@ -1399,7 +1399,106 @@ Le mappage par GPO remplace les anciens scripts de connexion.
 ### `⏱️`︲Limitation des horaires de connexion, bureau à distance et BgInfo
 
 ---
+> [!NOTE]
+> **Objectifs :**
+1. Limiter les horaires de connexion des utilisateurs
+2. Activer le Bureau à distance pour les administrateurs
+3. Déployer l’outil BgInfo
 
+---
+
+## 1. Limiter les horaires de connexion
+
+Cette option permet d’empêcher certains utilisateurs (ex. : stagiaires) de se connecter en dehors d’horaires définis.
+
+### Étapes :
+
+1. Ouvrez **Utilisateurs et ordinateurs Active Directory (ADUC)**.
+2. Ouvrez l’**OU** contenant les comptes concernés.
+3. Clic droit sur l’utilisateur → **Propriétés**.
+4. Onglet **Compte** → bouton **Horaires d’accès**.
+5. Dans le tableau, cliquez sur les heures autorisées ou refusées (ex. : Lundi–Vendredi, 8h–18h).
+6. Validez par **OK**.
+
+✅ L’utilisateur ne pourra plus se connecter en dehors des plages autorisées.
+
+---
+
+## 2. Activer le Bureau à distance (RDP)
+
+Permet aux administrateurs d’accéder au serveur à distance via “Connexion Bureau à distance”.
+
+### Étapes :
+
+1. Ouvrez le **Gestionnaire de serveur**.
+2. Allez dans **Serveur local**.
+3. Cliquez sur **Bureau à distance : Désactivé**.
+4. Dans la fenêtre qui s’ouvre :
+
+   * Cochez **Autoriser les connexions à distance à cet ordinateur**.
+   * (Optionnel) Cochez **Autoriser uniquement les connexions avec NLA**.
+5. Le pare-feu s’ajuste automatiquement → cliquez sur **OK**.
+6. Cliquez sur **Appliquer** puis **OK**.
+
+✅ Le Bureau à distance est maintenant **activé**.
+
+---
+
+## 3. Déploiement de BgInfo via GPO
+
+BgInfo affiche automatiquement sur le Bureau des infos système (nom du PC, IP, domaine…).
+
+---
+
+### A. Préparation des fichiers
+
+1. Téléchargez **Bginfo.exe** (outil Microsoft SysInternals).
+2. Exécutez-le pour personnaliser l’affichage (police, infos, position…).
+3. Enregistrez la configuration sous : **Template_Bginfo.bgi**.
+4. Copiez les deux fichiers (`Bginfo.exe` et `Template_Bginfo.bgi`) dans le partage **Netlogon** du domaine :
+
+   ```
+   \\domaine\Netlogon\BgInfo
+   ```
+5. Créez un petit script Batch (`bginfo.bat`) dans ce même dossier :
+
+   ```batch
+   @echo off
+   %logonserver%\netlogon\Bginfo\Bginfo.exe %logonserver%\netlogon\Bginfo\Template_Bginfo.bgi /accepteula /silent /timer 0
+   exit
+   ```
+
+---
+
+### B. Déploiement par GPO
+
+1. Ouvrez **Gestion des stratégies de groupe**.
+2. Créez une nouvelle GPO (ex. : *BgInfo*) et éditez-la.
+3. Allez dans :
+   **Configuration ordinateur → Préférences → Paramètres Windows → Fichiers**
+4. Clic droit → **Nouveau > Fichier** :
+
+   * **Source :** `\\domaine\Netlogon\BgInfo\bginfo.bat`
+   * **Destination :**
+
+     ```
+     C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\bginfo.bat
+     ```
+5. Onglet **Commun** → cochez **Ciblage au niveau de l’élément**.
+6. Dans le ciblage, sélectionnez les OU concernées (ex. : *Servers*, *Domain Controllers*).
+7. Fermez et appliquez la GPO.
+
+✅ Le script sera copié et exécuté automatiquement à chaque démarrage ou ouverture de session.
+
+---
+
+💡 **Alternative :**
+Vous pouvez aussi déployer BgInfo via un **script d’ouverture de session** :
+*Configuration utilisateur → Stratégies → Scripts (ouverture/fermeture)*, en le réservant à un groupe spécifique (ex. : `Adm-BgInfo`).
+
+---
+
+Souhaite-tu que je te fasse une **version “fiche synthèse A4” prête à imprimer ou mettre sur intranet**, avec mise en page visuelle (icônes, encadrés, couleurs) comme pour la précédente ?
 
 
 
