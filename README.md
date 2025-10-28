@@ -84,7 +84,7 @@ Pour ne pas te perdre, tu seras aidé avec des captures d'écran ainsi que de co
 ---
 
 > [!WARNING]
-> Snapshot : prendre un snapshot de la VM après validation de cette configuration (obligatoire).
+> Prendre un snapshot de la VM après validation de cette configuration.
 
 1️⃣︲**Configuration de la VM**  
    - **Disque :** 80 Go  
@@ -161,6 +161,9 @@ Enfin, cliquer sur **OK** pour valider les paramètres et sauvegarder la configu
 
 <a id="installation-de-windows-server"></a>
 ### `💿`︲Installation de Windows Server 2025 (serveur)
+
+> [!WARNING]
+> Prendre un snapshot de la VM après validation de cette configuration.
 
 ---
 
