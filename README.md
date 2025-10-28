@@ -49,9 +49,7 @@ Pour ne pas te perdre, tu seras aidé avec des captures d'écran ainsi que de co
 9. [`🔒`︲Restrictions et fonctionnalités avancées](#restrictions-fonctionnalites-avancees)
    - [`⏱️`︲Limitation des horaires de connexion, bureau à distance et BgInfo](#limitation-horaires-bureau-bginfo)
 
-10. [`✅`︲Conclusion](#conclusion)
-    - [`📝`︲Résumé des tâches et résultats](#resume-taches-resultats)
-    - [`🌟`︲Impact des configurations sur collaboration et organisation](#impact-configurations)
+10. [`✅`︲Conclusion et Annexes](#conclusion)
 
 ---
 
