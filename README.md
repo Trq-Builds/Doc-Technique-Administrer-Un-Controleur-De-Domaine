@@ -574,7 +574,7 @@ Vous pouvez y accéder via le **Gestionnaire de serveur**, sous **AD DS**. Faite
 > [🎥︲Démo vidéo – Cliquez-ici](https://dona.one/f/foSU5ug92ZJ)
 
 > [!TIP]
-> [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https:)
+> [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https://mega.nz/file/hyJW3ZZK#il98RMCD7KSRnqAi3cWTSM4SW3tWOXJaZ6bBPp-OHVg)
 
 ---
 
@@ -838,7 +838,7 @@ Avant de commencer, assurez-vous que les conditions suivantes sont remplies :
 > [🎥︲Démo vidéo – Cliquez-ici](https://easyfiles.cc/Oxus8427i7P)
 
 > [!TIP]
-> [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https:)
+> [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https://mega.nz/file/MmpiCJaA#LBTkhEsESV8L3dguxT9C_xb61P5RVD_4K3YsWylAjAA)
 ---
 
 ## `🔄` ︲Activer le **mode Hors-Connexion**
@@ -863,7 +863,7 @@ Ce mode permet à l’utilisateur d’accéder à ses fichiers redirigés même 
 > [🎥︲Démo vidéo – Cliquez-ici](https://easyfiles.cc/7kZ-EWXAKOd)
 
 > [!TIP]
-> [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https:)
+> [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https://mega.nz/file/A3RgBISJ#ubX5UjW7gNNeCw1CsqZ-SBzdgwHhHhYPQyDtt0krISA)
    
 ---
 
@@ -1145,7 +1145,7 @@ Le script va automatiquement :
 > [🎥︲Démo vidéo – Cliquez-ici (easyfiles.cc)](https://easyfiles.cc/ODeJNl2AZFQ)
 
 > [!TIP]
-> [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https:)
+> [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https://mega.nz/file/ljQn3RrZ#2WqZiSNodYpo_jC5LyyZsuvLH2SPMvW8j1zn_XjTfwI)
 
 ---
 
