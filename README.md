@@ -1401,9 +1401,9 @@ Le mappage par GPO remplace les anciens scripts de connexion.
 ---
 > [!NOTE]
 > **Objectifs :**
-1. Limiter les horaires de connexion des utilisateurs
-2. Activer le Bureau à distance pour les administrateurs
-3. Déployer l’outil BgInfo
+> 1. Limiter les horaires de connexion des utilisateurs
+> 2. Activer le Bureau à distance pour les administrateurs
+> 3. Déployer l’outil BgInfo
 
 ---
 
