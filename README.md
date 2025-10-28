@@ -1559,6 +1559,25 @@ Cette documentation rassemble tout le nécessaire pour reproduire l’environnem
 
 ---
 
+## 🧰 Outils utilisés pour la création de cette documentation
+
+* **DeepSeekV3.2**
+* **Documents d’annexes fournis**
+* **Donarev419.com**
+* **GPT-5**
+* **HandBrake**
+* **KimiK2**
+* **NoteBookLM**
+* **Notion**
+* **Qwen3-VL-235B-A22B**
+* **Screenpresso**
+* **VMWare**
+
+
+
+
+
+
 
 
 
