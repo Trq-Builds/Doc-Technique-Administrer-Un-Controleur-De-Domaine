@@ -494,6 +494,9 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "`Gesti
 > [!TIP]
 > [🎥︲Démo vidéo – Cliquez-ici](https://dona.one/f/8_5Ii65raSA)
 
+> [!TIP]
+> [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https:)
+
 ---
 
 3️⃣︲**Configurez les paramètres**
@@ -504,6 +507,9 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "`Gesti
 
 > [!TIP]
 > [🎥︲Démo vidéo – Cliquez-ici](https://dona.one/f/0ECS-OgWETy)
+
+> [!TIP]
+> [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https:)
 
 
 ---
@@ -557,6 +563,9 @@ Vous pouvez y accéder via le **Gestionnaire de serveur**, sous **AD DS**. Faite
 
 > [!TIP]
 > [🎥︲Démo vidéo – Cliquez-ici](https://dona.one/f/foSU5ug92ZJ)
+
+> [!TIP]
+> [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https:)
 
 ---
 
