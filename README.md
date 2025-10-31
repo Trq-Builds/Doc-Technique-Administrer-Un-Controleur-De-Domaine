@@ -1567,7 +1567,7 @@ Cette documentation rassemble tout le nécessaire pour reproduire l’environnem
 * **GPT-5** [`🌐`](https:)
 * **HandBrake** [`🌐`](https:)
 * **KimiK2** [`🌐`](https:)
-* **NoteBookLM** `🌐`[`🌐`](https:)
+* **NoteBookLM** [`🌐`](https:)
 * **Notion** [`🌐`](https:)
 * **Qwen3-VL-235B-A22B** [`🌐`](https:)
 * **Screenpresso** [`🌐`](https:)
