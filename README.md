@@ -1561,17 +1561,17 @@ Cette documentation rassemble tout le nécessaire pour reproduire l’environnem
 
 ## `🧰`︲Outils utilisés pour la création de cette documentation
 
-* **DeepSeekV3.2** `🌐`
-* **Documents d’annexes fournis** `🌐`
-* **Donarev419.com** `🌐`
-* **GPT-5** `🌐`
-* **HandBrake** `🌐`
-* **KimiK2** `🌐`
-* **NoteBookLM** `🌐`
-* **Notion** `🌐`
-* **Qwen3-VL-235B-A22B** `🌐`
-* **Screenpresso** `🌐`
-* **VMWare** `🌐`
+* **DeepSeekV3.2** [`🌐`](https:)
+* **Documents d’annexes fournis** [`🌐`](https:)
+* **Donarev419.com** [`🌐`](https:)
+* **GPT-5** [`🌐`](https:)
+* **HandBrake** [`🌐`](https:)
+* **KimiK2** [`🌐`](https:)
+* **NoteBookLM** `🌐`[`🌐`](https:)
+* **Notion** [`🌐`](https:)
+* **Qwen3-VL-235B-A22B** [`🌐`](https:)
+* **Screenpresso** [`🌐`](https:)
+* **VMWare** [`🌐`](https:)
 
 --- 
 
