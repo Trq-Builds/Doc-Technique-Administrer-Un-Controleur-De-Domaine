@@ -1520,14 +1520,12 @@ Cette documentation rassemble tout le nécessaire pour reproduire l’environnem
 * Des scripts et exemples prêts à l’emploi (CSV / PowerShell) — attention à la sécurité des mots de passe en clair dans les exemples.
 * Des points de contrôle clairs (tests DNS, `gpupdate`, `gpresult`, captures écran) pour prouver que chaque étape a été correctement réalisée.
 
-### Reminders — les indispensables !
+### Reminders les indispensables !
 
 1. **Snapshots** : prends un snapshot après chaque étape majeure (OS installé, DC promu, client joint, GPO appliquée). Obligatoire pour le TP.
 2. **Vérifications** : captures d’écran des commandes `nslookup`, `dcdiag`/`gpresult` et d’un login utilisateur.
 3. **Noms / conventions** : UO en minuscules, chemins DATA sur `E:\` et admin = `Administrateur / btssio-lmc25` (conforme au TP).
 4. **CSV & script** : assure-toi que l’en-tête CSV correspond exactement aux champs lus par ton script. Une erreur là = création de comptes foirée.
-5. **Sécurité** : masque ou supprime les mots de passe réels dans les copies finales, ou indique clairement que ce sont des exemples.
-
 ---
 
 | Type                         | Chemin UNC                                | Description                                                 |
