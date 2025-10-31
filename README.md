@@ -1,4 +1,4 @@
-# `💻`︲Documentation TP : Administrer un controleur de domaine
+# ` 💻 `︲Documentation TP : Administrer un controleur de domaine
 
 ---
 
@@ -13,42 +13,42 @@ Pour ne pas te perdre, tu seras aidé avec des captures d'écran ainsi que de co
 
 ---
 
-## `📑`︲Sommaire (cliquez pour accéder directement à la section souhaitée.)
+## ` 📑 `︲Sommaire (cliquez pour accéder directement à la section souhaitée.)
 
-1. [`📘`︲Introduction](#introduction)
-   - [`❔`︲Contexte et objectifs du TP](#contexte-et-objectifs-du-tp)
-   - [`🖥️`︲Présentation de l'architecture réseau et des outils utilisés](#presentation-de-larchitecture-reseau-et-des-outils-utilises)
+1. [` 📘 `︲Introduction](#introduction)
+   - [` ❔ `︲Contexte et objectifs du TP](#contexte-et-objectifs-du-tp)
+   - [` 🖥️ `︲Présentation de l'architecture réseau et des outils utilisés](#presentation-de-larchitecture-reseau-et-des-outils-utilises)
 
-2. [`🛠️`︲Préparation de l'environnement](#preparation-de-lenvironnement)
-   - [`💿`︲Installation de Windows 11 (client)](#installation-de-windows)
-   - [`💿`︲Installation de Windows Server 2025 (serveur)](#installation-de-windows-server)
+2. [` 🛠️ `︲Préparation de l'environnement](#preparation-de-lenvironnement)
+   - [` 💿 `︲Installation de Windows 11 (client)](#installation-de-windows)
+   - [` 💿 `︲Installation de Windows Server 2025 (serveur)](#installation-de-windows-server)
 
-3. [`🏛️`︲Installation et configuration du contrôleur de domaine](#installation-et-configuration-du-controleur-de-domaine)
-   - [`🔧`︲Installation des rôles AD DS et DNS](#installation-roles-ad-ds-et-dns)
-   - [`🌐`︲Promotion du serveur et création du domaine descartesbleu.org](#promotion-du-serveur-et-creation-du-domaine)
+3. [` 🏛️ `︲Installation et configuration du contrôleur de domaine](#installation-et-configuration-du-controleur-de-domaine)
+   - [` 🔧 `︲Installation des rôles AD DS et DNS](#installation-roles-ad-ds-et-dns)
+   - [` 🌐 `︲Promotion du serveur et création du domaine descartesbleu.org](#promotion-du-serveur-et-creation-du-domaine)
 
-4. [`🗂️`︲Administration de l'annuaire Active Directory](#administration-de-lannuaire-active-directory)
-   - [`🔑`︲Simplification de la stratégie de mots de passe](#simplification-strategie-mots-de-passe)
-   - [`👥`︲Création des UOs, groupes et utilisateurs](#creation-ou-groupes-utilisateurs)
+4. [` 🗂️ `︲Administration de l'annuaire Active Directory](#administration-de-lannuaire-active-directory)
+   - [` 🔑 `︲Simplification de la stratégie de mots de passe](#simplification-strategie-mots-de-passe)
+   - [` 👥 `︲Création des UOs, groupes et utilisateurs](#creation-ou-groupes-utilisateurs)
 
-5. [`💻`︲Intégration d'un client au domaine](#integration-dun-client-au-domaine)
-   - [`🌐`︲Configuration réseau et paramètres DNS](#configuration-reseau-dns)
-   - [`🔗`︲Joindre le domaine descartesbleu.org](#joindre-domaine)
+5. [` 💻 `︲Intégration d'un client au domaine](#integration-dun-client-au-domaine)
+   - [` 🌐 `︲Configuration réseau et paramètres DNS](#configuration-reseau-dns)
+   - [` 🔗 `︲Joindre le domaine descartesbleu.org](#joindre-domaine)
 
-6. [`📁`︲Gestion des partages de fichiers](#gestion-des-partages-de-fichiers)
-   - [`📂`︲Création des dossiers partagés et permissions](#creation-dossiers-partages)
-   - [`💾`︲Redirection des dossiers utilisateur et mode hors connexion](#redirection-dossiers-mode-hors-ligne)
+6. [` 📁 `︲Gestion des partages de fichiers](#gestion-des-partages-de-fichiers)
+   - [` 📂 `︲Création des dossiers partagés et permissions](#creation-dossiers-partages)
+   - [` 💾 `︲Redirection des dossiers utilisateur et mode hors connexion](#redirection-dossiers-mode-hors-ligne)
 
-7. [`📜`︲Automatisation via PowerShell](#automatisation-via-powershell)
-   - [`⚡`︲Script pour créer des UOs, groupes et utilisateurs à partir d'un .CSV](#script-ou-groupes-utilisateurs)
+7. [` 📜 `︲Automatisation via PowerShell](#automatisation-via-powershell)
+   - [` ⚡ `︲Script pour créer des UOs, groupes et utilisateurs à partir d'un .CSV](#script-ou-groupes-utilisateurs)
 
-8. [`🖱️`︲Déploiement de stratégies de groupe (GPO)](#deploiement-de-strategies-de-groupe)
-   - [`📂`︲Redirection du dossier Documents, mappage lecteurs réseau et déploiement Firefox](#redirection-documents-mappage-firefox)
+8. [` 🖱️ `︲Déploiement de stratégies de groupe (GPO)](#deploiement-de-strategies-de-groupe)
+   - [` 📂 `︲Redirection du dossier Documents, mappage lecteurs réseau et déploiement Firefox](#redirection-documents-mappage-firefox)
 
-9. [`🔒`︲Restrictions et fonctionnalités avancées](#restrictions-fonctionnalites-avancees)
-   - [`⏱️`︲Limitation des horaires de connexion, bureau à distance et BgInfo](#limitation-horaires-bureau-bginfo)
+9. [` 🔒 `︲Restrictions et fonctionnalités avancées](#restrictions-fonctionnalites-avancees)
+   - [` ⏱️ `︲Limitation des horaires de connexion, bureau à distance et BgInfo](#limitation-horaires-bureau-bginfo)
 
-10. [`✅`︲Conclusion et Annexes](#conclusion)
+10. [` ✅ `︲Conclusion et Annexes](#conclusion)
 
 ---
 
