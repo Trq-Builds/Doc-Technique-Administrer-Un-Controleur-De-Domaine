@@ -1561,22 +1561,22 @@ Cette documentation rassemble tout le nécessaire pour reproduire l’environnem
 
 ## `🧰`︲Outils utilisés pour la création de cette documentation
 
-* **DeepSeekV3.2** [`🌐`](https:)
-* **Documents d’annexes fournis** [`🌐`](https:)
-* **Donarev419.com** [`🌐`](https:)
-* **GPT-5** [`🌐`](https:)
-* **HandBrake** [`🌐`](https:)
-* **KimiK2** [`🌐`](https:)
-* **NoteBookLM** [`🌐`](https:)
-* **Notion** [`🌐`](https:)
-* **Qwen3-VL-235B-A22B** [`🌐`](https:)
-* **Screenpresso** [`🌐`](https:)
-* **VMWare** [`🌐`](https:)
+* **DeepSeekV3.2** [`🌐`](https://www.deepseek.com/)
+* **Documents d’annexes fournis**
+* **Donarev419.com** [`🌐`](https://donarev419.com/)
+* **GPT-5** [`🌐`](https://chatgpt.com/)
+* **HandBrake** [`🌐`](https://handbrake.fr/)
+* **KimiK2** [`🌐`](https://www.kimi.com/)
+* **NoteBookLM** [`🌐`](https://notebooklm.google.com/)
+* **Notion** [`🌐`](https://www.notion.com/fr)
+* **Qwen3-VL-235B-A22B** [`🌐`](https://chat.qwen.ai/)
+* **Screenpresso** [`🌐`](https://www.screenpresso.com/fr/)
+* **VMWare** [`🌐`](https://www.vmware.com/)
 
 --- 
 
-> * Nora player
-> * Mac DeMarco - 20200229 2 
+> * Nora player [`🌐`](https://noramusic.netlify.app/)
+> * Mac DeMarco - 20200229 2 [`🌐`](https://youtu.be/Y_KLjGEQTgY)
 
 ---
 
