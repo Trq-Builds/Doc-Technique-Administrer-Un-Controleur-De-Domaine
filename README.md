@@ -1558,7 +1558,7 @@ Vous pouvez aussi déployer BgInfo via un **script d’ouverture de session** :
 
 ---
 
-## `🧰`︲Outils et ressources utilisés pour la création de cette documentation
+## `🧰`︲Outils et ressources utilisés pour la création de cette documentation.
 
 * **DeepSeekV3.2**   [`🌐`](https://www.deepseek.com/)
 * **Documents d’annexes fournis**
