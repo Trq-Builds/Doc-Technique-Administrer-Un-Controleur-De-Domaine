@@ -1157,7 +1157,7 @@ Le script va automatiquement :
 
 ---
 
-##  ` 🟥 `・Gestion des GPO
+##  ` 🔐 `・Gestion des GPO
 
 **Accès via** `GPMC.msc` (**Outils d'administration**)
 
@@ -1176,7 +1176,7 @@ Le script va automatiquement :
 
 ---
 
-##  ` 🟥 `・Politique de mot de passe
+##  ` 🔐 `・Politique de mot de passe
 
 Configurer via **Default Domain Policy** :
 
@@ -1191,7 +1191,7 @@ Configurer via **Default Domain Policy** :
 
 ---
 
-##  ` 🟥 `・Redirection de dossiers (ex : Formateurs)
+##  ` 🛫 `・Redirection de dossiers (ex : Formateurs)
 
 Stockage des profils utilisateur sur un partage réseau.
 
@@ -1219,11 +1219,11 @@ Configurer chaque dossier (Documents, Bureau...) :
 
 ---
 
-##  ` 🟥 `・Mode Toujours Hors Connexion (Always Offline)
+##  ` 🛫 `・Mode Toujours Hors Connexion (Always Offline)
 
 Accélère l’accès aux fichiers redirigés, même en réseau local.
 
-###  ` 🟥 `・Activation :
+###  ` ☑️ `・Activation :
 
 `Configuration ordinateur > Stratégies > Modèles d'administration > Réseau > Fichiers hors connexion > Configurer le mode de liaison lente`
 
@@ -1233,11 +1233,11 @@ Accélère l’accès aux fichiers redirigés, même en réseau local.
 
 ---
 
-##  ` 🟥 `・Mappage de lecteurs réseaux
+##  ` 📍 `・Mappage de lecteurs réseaux
 
 Remplace les anciens scripts `net use`.
 
-###  ` 🟥 `・Configuration :
+###  ` 📦 `・Configuration :
 
 `Configuration utilisateur > Préférences > Paramètres Windows > Mappages de lecteur`
 
@@ -1251,11 +1251,11 @@ Ajouter une action "Supprimer" avec ciblage inverse pour retirer le lecteur si l
 
 ---
 
-##  ` 🟥 `・Déploiement de logiciels (.msi)
+##  ` 📦 `・Déploiement de logiciels (.msi)
 
 Déploiement simple via GPO, sans script.
 
-###  ` 🟥 `・Étapes :
+###  ` 🔵 `・Étapes :
 
 1. Créer un partage réseau (lecture pour les ordinateurs).
 2. GPO :
@@ -1270,7 +1270,7 @@ Redémarrer ou `gpupdate /force` pour appliquer.
 
 ---
 
-##  ` 🟥 `・Déploiement de BgInfo
+##  ` 🚦 `・Déploiement de BgInfo
 
 Affiche des infos système sur le bureau (IP, nom PC, etc.)
 
@@ -1286,7 +1286,7 @@ Affiche des infos système sur le bureau (IP, nom PC, etc.)
 exit
 ```
 
-###  ` 🟥 `・GPO de script
+###  ` 🔵 `・GPO de script
 
 `Configuration utilisateur > Stratégies > Paramètres Windows > Scripts (ouverture de session)`
 
@@ -1321,11 +1321,11 @@ exit
 
 ---
 
-##  ` 🟥 `・1. Rediriger le dossier *Documents*
+##  ` 📁 `・1. Rediriger le dossier *Documents*
 
 Cette redirection enregistre les fichiers des utilisateurs sur le serveur, ce qui permet la sauvegarde centralisée et l’accès depuis n’importe quel poste.
 
-###  ` 🟥 `・Étape 1 : Créer le dossier partagé
+###  ` 📁 `・Étape 1 : Créer le dossier partagé
 
 1. Sur le serveur, créez un dossier (ex. : `E:\profils`).
 2. Faites un clic droit → **Propriétés → Partage avancé**.
@@ -1333,7 +1333,7 @@ Cette redirection enregistre les fichiers des utilisateurs sur le serveur, ce qu
 4. Dans les **autorisations de partage**, donnez **Contrôle total** à *Tout le monde*.
 5. Dans l’onglet **Sécurité**, désactivez l’héritage et donnez aux *Utilisateurs du domaine* les droits **Lecture/Écriture** uniquement.
 
-###  ` 🟥 `・Étape 2 : Configurer la GPO
+###  ` 🔧 `・Étape 2 : Configurer la GPO
 
 1. Ouvrez **Gestion des stratégies de groupe (GPMC)**.
 2. Créez une nouvelle GPO et liez-la à l’OU des utilisateurs.
@@ -1356,7 +1356,7 @@ Chemin : *Configuration ordinateur → Modèles d’administration → Réseau �
 
 ---
 
-##  ` 🟥 `・Mapper un lecteur réseau
+##  ` 🔧 `・Mapper un lecteur réseau
 
 Le mappage par GPO remplace les anciens scripts de connexion.
 
@@ -1376,7 +1376,7 @@ Le mappage par GPO remplace les anciens scripts de connexion.
 
 ---
 
-##  ` 🟥 `・Déployer Firefox (fichier .MSI)
+##  ` 🦊 `・Déployer Firefox (fichier .MSI)
 
 ### Étape 1 : Préparer le partage
 
@@ -1417,11 +1417,11 @@ Le mappage par GPO remplace les anciens scripts de connexion.
 
 ---
 
-##  ` 🟥 `・Limiter les horaires de connexion
+##  ` 🚩 `・Limiter les horaires de connexion
 
 Cette option permet d’empêcher certains utilisateurs (ex. : stagiaires) de se connecter en dehors d’horaires définis.
 
-###  ` 🟥 `・Étapes :
+###  ` 🟨 `・Étapes :
 
 1. Ouvrez **Utilisateurs et ordinateurs Active Directory (ADUC)**.
 2. Ouvrez l’**OU** contenant les comptes concernés.
@@ -1434,7 +1434,7 @@ L’utilisateur ne pourra plus se connecter en dehors des plages autorisées.
 
 ---
 
-## ` 🟥 `・Activer le Bureau à distance (RDP)
+## ` ⚫ `・Activer le Bureau à distance (RDP)
 
 Permet aux administrateurs d’accéder au serveur à distance via “Connexion Bureau à distance”.
 
@@ -1454,13 +1454,13 @@ Le Bureau à distance est maintenant **activé**.
 
 ---
 
-##  ` 🟥 `・Déploiement de BgInfo via GPO
+##  ` 📂 `・Déploiement de BgInfo via GPO
 
 BgInfo affiche automatiquement sur le Bureau des infos système (nom du PC, IP, domaine…).
 
 ---
 
-###  ` 🟥 `・Préparation des fichiers
+###  ` 📁 `・Préparation des fichiers
 
 1. Téléchargez **Bginfo.exe** (outil Microsoft SysInternals).
 2. Exécutez-le pour personnaliser l’affichage (police, infos, position…).
@@ -1480,7 +1480,7 @@ BgInfo affiche automatiquement sur le Bureau des infos système (nom du PC, IP, 
 
 ---
 
-###  ` 🟥 `・Déploiement par GPO
+###  ` 🚦 `・Déploiement par GPO
 
 1. Ouvrez **Gestion des stratégies de groupe**.
 2. Créez une nouvelle GPO (ex. : *BgInfo*) et éditez-la.
