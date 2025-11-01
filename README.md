@@ -500,7 +500,7 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "`Gesti
 3. Allez dans : `Configuration ordinateur` → `Stratégies` → `Paramètres Windows` → `Paramètres de sécurité` → `Stratégies de comptes` → `Stratégie de mot de passe`
 
 > [!TIP]
-> [🎥︲Démo vidéo – Cliquez-ici](https://dona.one/f/8_5Ii65raSA)
+> [🎥︲Démo vidéo – Cliquez-ici(dona.one)](https://dona.one/f/8_5Ii65raSA)
 
 > [!TIP]
 > [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https://mega.nz/file/dqBRmKAQ#L_Ak1SKhfHACe-pYV1mwFha3WAaI0d7ptCoB6ZdKQAw)
@@ -514,7 +514,7 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "`Gesti
 3. La complexité du mot de passe doit être désactivée.
 
 > [!TIP]
-> [🎥︲Démo vidéo – Cliquez-ici](https://dona.one/f/0ECS-OgWETy)
+> [🎥︲Démo vidéo – Cliquez-ici (dona.one)](https://dona.one/f/0ECS-OgWETy)
 
 > [!TIP]
 > [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https://mega.nz/file/YqZW0JID#9W8xB5BJz-Q4s2zM1SdWqPmhhVHNFvfZc98MtnyxjCM)
@@ -570,7 +570,7 @@ Vous pouvez y accéder via le **Gestionnaire de serveur**, sous **AD DS**. Faite
  - `🗂️`︲`service_comptabilité`
 
 > [!TIP]
-> [🎥︲Démo vidéo – Cliquez-ici](https://dona.one/f/foSU5ug92ZJ)
+> [🎥︲Démo vidéo – Cliquez-ici (dona.one)](https://dona.one/f/foSU5ug92ZJ)
 
 > [!TIP]
 > [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https://mega.nz/file/hyJW3ZZK#il98RMCD7KSRnqAi3cWTSM4SW3tWOXJaZ6bBPp-OHVg)
@@ -834,7 +834,7 @@ Avant de commencer, assurez-vous que les conditions suivantes sont remplies :
      ```
      
 > [!TIP]
-> [🎥︲Démo vidéo – Cliquez-ici](https://easyfiles.cc/Oxus8427i7P)
+> [🎥︲Démo vidéo – Cliquez-ici (dona.one)](https://easyfiles.cc/Oxus8427i7P)
 
 > [!TIP]
 > [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https://mega.nz/file/MmpiCJaA#LBTkhEsESV8L3dguxT9C_xb61P5RVD_4K3YsWylAjAA)
