@@ -1571,6 +1571,11 @@ Cette documentation rassemble tout le nécessaire pour reproduire l’environnem
 * **Screenpresso** [`🌐`](https://www.screenpresso.com/fr/)
 * **VMWare** [`🌐`](https://www.vmware.com/)
 
+---
+
+* **Syntaxe de base pour l’écriture et la mise en forme** [`🌐`](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+* **markdownguide.org** [`🌐`](https://www.markdownguide.org/)
+
 --- 
 
 > * Nora player [`🌐`](https://noramusic.netlify.app/)
