@@ -1513,7 +1513,8 @@ Vous pouvez aussi déployer BgInfo via un **script d’ouverture de session** :
 
 ---
 
-Cette documentation rassemble tout le nécessaire pour reproduire l’environnement demandé par le TP : installation et configuration du serveur, promotion en contrôleur de domaine, création des UO et comptes, déploiement des GPO, scripts d’import d’utilisateurs, et procédures de vérification. Si tu as suivi les étapes et appliqué les corrections indiquées, tu peux être confiant : la structure est fonctionnelle et prête à être validée.
+> [!IMPORTANT]
+> Cette documentation rassemble tout le nécessaire pour reproduire l’environnement demandé par le TP : installation et configuration du serveur, promotion en contrôleur de domaine, création des UO et comptes, déploiement des > GPO, scripts d’import d’utilisateurs, et procédures de > vérification. Si tu as suivi les étapes et appliqué les corrections indiquées, tu peux être confiant : la structure est fonctionnelle et prête à être validée.
 
 
 * Une installation reproductible et documentée pas-à-pas, pensée pour être suivie même par quelqu’un qui découvre un peu l’environnement.
