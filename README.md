@@ -1575,6 +1575,7 @@ Cette documentation rassemble tout le nécessaire pour reproduire l’environnem
 
 * **Syntaxe de base pour l’écriture et la mise en forme** [`🌐`](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 * **Markdownguide.org** [`🌐`](https://www.markdownguide.org/)
+* **Smiley.cool** [`🌐`](https://smiley.cool/emoji-list.php)
 
 --- 
 
