@@ -1177,21 +1177,6 @@ Le script va automatiquement :
 
 ---
 
-##  ` 🔐 `・Politique de mot de passe
-
-Configurer via **Default Domain Policy** :
-
-`Configuration ordinateur > Stratégies > Paramètres Windows > Paramètres de sécurité > Stratégies de comptes > Stratégie de mot de passe`
-
-### Paramètres recommandés :
-
-* Historique des mots de passe
-* Durée minimale/maximale
-* Complexité
-* Longueur minimale (≥ 7)
-
----
-
 ##  ` 🛫 `・Redirection de dossiers (ex : Formateurs)
 
 Stockage des profils utilisateur sur un partage réseau.
