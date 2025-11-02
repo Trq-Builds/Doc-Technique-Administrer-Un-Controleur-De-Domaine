@@ -1563,6 +1563,8 @@ Vous pouvez aussi déployer BgInfo via un **script d’ouverture de session** :
 > [!TIP]
 > Vous trouverez ici la liste de tous les outils, ressources et services utilisés pour la création de cette documentation. Les liens correspondants sont accessibles en cliquant sur l’emoji 🌐.
 
+---
+
 * **DeepSeekV3.2**   [`🌐`](https://www.deepseek.com/)
 * **Documents d’annexes fournis**
 * **Donarev419.com**   [`🌐`](https://donarev419.com/)
