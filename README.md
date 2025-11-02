@@ -49,6 +49,7 @@ Pour ne pas te perdre, tu seras aidé avec des captures d'écran ainsi que de co
    - [` ⏱️ `︲Limitation des horaires de connexion, bureau à distance et BgInfo](#limitation-horaires-bureau-bginfo)
 
 10. [` ✅ `︲Conclusion et Annexes](#conclusion)
+11. [`🧰`︲Outils et Ressources utilisés pour la création de cette documentation.](#outils-et-ressources)
 
 ---
 
@@ -1558,6 +1559,7 @@ Vous pouvez aussi déployer BgInfo via un **script d’ouverture de session** :
 
 ---
 
+<a id="outils-et-ressources"></a>
 ## `🧰`︲Outils et Ressources utilisés pour la création de cette documentation.
 
 > [!TIP]
