@@ -500,7 +500,7 @@ Lancer l'application : Appuyez sur la touche Entrée pour ouvrir l'outil "`Gesti
 3. Allez dans : `Configuration ordinateur` → `Stratégies` → `Paramètres Windows` → `Paramètres de sécurité` → `Stratégies de comptes` → `Stratégie de mot de passe`
 
 > [!TIP]
-> [🎥︲Démo vidéo – Cliquez-ici(dona.one)](https://dona.one/f/8_5Ii65raSA)
+> [🎥︲Démo vidéo – Cliquez-ici (dona.one)](https://dona.one/f/8_5Ii65raSA)
 
 > [!TIP]
 > [🎥︲Démo vidéo – Cliquez-ici (mega.nz)](https://mega.nz/file/dqBRmKAQ#L_Ak1SKhfHACe-pYV1mwFha3WAaI0d7ptCoB6ZdKQAw)
@@ -1558,7 +1558,10 @@ Vous pouvez aussi déployer BgInfo via un **script d’ouverture de session** :
 
 ---
 
-## `🧰`︲Outils et ressources utilisés pour la création de cette documentation.
+## `🧰`︲Outils et Ressources utilisés pour la création de cette documentation.
+
+> [!TIP]
+> Vous trouverez ici la liste de tous les outils, ressources et services utilisés pour la création de cette documentation. Les liens correspondants sont accessibles en cliquant sur l’emoji 🌐.
 
 * **DeepSeekV3.2**   [`🌐`](https://www.deepseek.com/)
 * **Documents d’annexes fournis**
