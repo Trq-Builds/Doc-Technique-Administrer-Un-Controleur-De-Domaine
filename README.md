@@ -1562,6 +1562,8 @@ Vous pouvez aussi déployer BgInfo via un **script d’ouverture de session** :
 <a id="outils-et-ressources"></a>
 ## `🧰`︲Outils et Ressources utilisés pour la création de cette documentation.
 
+---
+
 > [!TIP]
 > Vous trouverez ici la liste de tous les outils, ressources et services utilisés pour la création de cette documentation.
 > Les liens correspondants sont accessibles en cliquant sur l’emoji 🌐.
