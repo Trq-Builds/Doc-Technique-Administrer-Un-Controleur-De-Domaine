@@ -1572,8 +1572,8 @@ Vous pouvez aussi déployer BgInfo via un **script d’ouverture de session** :
 
 --- 
 
-> * `🌐`︲Nora Player   [`🌐`](https://noramusic.netlify.app/)
-> * `🌐`︲Mac DeMarco - 20200229 2   [`🌐`](https://youtu.be/Y_KLjGEQTgY)
+> * `🎚️`︲Nora Player   [`🌐`](https://noramusic.netlify.app/)
+> * `🎶`︲Mac DeMarco - 20200229 2   [`🌐`](https://youtu.be/Y_KLjGEQTgY)
 
 ---
 
