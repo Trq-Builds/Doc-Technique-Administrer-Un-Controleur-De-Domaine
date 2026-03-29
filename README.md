@@ -1,10 +1,12 @@
 # ` 🦺 `︲Documentation TP : Administrer un controleur de domaine
 
-![Windows Server](https://img.shields.io/badge/Windows_Server-Active_Directory-0078D6?logo=windows&logoColor=white)
-![Domain Controller](https://img.shields.io/badge/Role-Domain_Controller-blue)
-![Active Directory](https://img.shields.io/badge/Service-Active_Directory-purple)
-![Group Policy](https://img.shields.io/badge/Feature-Group_Policy-orange)
-![Guide](https://img.shields.io/badge/Guide-Administration-blue)
+<p align="center">
+  <img src="https://img.shields.io/badge/Windows_Server-Active_Directory-0078D6?logo=windows&logoColor=white&style=for-the-badge">
+  <img src="https://img.shields.io/badge/Role-Domain_Controller-0056B3?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Service-Active_Directory-8A2BE2?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Feature-Group_Policy-FFA500?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Guide-Administration-007ACC?style=for-the-badge">
+</p>
 
 ---
 
