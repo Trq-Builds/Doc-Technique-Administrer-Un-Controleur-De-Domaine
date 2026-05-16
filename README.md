@@ -1,4 +1,9 @@
-# ` 🦺 `︲Documentation TP : Administrer un contrôleur de domaine.
+# ` 🪟 `︲Documentation TP : Administrer un contrôleur de domaine.
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/43e994ae-c9ad-4cc2-a741-d11059e8d87a" width="100" />
+
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Windows_Server-2025-0078D6?logo=windows&logoColor=white&style=for-the-badge">
