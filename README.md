@@ -1345,9 +1345,3 @@ exit
 * ` ❓ ` **︲`Markdownguide.org`** ︲[`🌐`](https://www.markdownguide.org/)
 
 ---
-
-> * ` 🎚️ `︲Nora Player ︲[`🌐`](https://noramusic.netlify.app/)
-> * ` 🎶 `︲Mac DeMarco - 20200229 2 ︲[`🌐`](https://youtu.be/Y_KLjGEQTgY)
-> * ` ☕ `︲De la patience.
-
----
